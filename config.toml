@@ -1,6 +1,6 @@
-baseURL = "http://demo.themefisher.com/small-apps-hugo/"
+baseURL = "https://qcarchive.molssi.org"
 languageCode = "en-us"
-title = "Small Apps | App Landing Template"
+title = "The MolSSI QCArchive"
 theme = "small-apps"
 summaryLength = "10"
 paginate = 6
