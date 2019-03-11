@@ -1,7 +1,7 @@
 baseURL = "https://qcarchive.molssi.org"
 languageCode = "en-us"
 title = "The MolSSI QCArchive"
-theme = "small-apps"
+theme = "small-apps-local"
 summaryLength = "10"
 paginate = 6
 
@@ -50,12 +50,12 @@ paginate = 6
   [[menu.main]]
   name = "team"
   URL = "/team"
-  weight = 3
+  weight = 4
   
   [[menu.main]]
   name = "Blog"
   URL = "/blog"
-  weight = 4
+  weight = 5
   
   [[menu.main]]
   name = "career"
@@ -115,12 +115,12 @@ logo = "images/logo.png"
 logoAlt = "images/logo-alt.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "MolSSI's QC Archive Project"
+author = "Daniel G. A. Smith, MolSSI, Levi N. Naden"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+mapLatitude = "37.2001382,"
+mapLongitude = "-80.4105687"
 mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
@@ -135,20 +135,20 @@ googleAnalitycsID = "Your ID"
   # social icon
   [[params.footer.socialIcon]]
   icon = "tf-ion-social-facebook"
-  URL = "#"
+  URL = "https://www.facebook.com/molssi/?fref=ts"
 
   [[params.footer.socialIcon]]
   icon = "tf-ion-social-twitter"
-  URL = "#"
+  URL = "https://twitter.com/MolSSI_NSF"
   
   [[params.footer.socialIcon]]
-  icon = "tf-ion-social-instagram"
-  URL = "#"
+  icon = "tf-ion-social-linkedin"
+  URL = "https://www.linkedin.com/groups/13503505/profile"
 
   # call to action
  [params.cta]
   enable = true
-  title = "We are hunting Genius Developers"
-  content = "Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
-  btnText = "Join the team"
-  URL = "#"
+  title = "Help contribute to the QC Archive"
+  content = "Want to see your QC code in QC Archive? Find a bug? Have questions in general? Head to the GitHub page and contribute!"
+  btnText = "To QC Archive GitHub"
+  URL = "https://github.com/MolSSI/QCFractal"
