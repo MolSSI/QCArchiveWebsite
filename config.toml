@@ -46,17 +46,17 @@ paginate = 6
   name = "About"
   URL = "/about"
   weight = 2
+
+  [[menu.main]]
+  name = "Using"
+  URL = "/using"
+  weight = 3
   
   [[menu.main]]
   name = "team"
   URL = "/team"
   weight = 4
-  
-  [[menu.main]]
-  name = "Blog"
-  URL = "/blog"
-  weight = 5
-  
+
   [[menu.main]]
   name = "career"
   URL = "/career"
