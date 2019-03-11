@@ -1,7 +1,7 @@
 baseURL = "https://qcarchive.molssi.org"
 languageCode = "en-us"
 title = "The MolSSI QCArchive"
-theme = "small-apps-local"
+theme = "small-apps"
 summaryLength = "10"
 paginate = 6
 
@@ -62,10 +62,10 @@ paginate = 6
   URL = "/projects"
   weight = 5
   
-  [[menu.main]]
-  name = "Contact"
-  URL = "/contact"
-  weight = 7
+  # [[menu.main]]
+  # name = "Contact"
+  # URL = "/contact"
+  # weight = 7
 
   [[menu.main]]
   weight = 8
@@ -92,9 +92,9 @@ paginate = 6
   name = "Using"
   URL = "/using"
   
-  [[menu.footer]]
-  name = "Contact"
-  URL = "/contact"
+  # [[menu.footer]]
+  # name = "Contact"
+  # URL = "/contact"
   
   [[menu.footer]]
   name = "License and Funding"
