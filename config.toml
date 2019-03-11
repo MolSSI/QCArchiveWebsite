@@ -69,12 +69,12 @@ paginate = 6
 
   [[menu.main]]
   weight = 8
-  name = "Pages"
+  name = "Other Content"
   hasChildren = true
 
     [[menu.main]]
-    parent = "Pages"
-    name = "privacy"
+    parent = "Other Content"
+    name = "License and Funding"
     URL = "/privacy"
 
     [[menu.main]]
@@ -82,29 +82,24 @@ paginate = 6
     name = "FAQ"
     URL = "/faq"
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "privacy"
-    URL = "/privacy"
-
 
   # footer menu
   [[menu.footer]]
   name = "About"
   URL = "/about"
+
+  [[menu.footer]]
+  name = "Using"
+  URL = "/using"
   
   [[menu.footer]]
   name = "Contact"
   URL = "/contact"
   
   [[menu.footer]]
-  name = "Privacy"
+  name = "License and Funding"
   URL = "/privacy"
-  
-  [[menu.footer]]
-  name = "Blog"
-  URL = "/blog"
-  
+
   [[menu.footer]]
   name = "FAQ"
   URL = "/faq"
