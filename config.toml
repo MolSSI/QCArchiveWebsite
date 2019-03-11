@@ -58,9 +58,9 @@ paginate = 6
   weight = 4
 
   [[menu.main]]
-  name = "career"
-  URL = "/career"
-  weight = 6
+  name = "QCA Projects"
+  URL = "/projects"
+  weight = 5
   
   [[menu.main]]
   name = "Contact"
@@ -78,7 +78,7 @@ paginate = 6
     URL = "/privacy"
 
     [[menu.main]]
-    parent = "Pages"
+    parent = "Other Content"
     name = "FAQ"
     URL = "/faq"
 

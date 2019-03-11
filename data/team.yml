@@ -66,9 +66,8 @@ designTeam:
       imageAlt : "images/people/chayafull.jpg"
       name : "Chaya Stern"
       designation : "Open Forcefield Power User"
-      content : "Primary Requirements Engineer for the QC Archive project, keeps the rest of us from the dreaded scope creep"
+      content : "Scientist on behalf of Open Forcefield who has been using QC Archive since the beginning and helping shape end-user interface and development"
       socialIcon:
-
       - icon: "tf-ion-social-github"
         URL: "https://github.com/ChayaSt"
           
