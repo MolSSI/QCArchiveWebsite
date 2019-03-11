@@ -1,39 +1,62 @@
 about:
   enable: true
-  title : "This is our story."
-  content : "We’re here for those who refuse to settle. Who never stop moving forwards. Who continue to search for new ideas and better experiences in everything they do.
-            Because today’s hyper-connected world deserves a financial partner just as progressive.One that adapts to your needs, gives you control and constantly pushes you into new exciting spaces."
+  title : "Created from a need to unite QC Calculations"
+  content : "\"I'd like to do machine learning on dataset X from a single line,\" -- \"I want to generate bespoke parameters for a new drug from an existing database,\"
+   -- \"Which DFT method gives the best results for my set of reactions?\" -- These are some of the use cases we at MolSSI heard from the QC community when evaluating
+  how best to serve this area. The emerging trend we saw was a need to have regular structure of QC results, the ability to access them on-demand without
+  downloading several GB of data, and run new calculations if need be ideally without repeating what someone has already done. To meet these goals, the QC Archive
+  project was started to unite this otherwise isolated data which may only have been shared previously though massive, non-regular files; or though publications and
+  supplementary material. Funded by the NSF, MolSSI seeks to provide solutions to these, and other use-cases in the Quantum Chemistry field through the
+  QC Archive project
+  "
   imageSlider:
-    - image : "images/about/story-slider-01.webp"
-      imageAlt : "images/about/story-slider-01.jpg"
+    - image : "images/molssi-logo.webp"
+      imageAlt : "images/molssi-logo.png"
 
-    - image : "images/about/story-slider-01.webp"
-      imageAlt : "images/about/story-slider-01.jpg"
-      
-    - image : "images/about/story-slider-01.webp"
-      imageAlt : "images/about/story-slider-01.jpg"
+    - image : "images/home-banner-illustration.webp"
+      imageAlt : "images/home-banner-illustration.png"
+
+    - image : "images/about/nsf.webp"
+      imageAlt : "images/about/nsf.png"
 
 # behind story
 behindStory:
   enable : true
-  title : "Why we created Small Apps"
-  content : "Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Proin eget tortor risus. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat."
+  title : "The QC Archive is an Open-Source Ecosystem"
+  content : "The QCA project is designed from the start to be open-source and available to everyone. All of the code
+  is public through various GitHub repositories, and we are contributing back to other Open Source projects as good
+  members of the community. Individual pieces are written to be integrated into other components (e.g. QCElemental), and
+  we integrate as many other projects as we can to handle tasks to avoid duplicating (often ineffectively) existing
+  software."
 
 # create story
 createStory:
-  - image : "images/blog/post-01.webp"
-    imageAlt : "images/blog/post-01.jpg"
-    title : "Our Story"
-    content : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+  - image : "images/about/cookie.webp"
+    imageAlt : "images/about/cookie.png"
+    title : "We support software best practices"
+    content : "QC Archive's projects are all based on the same software best practices. Both users and developers can
+    follow the code structure between all of the projects, and these practices are provided back to the community
+    through the external projects like the CMS-Cookiecutter."
     
-  - image : "images/blog/post-03.webp"
-    imageAlt : "images/blog/post-03.jpg"
-    title : "What we do"
-    content : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+  - image : "images/about/covlgtm.webp"
+    imageAlt : "images/about/covlgtm.jpg"
+    title : "Code quality is of utmost importance"
+    content : "The quality of the QC Archive code is checked through rigorous continuous integration, code linters, and test coverage
+    tools which help reduce the chance that bugs are introduced. We take data accuracy very seriously and all results
+    and calculations are versioned, provenance tracked, and will be preserved over any updates of the database. "
+
+  - image: "images/about/boxology_private.webp"
+    imageAlt: "images/about/boxology_private.jpg"
+    title: "Proprietary data? Not a problem."
+    content: "We understand that some users and companies have proprietary data. QC Archive's main database and job
+    distribution engine, QC Fractal, can be created locally on your hardware and connected to your compute cluster
+    without ever communicating outside your firewall. There is a feature we are designing which will allow one-way
+    communication with our persistent server so you can reference the existing database without exposing your own
+    information."
 
 # quote slider
 quoteSlider:
-  enable : true
+  enable : false
   sliderItem : 
     - quote : "Behind every great product, there is a great mind."
       quoteBy : "-TechCrunch"
@@ -41,19 +64,23 @@ quoteSlider:
     - quote : "Behind every great product, there is a great mind."
       quoteBy : "-TechCrunch"
 
-# clients slider
+# clients slider (LNN: Using this as a technology stack slider)
 clients: 
   enable : true
-  title : "Featured In"
+  title : "Technology Stack"
   clientSlider :
-   - clientsLogo : "images/clients/business-finder.png"
-   - clientsLogo : "images/clients/forbes.png"
-   - clientsLogo : "images/clients/venture-beat.png"
-   - clientsLogo : "images/clients/tech-crunch-new.png"
+   - clientsLogo : "images/about/stack/mongo.png"
+   - clientsLogo : "images/about/stack/dask.png"
+   - clientsLogo : "images/about/stack/postgress.png"
+   - clientsLogo : "images/about/stack/psi4.png"
+   - clientsLogo : "images/about/stack/rdkit.png"
+   - clientsLogo : "images/about/stack/apache.png"
+   - clientsLogo : "images/about/stack/pandas.png"
+   - clientsLogo : "images/about/stack/parsl.png"
 
 # investors
 investors :
-  enable : true
+  enable : false
   title : "Our Angel Investors"
   description : "Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat."
   investor :
