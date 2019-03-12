@@ -6,7 +6,7 @@ teamLeaders:
       imageAlt : "images/people/dgasfull.jpg"
       name : "Daniel Smith"
       designation : "Lead Developer"
-      content : "Lead developer on all QC Archive projects and team lead for other developers. Responsibilities include
+      content : "Lead developer on all QCArchive projects and team lead for other developers. Responsibilities include
       *checks notes* everything, neat!"
       socialIcon :
         - icon : "tf-ion-social-github"
@@ -58,7 +58,7 @@ designTeam:
       imageAlt : "images/people/samfull.jpg"
       name : "Sam Ellis"
       designation : "Software Scientist for MolSSI"
-      content : "Primary Requirements Engineer for the QC Archive project, keeps the rest of us from the dreaded scope creep"
+      content : "Primary Requirements Engineer for the QCArchive project, keeps the rest of us from the dreaded scope creep"
 
           
     # team member
@@ -66,7 +66,7 @@ designTeam:
       imageAlt : "images/people/chayafull.jpg"
       name : "Chaya Stern"
       designation : "Open Forcefield Power User"
-      content : "Scientist on behalf of Open Forcefield who has been using QC Archive since the beginning and helping shape end-user interface and development"
+      content : "Scientist on behalf of Open Forcefield who has been using QCArchive since the beginning and helping shape end-user interface and development"
       socialIcon:
       - icon: "tf-ion-social-github"
         URL: "https://github.com/ChayaSt"

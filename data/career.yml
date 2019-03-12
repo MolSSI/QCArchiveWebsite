@@ -50,7 +50,7 @@ funfacts:
 # job list
 job:
   enable : true
-  title : "QC Archive Ecosystem"
+  title : "QCArchive Ecosystem"
   jobList:
     # job item
     - title : "QC Portal"
@@ -107,7 +107,7 @@ job:
 
     - title: "QC Elemental and QC Schema"
       location: "A Periodic table, version controlled physical constants, and molecule parsing for quantum chemistry."  #Sub item
-      details: "This application serves as the common area for all other aspects of QC Archive. Every project pulls from this so
+      details: "This application serves as the common area for all other aspects of QCArchive. Every project pulls from this so
                 models, data, constants, and versions are identical over the several programs which rely on the QC Schema
                 specification and the several (de)serialization steps taken through the QC Fractal pipeline. Unit conversions
                 are also handled here through Pint and through versioned quantum chemistry measured constants."

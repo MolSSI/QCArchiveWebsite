@@ -7,11 +7,11 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
 
   privacyDetails:
     - for : "NSF Funding Source"
-      content : "The QC Archive and all of its projects are funded through the NSF Grant XXXXXXXXXXXXXXXX"
+      content : "The QCArchive and all of its projects are funded through the NSF Grant XXXXXXXXXXXXXXXX"
 
                 
     - for : "Software Licenses"
-      content : "Each QC Archive project is protected by the following license individually.\n
+      content : "Each QCArchive project is protected by the following license individually.\n
 
                  **BSD 3-Clause License**\n
 

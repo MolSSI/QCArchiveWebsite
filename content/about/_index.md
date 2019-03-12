@@ -1,5 +1,5 @@
 ---
-title: "About the QC Archive"
+title: "About the QCArchive"
 date: 2019-03-11T12:35:54+06:00
 description: "QCA About page"
 pageDescription : "The Quantum Chemistry Archive aims to provide an open, community-wide quantum chemistry database to 

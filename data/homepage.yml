@@ -28,7 +28,7 @@ featureTwo:
   image : "images/molssi-logo.webp"
   imageAlt : "images/molssi-logo.png"
   title : "A product of the Molecular Sciences Software Institute"
-  content : "The QC Archive project is developed by MolSSI and provides support to the broader Computational Molecular Sciences communities. It brings expertise in Big Data management, software development and deployment expertise, and infrastructure control that individual research groups may not have on their own. "
+  content : "The QCArchive project is developed by MolSSI and provides support to the broader Computational Molecular Sciences communities. It brings expertise in Big Data management, software development and deployment expertise, and infrastructure control that individual research groups may not have on their own. "
   comment : "Science should not be gated behind a learning curve of hardware implementation, software distribution, cluster management, and parallel task deployment."
   clientImage : "images/people/nadenhead.jpg"
   clientName : "Levi Naden, QCA Developer, MolSSI Software Scientist"
@@ -36,8 +36,8 @@ featureTwo:
 # service
 service:
   enable : true
-  title : "QC Archive Ecosystem"
-  description : "The QC Archive Ecosystem provides access at every step of the compute lifecycle. From simple result lookup to computation of proprietary basis sets on your hardware."
+  title : "QCArchive Ecosystem"
+  description : "The QCArchive Ecosystem provides access at every step of the compute lifecycle. From simple result lookup to computation of proprietary basis sets on your hardware."
   # LNN Note: The logic on this image is find the first, 100% opaque pixel and align to the left of that.
   # In order to convert the image to transparency correctly and have an opaque pixel, I added a small vertical black
   # line to the left most boundary of width 1px
@@ -80,21 +80,21 @@ testimonial:
   testimonialSlider:
     - name: "Open Force Field Consortium"
       image: "images/testimonial/off-mol-t.png"
-      content : "The Open Forcefield Initiative runs calculations through the QC Archive to test parametrize and validate a new classical molecular mechanics forcefield which works without atom types."
+      content : "The Open Forcefield Initiative runs calculations through the QCArchive to test parametrize and validate a new classical molecular mechanics forcefield which works without atom types."
       
     - name: "TorsionDrive"
       image: "images/testimonial/crank.png"
-      content : "The TorsionDrive program is provided as a service through QC Archive to allow scientists to scan over all angles on multiple torsions of a fragment for energies."
+      content : "The TorsionDrive program is provided as a service through QCArchive to allow scientists to scan over all angles on multiple torsions of a fragment for energies."
       
     - name: "Machine Learning through regular data"
       image: "images/empty_px_placeholder.png"
-      content : "The database maintained in QC Archive can be easily queried as results have a regular format through the QC Schema structure."
+      content : "The database maintained in QCArchive can be easily queried as results have a regular format through the QC Schema structure."
 
 
 # download
 download:
   enable : true
-  title : "Access QC Archive Now"
+  title : "Access QCArchive Now"
   description : "Download QC Portal client to access the database"
   downloadButton :
     - btnText : "Conda Forge Download"
