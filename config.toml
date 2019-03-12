@@ -111,7 +111,7 @@ logoAlt = "images/logo-alt.png"
 home = "Home"
 # Meta data
 description = "MolSSI's QC Archive Project"
-author = "Daniel G. A. Smith, MolSSI, Levi N. Naden"
+author = "The Molecular Sciences Software Institute"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "37.2001382,"
