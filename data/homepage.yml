@@ -1,63 +1,73 @@
 banner:
-  title : "Build Your Business <br> Together"
-  description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+  title : "The MolSSI <br> Quantum Chemistry Archive"
+  description : "A central source to compile, aggregate, query, and share quantum chemistry data."
   bgImage : "images/home-banner.webp"
   bgImageAlt : "images/home-banner.png"
   image : "images/home-banner-illustration.webp"
   imageAlt : "images/home-banner-illustration.png"
   button:
-    btnText : "Download Now"
-    URL : "#"
+    # LNN: This should be a download, but no easy way to do that through conda
+    btnText : "Visit the Detailed Docs"
+    URL : "https://docs.qcarchive.molssi.org/en/latest/index.html"
 
-# feature one
+# Top level overview
+# LNN note: "enable : false" does not remove these blocks of "featureX"
 featureOne:
   enable : true
-  imageAlt : "images/feature/feature-new-01.jpg"
-  image : "images/feature/feature-new-01.webp"
-  title : "Increase your productivity with Small Apps"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  comment : "InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one place."
-  clientImage : "images/testimonial/feature-testimonial-thumb.jpg"
-  clientName : "Jonathon Andrew , Themefisher"
+  image : "images/boxology_overview_nobar.webp"
+  imageAlt : "images/boxology_overview_nobar.png"
+  title : "A community-driven, multi-use quantum chemistry datasets that the CMS community can access free of charge"
+  content : 'The core of this project sets out to answer the fundamental question of "How do we compile, aggregate, query, and share quantum chemistry data to accelerate the understanding of new method performance, fitting of novel force fields, and supporting the incredible data needs of machine learning for computational molecular science?"'
+  comment : "[Do you want to be quoted on the website?] Sure!"  #LNN Note: Make a real quote of DGAS
+  clientImage : "images/people/dgashead.jpg"
+  clientName : "Daniel G. A. Smith, Head QCA Developer, MolSSI Software Scientist"
 
 # feature two
 featureTwo:
   enable : true
-  image : "images/feature/feature-new-02.webp"
-  imageAlt : "images/feature/feature-new-02.jpg"
-  title : "Increase your productivity with Small Apps"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  comment : "InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one place."
-  clientImage : "images/testimonial/feature-testimonial-thumb.jpg"
-  clientName : "Jonathon Andrew , Themefisher"
+  image : "images/molssi-logo.webp"
+  imageAlt : "images/molssi-logo.png"
+  title : "A product of the Molecular Sciences Software Institute"
+  content : "The QC Archive project is developed by MolSSI and provides support to the broader Computational Molecular Sciences communities. It brings expertise in Big Data management, software development and deployment expertise, and infrastructure control that individual research groups may not have on their own. "
+  comment : "Science should not be gated behind a learning curve of hardware implementation, software distribution, cluster management, and parallel task deployment."
+  clientImage : "images/people/nadenhead.jpg"
+  clientName : "Levi Naden, QCA Developer, MolSSI Software Scientist"
 
 # service
 service:
   enable : true
-  title : "An Interface For Lifestyle"
-  description : "Small Apps makes it easy to stay on top of your Life Style. No late tasks. No gimmicks."
-  image : "images/feature/iphone-ipad.webp"
-  imageAlt : "images/feature/iphone-ipad.jpg"
+  title : "QC Archive Ecosystem"
+  description : "The QC Archive Ecosystem provides access at every step of the compute lifecycle. From simple result lookup to computation of proprietary basis sets on your hardware."
+  # LNN Note: The logic on this image is find the first, 100% opaque pixel and align to the left of that.
+  # In order to convert the image to transparency correctly and have an opaque pixel, I added a small vertical black
+  # line to the left most boundary of width 1px
+  image : "images/boxology_overview.png"
+  imageAlt : "images/boxology_overview.webp"
   serviceItem :
-    - icon : "tf-ribbon"
-      title : "Easy Prototyping"
-      content : "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui"
+    - icon : "tf-ion-laptop"
+      title : "QC Portal"
+      content : "Client-side portal access to either MolSSI's permanent database (QC Fractal), or a private one of your own"
       
-    - icon : "tf-puzzle"
-      title : "Sensor Bridge"
-      content : "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui"
+    - icon : "tf-ion-ios-cloud-outline"
+      title : "QC Fractal"
+      content : "A distributed compute and database platform for quantum chemistry."
       
-    - icon : "tf-bargraph"
-      title : "Strategist"
-      content : "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui"
+    - icon : "tf-speedometer"
+      title : "QC Engine"
+      content : "Hardware agnostic Quantum chemistry program executor and IO standard (via common interface and QCSchema)."
       
-    - icon : "tf-adjustments"
-      title : "Art Direction"
-      content : "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui"
+    - icon : "tf-ion-erlenmeyer-flask-bubbles"
+      title : "QC Elemental"
+      content : "A Periodic table, version controlled physical constants, and molecule parsing for quantum chemistry."
+
+    - icon : "tf-ion-ios-list-outline"
+      title: "QC Schema"
+      content: "A JSON Schema to format Quantum Chemistry results and data structures to enable regular format and easy searches."
 
 # promo video
+# LNN: The "enable" works here
 promoVideo:
-  enable : true
+  enable : false
   bgImage : "images/background/promo-video-back.webp"
   bgImageAlt : "images/background/promo-video-back.jpg"
   title : "Watch Our Promo Video"
@@ -68,36 +78,29 @@ promoVideo:
 testimonial:
   enable : true
   testimonialSlider:
-    - name: "Abraham Linkon , Themefisher"
-      image: "images/testimonial/feature-testimonial-thumb.jpg"
-      content : "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    - name: "Open Force Field Consortium"
+      image: "images/testimonial/off-mol-t.png"
+      content : "The Open Forcefield Initiative runs calculations through the QC Archive to test parametrize and validate a new classical molecular mechanics forcefield which works without atom types."
       
-    - name: "Abraham Linkon , Themefisher"
-      image: "images/testimonial/feature-testimonial-thumb.jpg"
-      content : "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    - name: "TorsionDrive"
+      image: "images/testimonial/crank.png"
+      content : "The TorsionDrive program is provided as a service through QC Archive to allow scientists to scan over all angles on multiple torsions of a fragment for energies."
       
-    - name: "Abraham Linkon , Themefisher"
-      image: "images/testimonial/feature-testimonial-thumb.jpg"
-      content : "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
-      
-    - name: "Abraham Linkon , Themefisher"
-      image: "images/testimonial/feature-testimonial-thumb.jpg"
-      content : "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    - name: "Machine Learning through regular data"
+      image: "images/empty_px_placeholder.png"
+      content : "The database maintained in QC Archive can be easily queried as results have a regular format through the QC Schema structure."
+
 
 # download
 download:
   enable : true
-  title : "It's Time to change your mind"
-  description : "Download over 2 million humans .Get Small Apps free forever! <br>We say you won’t look back."
+  title : "Access QC Archive Now"
+  description : "Download QC Portal client to access the database"
   downloadButton :
-    - btnText : "Iphone"
-      icon : "tf-ion-social-apple"
-      URL : "#"
+    - btnText : "Conda Forge Download"
+      icon : "tf-ion-ios-cloud-download"
+      URL : "https://anaconda.org/conda-forge/qcportal"
       
-    - btnText : "Android"
-      icon : "tf-ion-social-android"
-      URL : "#"
-      
-    - btnText : "Windows"
-      icon : "tf-ion-social-windows"
-      URL : "#"
+    - btnText : "PyPi and pip"
+      icon : "tf-ion-ios-cloud-download"
+      URL : "https://pypi.org/project/qcportal/#description"

@@ -1,118 +1,79 @@
 teamLeaders:
   enable : true
   teamLeader:
-    # ceo
-    - image : "images/team/featured-person-01.webp"
-      imageAlt : "images/team/featured-person-01.jpg"
-      name : "Elon Musk"
-      designation : "Founder & CEO"
-      content : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam
-            vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor
-            lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec
-            velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Nulla
-            porttitor accumsan tincidunt."
+    # dgas
+    - image : "images/people/dgasfull.webp"
+      imageAlt : "images/people/dgasfull.jpg"
+      name : "Daniel Smith"
+      designation : "Lead Developer"
+      content : "Lead developer on all QC Archive projects and team lead for other developers. Responsibilities include
+      *checks notes* everything, neat!"
       socialIcon :
-        - icon : "tf-ion-social-facebook"
-          URL : "#"
-          
-        - icon : "tf-ion-social-twitter"
-          URL : "#"
-          
-        - icon : "tf-ion-social-instagram"
-          URL : "#"
-          
-        - icon : "tf-ion-social-dribbble"
-          URL : "#"
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/dgasmith"
 
-    # ceo
-    - image : "images/team/featured-person-02.webp"
-      imageAlt : "images/team/featured-person-02.jpg"
-      name : "Sergey Brin"
-      designation : "Founder & CEO"
-      content : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam
-            vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor
-            lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec
-            velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Nulla
-            porttitor accumsan tincidunt."
+    # doaa
+    - image: "images/people/doaafull.webp"
+      imageAlt: "images/people/doaa.jpg"
+      name: "Doaa Altarawy"
+      designation: "Developer and Database designer"
+      content: "Developer database design, integrity, and interface"
+      socialIcon:
+      - icon: "tf-ion-social-github"
+        URL: "https://github.com/doaa-altarawy"
+
+    # lnn
+    - image : "images/people/nadenfull.webp"
+      imageAlt : "images/people/nadenfull.jpg"
+      name : "Levi Naden"
+      designation : "Developer"
+      content : "Developer focused on backend cluster integration, user interfaces, software releases and this website's
+      content"
       socialIcon :
-        - icon : "tf-ion-social-facebook"
-          URL : "#"
-          
-        - icon : "tf-ion-social-twitter"
-          URL : "#"
-          
-        - icon : "tf-ion-social-instagram"
-          URL : "#"
-          
-        - icon : "tf-ion-social-dribbble"
-          URL : "#"
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/lnaden"
+
+
 
 # design team
 designTeam:
   enable : true
-  title : "Design Team"
-  description : "Small Apps makes it easy to stay on top of your Life Style. No late tasks. No gimmicks."
+  title : "Additional developers"
+  description : "More than three people does a project this size make! These additional developers are those who
+  have made significant contributions to individual projects, or the archive as a whole."
   teamMember :
+
     # team member
-    - image : "images/team/design-team-01.webp"
-      imageAlt : "images/team/design-team-01.jpg"
-      name : "Jonathon Andrew"
-      designation : "Head Of Marketing"
-      content : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat."
+    - image : "images/people/lorifull-ish.webp"
+      imageAlt : "images/people/lorifull-ish.jpg"
+      name : "Lori Burns"
+      designation : "Lead Psi4 Developer"
+      content : "Lead Psi4 dev and major developer to the QC Engine and QC Elemental projects "
       socialIcon :
-        - icon : "tf-ion-social-facebook"
-          URL : "#"
-          
-        - icon : "tf-ion-social-twitter"
-          URL : "#"
-          
-        - icon : "tf-ion-social-instagram"
-          URL : "#"
-          
-        - icon : "tf-ion-social-dribbble"
-          URL : "#"
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/loriab"
           
     # team member
-    - image : "images/team/design-team-02.webp"
-      imageAlt : "images/team/design-team-02.jpg"
-      name : "Jonathon Andrew"
-      designation : "Head Of Marketing"
-      content : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat."
-      socialIcon :
-        - icon : "tf-ion-social-facebook"
-          URL : "#"
-          
-        - icon : "tf-ion-social-twitter"
-          URL : "#"
-          
-        - icon : "tf-ion-social-instagram"
-          URL : "#"
-          
-        - icon : "tf-ion-social-dribbble"
-          URL : "#"
+    - image : "images/people/samfull.webp"
+      imageAlt : "images/people/samfull.jpg"
+      name : "Sam Ellis"
+      designation : "Software Scientist for MolSSI"
+      content : "Primary Requirements Engineer for the QC Archive project, keeps the rest of us from the dreaded scope creep"
+
           
     # team member
-    - image : "images/team/design-team-03.webp"
-      imageAlt : "images/team/design-team-03.jpg"
-      name : "Jonathon Andrew"
-      designation : "Head Of Marketing"
-      content : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat."
-      socialIcon :
-        - icon : "tf-ion-social-facebook"
-          URL : "#"
-          
-        - icon : "tf-ion-social-twitter"
-          URL : "#"
-          
-        - icon : "tf-ion-social-instagram"
-          URL : "#"
-          
-        - icon : "tf-ion-social-dribbble"
-          URL : "#"
+    - image : "images/people/chayafull.webp"
+      imageAlt : "images/people/chayafull.jpg"
+      name : "Chaya Stern"
+      designation : "Open Forcefield Power User"
+      content : "Scientist on behalf of Open Forcefield who has been using QC Archive since the beginning and helping shape end-user interface and development"
+      socialIcon:
+      - icon: "tf-ion-social-github"
+        URL: "https://github.com/ChayaSt"
           
 # marketing team
 marketingTeam:
-  enable : true
+  enable : false
   title : "Marketing Team"
   description : "Small Apps makes it easy to stay on top of your Life Style. No late tasks. No gimmicks."
   teamMember :

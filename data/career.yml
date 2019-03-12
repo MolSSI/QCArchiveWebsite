@@ -1,6 +1,12 @@
+# LNN: This content maps to the /projects page in content
+# LNN: I had to make a unique layouts/projects.html from a copy of the theme one because
+# the theme one was a literal forum for contact and applying, it was not usable for our
+# purposes, so I re-worked it. The YAML is now a bit confusing and can be cleaned up later,
+# but it works.
+
 # promo video
 promo:
-  enable : true
+  enable : false
   title : "Who we're looking for"
   content : "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed,convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis"
   videoThumb : "images/thumbs/promo-video-thumbnail.webp"
@@ -9,7 +15,7 @@ promo:
 
 # gallary
 gallary:
-  enable : true
+  enable : false
   gallaryItem:
     - image : "images/gallery/gallery-01.webp"
       imageAlt : "images/gallery/gallery-01.jpg"
@@ -22,7 +28,7 @@ gallary:
 
 # funfacts
 funfacts:
-  enable : true
+  enable : false
   title : "Some amenities for you to enjoy"
   funfactItem:
     - icon : "tf-ion-ios-stopwatch-outline"
@@ -44,48 +50,75 @@ funfacts:
 # job list
 job:
   enable : true
-  title : "Job Opening"
+  title : "QC Archive Ecosystem"
   jobList:
     # job item
-    - title : "Andriod Developer"
-      location : "Hamburg, Germany"
-      details : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
+    - title : "QC Portal"
+      location : "Clint Side Entry point to QC Fractal"  #Sub item
+      details : "Client side portal access to either MolSSI's permanent database (QC Fractal), or a private one of your own"
       experienceList:
-        - experience : "3+ years Development experience in a startup environment"
-        - experience : "Strong knowledge of iOS, Android & Web Platforms"
-        - experience : "Dynamic presentation and communication skills"
-        - experience : "Self-motivation: You manage your own milestones, deadlines, and priorities"
+        - experience : "Access to the QC Fractal database of computations"
+        - experience : "Access to the QC Fractal compute backends for running new calculations"
+        - experience : "Requires no hardware beyond internet"
+        - experience : "Configurable to point a non-MolSSI QC Fractal instances"
       formAction : "#"
+      # LNN: All of these were added on my layouts/projects/list.html
+      docs : "http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/portal-client.html"
+      github: "https://github.com/MolSSI/QCPortal"
+      pypi: "https://pypi.org/project/qcportal/"
+      conda: "https://anaconda.org/conda-forge/qcportal"
       
     # job item
-    - title : "DevOps Engineer"
-      location : "London, United Kingdom"
-      details : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
+    - title : "QC Fractal"
+      location : "Main database and compute job generator"  #Sub item
+      details : "Provides the primary interface to the data base with the stored calculation results.
+                 QC Portal clients connect to the Fractal Server and request calculations, or add new
+                 constructs such as data sets or molecules before requesting calculations. Fractal then
+                 creates a flat job list which distribution Managers can pull from and send to compute
+                 hardware. All job connectivity logic is handled through Fractal, so any number of managers
+                 connected to any number of compute backends can handle jobs."
       experienceList:
-        - experience : "3+ years Development experience in a startup environment"
-        - experience : "Strong knowledge of iOS, Android & Web Platforms"
-        - experience : "Dynamic presentation and communication skills"
-        - experience : "Self-motivation: You manage your own milestones, deadlines, and priorities"
+        - experience : "Manage compute data base and check for duplicates"
+        - experience : "Structures data in format with the QC Schema"
+        - experience : "Creates compute jobs for missing calculations and provides them to consumer Managers"
+        - experience : "Persistent public database maintained by MolSSI"
+        - experience : "You can create and host your own local instance which does **not** have to connect to the central MolSSI one to work"
       formAction : "#"
+      # LNN: All of these were added on my layouts/projects/list.html
+      docs : "http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/"
+      github: "https://github.com/MolSSI/QCFractal"
+      pypi: "https://pypi.org/project/qcfractal/"
+      conda: "https://anaconda.org/conda-forge/qcfractal"
       
-    # job item
-    - title : "Operations Associate / Manager"
-      location : "New Jersey , USA"
-      details : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
+    - title : "QC Engine"
+      location : "Quantum chemistry program executor and IO standard"  #Sub item
+      details : "Hardware agnostic Quantum chemistry program executor and IO standard (via common interface and QCSchema)."
       experienceList:
-        - experience : "3+ years Development experience in a startup environment"
-        - experience : "Strong knowledge of iOS, Android & Web Platforms"
-        - experience : "Dynamic presentation and communication skills"
-        - experience : "Self-motivation: You manage your own milestones, deadlines, and priorities"
+        - experience : "Common execution program deployed to compute hardware through QC Fractal and distribution Manager"
+        - experience : "Interfaces with various Quantum Chemistry compute programs (the applications doing the heavy lifting)"
+        - experience : "Relatively hardware agnostic with minor configuration, can be left alone for the most part and will consume what its given from the Manager"
+        - experience : "Consumes and generates QC Schema specification for regular input and output via QC Elemental"
       formAction : "#"
-      
-    # job item
-    - title : "International Compliance Officer"
-      location : "Hamburg, Germany"
-      details : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
+      # LNN: All of these were added on my layouts/projects/list.html
+      docs : "http://docs.qcarchive.molssi.org/projects/qcengine/en/latest/"
+      github: "https://github.com/MolSSI/QCEngine"
+      pypi: "https://pypi.org/project/qcengine/"
+      conda: "https://anaconda.org/conda-forge/qcengine"
+
+    - title: "QC Elemental and QC Schema"
+      location: "A Periodic table, version controlled physical constants, and molecule parsing for quantum chemistry."  #Sub item
+      details: "This application serves as the common area for all other aspects of QC Archive. Every project pulls from this so
+                models, data, constants, and versions are identical over the several programs which rely on the QC Schema
+                specification and the several (de)serialization steps taken through the QC Fractal pipeline. Unit conversions
+                are also handled here through Pint and through versioned quantum chemistry measured constants."
       experienceList:
-        - experience : "3+ years Development experience in a startup environment"
-        - experience : "Strong knowledge of iOS, Android & Web Platforms"
-        - experience : "Dynamic presentation and communication skills"
-        - experience : "Self-motivation: You manage your own milestones, deadlines, and priorities"
-      formAction : "#"
+        - experience: "Common library from which all other projects draw"
+        - experience: "Versioned units and periodic table"
+        - experience: "Draws and validates against the QC Schema JSON specification"
+        - experience: "Will likely be the future home of QC Schema's JSON file to validate against (TBD)"
+      formAction: "#"
+      # LNN: All of these were added on my layouts/projects/list.html
+      docs: "http://docs.qcarchive.molssi.org/projects/qcelemental/en/latest/"
+      github: "https://github.com/MolSSI/QCElemental"
+      pypi: "https://pypi.org/project/qcelemental/"
+      conda: "https://anaconda.org/conda-forge/qcelemental"

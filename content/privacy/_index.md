@@ -1,7 +1,8 @@
 ---
-title: "Privacy Policy"
+title: "Licensing and Funding"
 date: 2019-02-28T12:35:54+06:00
-description: "this is meta description"
-pageDescription : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta."
+description: "licensing and funding sources for the qcarchive project"
+pageDescription : "The QC Archive project is funded by the NSF through MolSSI and grant FILL_IN_GRANT. 
+    The projects for the QC Archive are all licensed under standard, but separate BSD 3-Clause Licenses per project"
 ---
 
