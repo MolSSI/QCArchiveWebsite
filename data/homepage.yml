@@ -16,7 +16,7 @@ featureOne:
   enable : true
   image : "images/boxology_overview_nobar.webp"
   imageAlt : "images/boxology_overview_nobar.png"
-  title : "A community-driven, multi-use quantum chemistry datasets that the CMS community can access free of charge"
+  title : "A free, community-driven, multi-user quantum chemistry database"
   content : 'The core of this project sets out to answer the fundamental question of "How do we compile, aggregate, query, and share quantum chemistry data to accelerate the understanding of new method performance, fitting of novel force fields, and supporting the incredible data needs of machine learning for computational molecular science?"'
   comment : "[Do you want to be quoted on the website?] Sure!"  #LNN Note: Make a real quote of DGAS
   clientImage : "images/people/dgashead.jpg"
@@ -27,7 +27,7 @@ featureTwo:
   enable : true
   image : "images/molssi-logo.webp"
   imageAlt : "images/molssi-logo.png"
-  title : "A product of the Molecular Sciences Software Institute"
+  title : "A product of The Molecular Sciences Software Institute"
   content : "The QCArchive project is developed by MolSSI and provides support to the broader Computational Molecular Sciences communities. It brings expertise in Big Data management, software development and deployment expertise, and infrastructure control that individual research groups may not have on their own. "
   comment : "Science should not be gated behind a learning curve of hardware implementation, software distribution, cluster management, and parallel task deployment."
   clientImage : "images/people/nadenhead.jpg"
@@ -46,23 +46,28 @@ service:
   serviceItem :
     - icon : "tf-ion-laptop"
       title : "QC Portal"
-      content : "Client-side portal access to either MolSSI's permanent database (QC Fractal), or a private one of your own"
-      
+      content : "Client-side portal access to either MolSSI's permanent database (QC Fractal), or a private one of your own."
+      URL: "http://docs.qcarchive.molssi.org/projects/qcportal/en/latest/"
+
     - icon : "tf-ion-ios-cloud-outline"
       title : "QC Fractal"
       content : "A distributed compute and database platform for quantum chemistry."
-      
+      URL: "http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/"
+
     - icon : "tf-speedometer"
       title : "QC Engine"
       content : "Hardware agnostic Quantum chemistry program executor and IO standard (via common interface and QCSchema)."
-      
+      URL: "http://docs.qcarchive.molssi.org/projects/qcengine/en/latest/"
+
     - icon : "tf-ion-erlenmeyer-flask-bubbles"
       title : "QC Elemental"
       content : "A Periodic table, version controlled physical constants, and molecule parsing for quantum chemistry."
+      URL: "http://docs.qcarchive.molssi.org/projects/qcelemental/en/latest/"
 
     - icon : "tf-ion-ios-list-outline"
       title: "QC Schema"
       content: "A JSON Schema to format Quantum Chemistry results and data structures to enable regular format and easy searches."
+      URL: "#"
 
 # promo video
 # LNN: The "enable" works here
@@ -81,11 +86,11 @@ testimonial:
     - name: "Open Force Field Consortium"
       image: "images/testimonial/off-mol-t.png"
       content : "The Open Forcefield Initiative runs calculations through the QCArchive to test parametrize and validate a new classical molecular mechanics forcefield which works without atom types."
-      
+
     - name: "TorsionDrive"
       image: "images/testimonial/crank.png"
       content : "The TorsionDrive program is provided as a service through QCArchive to allow scientists to scan over all angles on multiple torsions of a fragment for energies."
-      
+
     - name: "Machine Learning through regular data"
       image: "images/empty_px_placeholder.png"
       content : "The database maintained in QCArchive can be easily queried as results have a regular format through the QC Schema structure."
@@ -100,7 +105,7 @@ download:
     - btnText : "Conda Forge Download"
       icon : "tf-ion-ios-cloud-download"
       URL : "https://anaconda.org/conda-forge/qcportal"
-      
+
     - btnText : "PyPi and pip"
       icon : "tf-ion-ios-cloud-download"
       URL : "https://pypi.org/project/qcportal/#description"
