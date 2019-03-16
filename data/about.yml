@@ -1,8 +1,11 @@
 about:
   enable: true
   title : "Created from a need to unite QC Calculations"
-  content : "\"I'd like to do machine learning on dataset X from a single line,\" -- \"I want to generate bespoke parameters for a new drug from an existing database,\"
-   -- \"Which DFT method gives the best results for my set of reactions?\" -- These are some of the use cases we at MolSSI heard from the QC community when evaluating
+  content : "<q><i>I'd like to do machine learning on dataset X from a single line.</q></i><br><br>
+  <q><i>I want to generate bespoke parameters for a new drug from an existing database.</q></i><br><br>
+  <q><i>Which DFT method gives the best results for my set of reactions?</q></i><br><br>
+
+  These are some of the use cases we at MolSSI heard from the QC community when evaluating
   how best to serve this area. The emerging trend we saw was a need to have regular structure of QC results, the ability to access them on-demand without
   downloading several GB of data, and run new calculations if need be ideally without repeating what someone has already done. To meet these goals, the QCArchive
   project was started to unite this otherwise isolated data which may only have been shared previously though massive, non-regular files; or though publications and
@@ -37,7 +40,7 @@ createStory:
     content : "QCArchive's projects are all based on the same software best practices. Both users and developers can
     follow the code structure between all of the projects, and these practices are provided back to the community
     through the external projects like the CMS-Cookiecutter."
-    
+
   - image : "images/about/covlgtm.webp"
     imageAlt : "images/about/covlgtm.jpg"
     title : "Code quality is of utmost importance"
@@ -49,7 +52,7 @@ createStory:
     imageAlt: "images/about/boxology_private.jpg"
     title: "Proprietary data? Not a problem."
     content: "We understand that some users and companies have proprietary data. QCArchive's main database and job
-    distribution engine, QC Fractal, can be created locally on your hardware and connected to your compute cluster
+    distribution engine, QCFractal, can be created locally on your hardware and connected to your compute cluster
     without ever communicating outside your firewall. There is a feature we are designing which will allow one-way
     communication with our persistent server so you can reference the existing database without exposing your own
     information."
@@ -57,15 +60,15 @@ createStory:
 # quote slider
 quoteSlider:
   enable : false
-  sliderItem : 
+  sliderItem :
     - quote : "Behind every great product, there is a great mind."
       quoteBy : "-TechCrunch"
-      
+
     - quote : "Behind every great product, there is a great mind."
       quoteBy : "-TechCrunch"
 
 # clients slider (LNN: Using this as a technology stack slider)
-clients: 
+clients:
   enable : true
   title : "Technology Stack"
   clientSlider :
@@ -88,37 +91,37 @@ investors :
       imageAlt : "images/team/marketing-team-01.jpg"
       name : "Spider Web"
       designation : "Investor"
-      
+
     - image : "images/team/marketing-team-02.webp"
       imageAlt : "images/team/marketing-team-02.jpg"
       name : "Spider Web"
       designation : "Investor"
-      
+
     - image : "images/team/marketing-team-03.webp"
       imageAlt : "images/team/marketing-team-03.jpg"
       name : "Spider Web"
       designation : "Investor"
-      
+
     - image : "images/team/marketing-team-01.webp"
       imageAlt : "images/team/marketing-team-01.jpg"
       name : "Spider Web"
       designation : "Investor"
-      
+
     - image : "images/team/marketing-team-02.webp"
       imageAlt : "images/team/marketing-team-02.jpg"
       name : "Spider Web"
       designation : "Investor"
-      
+
     - image : "images/team/marketing-team-03.webp"
       imageAlt : "images/team/marketing-team-03.jpg"
       name : "Spider Web"
       designation : "Investor"
-      
+
     - image : "images/team/marketing-team-01.webp"
       imageAlt : "images/team/marketing-team-01.jpg"
       name : "Spider Web"
       designation : "Investor"
-      
+
     - image : "images/team/marketing-team-02.webp"
       imageAlt : "images/team/marketing-team-02.jpg"
       name : "Spider Web"

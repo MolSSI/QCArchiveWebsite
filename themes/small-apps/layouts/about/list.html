@@ -11,7 +11,7 @@
           <div class="content">
               {{ with .Site.Data.about.about }}
             <h2>{{ .title }}</h2>
-            <p>{{ .content }}</p>
+            <p>{{ .content  | safeHTML }}</p>
             {{ end }}
           </div>
         </div>
@@ -29,7 +29,7 @@
   </section>
   {{ "<!-- End of Our Story -->" | safeHTML }}
   {{ end }}
-  
+
   {{ if .Site.Data.about.behindStory.enable }}
   {{ "<!-- Behind Story -->" | safeHTML }}
   {{ with .Site.Data.about.behindStory }}
@@ -39,7 +39,7 @@
         <div class="col-12">
           <div class="section-title mb-0">
             <h2>{{ .title }}</h2>
-            <p>{{ .content }}</p>
+            <p>{{ .content  | safeHTML }}</p>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
   {{ "<!-- End of Behind Story -->" | safeHTML }}
   {{ end }}
   {{ end }}
-  
+
   {{ "<!-- Create Story -->" | safeHTML }}
   <section class="section create-stories pt-0">
     <div class="container">
@@ -58,7 +58,7 @@
           <div class="block">
             <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image">
             <h3>{{ .title }}</h3>
-            <p>{{ .content }}</p>
+            <p>{{ .content  | safeHTML }}</p>
           </div>
         </div>
         {{ end }}
@@ -66,7 +66,7 @@
     </div>
   </section>
   {{ "<!-- End of Create Story -->" | safeHTML }}
-  
+
   {{ if .Site.Data.about.quoteSlider.enable }}
   {{ "<!-- Quotes Slider -->" | safeHTML }}
   <section class="section quotes pt-0">
@@ -87,7 +87,7 @@
   </section>
   {{ "<!-- End of Quotes Slider -->" | safeHTML }}
   {{ end }}
-  
+
   {{ if .Site.Data.about.clients.enable }}
   {{ "<!-- Client Slider -->" | safeHTML }}
   <section class="section clients bg-gray">
@@ -108,7 +108,7 @@
   </section>
   {{ "<!-- End of Client Slider -->" | safeHTML }}
   {{ end }}
-  
+
   {{ if .Site.Data.about.investors.enable }}
   {{ "<!-- Investors -->" | safeHTML }}
   <section class="section investors">
@@ -138,9 +138,9 @@
   </section>
   {{ "<!-- End of Investors -->" | safeHTML }}
   {{ end }}
-  
+
   {{ if .Site.Data.about.cta.enable }}
   {{ partial "cta.html" . }}
   {{ end }}
-  
+
 {{ end }}
