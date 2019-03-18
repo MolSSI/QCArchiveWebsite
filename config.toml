@@ -48,8 +48,8 @@ paginate = 6
   weight = 2
 
   [[menu.main]]
-  name = "Using"
-  URL = "/using"
+  name = "Blog"
+  URL = "/blog"
   weight = 3
   
   [[menu.main]]
@@ -79,7 +79,7 @@ paginate = 6
 
     [[menu.main]]
     parent = "Other Content"
-    name = "FAQ"
+    name = "FAQ and Use Cases"
     URL = "/faq"
 
 
