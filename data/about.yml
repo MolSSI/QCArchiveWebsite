@@ -39,14 +39,14 @@ createStory:
     through the external projects like the CMS-Cookiecutter."
     
   - image : "images/about/covlgtm.webp"
-    imageAlt : "images/about/covlgtm.jpg"
+    imageAlt : "images/about/covlgtm.png"
     title : "Code quality is of utmost importance"
     content : "The quality of the QCArchive code is checked through rigorous continuous integration, code linters, and test coverage
     tools which help reduce the chance that bugs are introduced. We take data accuracy very seriously and all results
     and calculations are versioned, provenance tracked, and will be preserved over any updates of the database. "
 
   - image: "images/about/boxology_private.webp"
-    imageAlt: "images/about/boxology_private.jpg"
+    imageAlt: "images/about/boxology_private.png"
     title: "Proprietary data? Not a problem."
     content: "We understand that some users and companies have proprietary data. QCArchive's main database and job
     distribution engine, QC Fractal, can be created locally on your hardware and connected to your compute cluster
