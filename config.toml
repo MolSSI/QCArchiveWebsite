@@ -48,39 +48,101 @@ paginate = 6
   weight = 2
 
   [[menu.main]]
-  name = "Blog"
-  URL = "/blog"
+  name = "Get Started"
+  URL = "/getstarted"
   weight = 3
-  
-  [[menu.main]]
-  name = "team"
-  URL = "/team"
-  weight = 4
 
   [[menu.main]]
-  name = "QCA Projects"
-  URL = "/projects"
-  weight = 5
+  name = "Blog"
+  URL = "/blog"
+  weight = 4
   
-  # [[menu.main]]
-  # name = "Contact"
-  # URL = "/contact"
-  # weight = 7
 
   [[menu.main]]
   weight = 8
-  name = "Other Content"
+  name = "Ecosystem"
   hasChildren = true
 
     [[menu.main]]
-    parent = "Other Content"
-    name = "License and Funding"
-    URL = "/privacy"
+    parent = "Ecosystem"
+    name = "QCA Projects"
+    URL = "/projects"
 
     [[menu.main]]
-    parent = "Other Content"
-    name = "FAQ and Use Cases"
+    parent = "Ecosystem"
+    name = "Community"
+    URL = "/community"
+
+    [[menu.main]]
+    parent = "Ecosystem"
+    name = "Use Cases"
     URL = "/faq"
+
+    [[menu.main]]
+    parent = "Ecosystem"
+    name = "Team"
+    URL = "/team"
+
+    # [[menu.main]]
+    # parent = "FAQ"
+    # name = "License and Funding"
+    # URL = "/privacy"
+  
+
+  [[menu.main]]
+  weight = 9
+  name = "Documentation"
+  hasChildren = true
+
+    [[menu.main]]
+    parent = "Documentation"
+    name = "Tutorials "
+    URL = "http://docs.qcarchive.molssi.org/"
+
+    [[menu.main]]
+    parent = "Documentation"
+    name = "QCPortal "
+    URL = "http://docs.qcarchive.molssi.org/projects/qcportal/"
+
+    [[menu.main]]
+    parent = "Documentation"
+    name = "QCFractal "
+    URL = "http://docs.qcarchive.molssi.org/projects/qcfractal/"
+
+    [[menu.main]]
+    parent = "Documentation"
+    name = "QCEngine "
+    URL = "http://docs.qcarchive.molssi.org/projects/qcengine/"
+
+    [[menu.main]]
+    parent = "Documentation"
+    name = "QCElemental "
+    URL = "http://docs.qcarchive.molssi.org/projects/qcelemental/"
+
+  [[menu.main]]
+  weight = 10
+  name = "GitHub"
+  hasChildren = true
+
+    [[menu.main]]
+    parent = "GitHub"
+    name = "QCPortal"
+    URL = "https://github.com/MolSSI/QCFractal"
+
+    [[menu.main]]
+    parent = "GitHub"
+    name = "QCFractal"
+    URL = "https://github.com/MolSSI/QCFractal"
+
+    [[menu.main]]
+    parent = "GitHub"
+    name = "QCEngine"
+    URL = "https://github.com/MolSSI/QCEngine"
+
+    [[menu.main]]
+    parent = "GitHub"
+    name = "QCElemental"
+    URL = "https://github.com/MolSSI/QCElemental"
 
 
   # footer menu
@@ -108,7 +170,7 @@ paginate = 6
 [params]
 logo = "images/logo.png"
 logoAlt = "images/logo-alt.png"
-home = "Home"
+# home = "Home"
 # Meta data
 description = "MolSSI's QC Archive Project"
 author = "The Molecular Sciences Software Institute"
@@ -145,5 +207,5 @@ googleAnalitycsID = "UA-136219377-1"
   enable = true
   title = "Help contribute to the QC Archive"
   content = "Want to see your QC code in QC Archive? Find a bug? Have questions in general? Head to the GitHub page and contribute!"
-  btnText = "To QC Archive GitHub"
+  btnText = "To QCArchive GitHub"
   URL = "https://github.com/MolSSI/QCFractal"
