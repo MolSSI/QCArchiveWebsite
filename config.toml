@@ -49,7 +49,7 @@ paginate = 6
 
   [[menu.main]]
   name = "Get Started"
-  URL = "/getstarted"
+  URL = "/get_started"
   weight = 3
 
   [[menu.main]]
