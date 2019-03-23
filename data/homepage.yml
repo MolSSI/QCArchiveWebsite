@@ -84,11 +84,11 @@ testimonial:
   enable : true
   testimonialSlider:
     - name: "Open Force Field Consortium"
-      image: "images/testimonial/off-mol-t.png"
+      image: "images/collaborators/OpenFFVectorSmallSquare.png"
       content : "The Open Forcefield Initiative runs calculations through the QCArchive to test parametrize and validate a new classical molecular mechanics forcefield which works without atom types."
 
     - name: "TorsionDrive"
-      image: "images/testimonial/crank.png"
+      image: "images/collaborators/crank.png"
       content : "The TorsionDrive program is provided as a service through QCArchive to allow scientists to scan over all angles on multiple torsions of a fragment for energies."
 
     - name: "Machine Learning through regular data"

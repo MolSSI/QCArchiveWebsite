@@ -4,7 +4,8 @@ date: 2019-03-23
 description: "QCArchives current stat "
 pageDescription : "Current state of QCA"
 type : "post"
-image : "images/blog/post-02.jpg"
+image : "images/collaborators/OpenFFVector.png"
+imageAlt : "images/collaborators/OpenFFVector.svg"
 author : "Levi Naden"
 authorImage : "images/people/nadenhead.jpg"
 authorDescription : "Levi is a MolSSI Software Scientist and a QCA developer"
@@ -22,15 +23,20 @@ authorDescription : "Levi is a MolSSI Software Scientist and a QCA developer"
 #    URL : "#"
 ---
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+QCArchive has entered closed beta and is now computing production calculations in as part of the Open Forcefiled 
+Initiative's thrusts.
 
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+We had entered closed beta at the start of this month and have since then created compute managers attached to each of  
+the Virginia Tech ARC clusters, several Intel Knights Landing machines available to MolSSI, and our collaborators at 
+the Open Forcefiled Initiative have created managers on the Memorial Sloan Kettering' and UC Berkly's HPC HPC 
+cluster. All the managers are computing jobs and adding data to the central Fractal database. 
 
-> Design is not just what it looks like and feels like. Design is how it works.
+> Managers are easy to start up from command line and a config file
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+{{< image src="../../images/blog/manager.gif" srcAlt="../../images/blog/manager.gif" >}}
 
+The manager creation process has been vastly simplified with an improved CLI for starting them based on a config file. 
+We the inclusion of Dask, configuring your own managers to execute jobs on your own cluster is much simpler than it was 
+before the beta.
 
-{{< image src="../../images/blog/post-body-image.jpg" srcAlt="../../images/blog/post-body-image.jpg" >}}
-
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+We welcome community feedback on this new feature to help make it better from both ease of use and features.
