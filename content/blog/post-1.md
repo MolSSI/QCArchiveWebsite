@@ -1,36 +1,39 @@
 ---
-title: "This is the first item"
-date: 2019-02-28T12:35:54+06:00
-description: "this is meta description"
-pageDescription : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta."
-type : "post"
-image : "images/blog/post-01.jpg"
-author : "Thomas Johnson"
-authorImage : "images/testimonial/feature-testimonial-thumb.jpg"
-authorDescription : "Donec rutrum congue leo eget malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Proin eget tortor risus. Mauris blandit aliquet elit."
-authorSocial : 
-  - icon : "tf-ion-social-facebook"
-    URL : "#"
-    
-  - icon : "tf-ion-social-twitter"
-    URL : "#"
-    
-  - icon : "tf-ion-social-instagram"
-    URL : "#"
-    
-  - icon : "tf-ion-social-dribbble"
-    URL : "#"
+title: "QCArchive at ACS 2019"
+date: 2019-03-23
+description: "QCA at ACS"
+pageDescription : "The Quantum Chemistry Archive makes its debut at the American Chemical Society annual meeting in Spring of 2019"
+type : "featured-post"
+image : "images/blog/acs2019.png"
+author : "Levi Naden"
+authorImage : "images/people/nadenhead.jpg"
+authorDescription : "Levi is a MolSSI Software Scientist and a QCArchive developer"
+#authorSocial : 
+#  - icon : "tf-ion-social-facebook"
+#    URL : "#"
+#    
+#  - icon : "tf-ion-social-twitter"
+#    URL : "#"
+#    
+#  - icon : "tf-ion-social-instagram"
+#    URL : "#"
+#    
+#  - icon : "tf-ion-social-dribbble"
+#    URL : "#"
 ---
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+The Quantum Chemistry Archive makes its debut at the American Chemical Society's annual meeting in Spring of 2019.
 
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+Entering open beta, and presented to the broader quantum chemistry community, the talk for QCArchive   
+will cover three of its primary use cases:
 
-> Design is not just what it looks like and feels like. Design is how it works.
+1. Retrieving and exploring existing, large quantum chemistry data sets with ease
+2. Calculating and organizing the data needed to create the parameters for a bespoke force field for molecular mechanics
+3. Democratizing AI data generation by enabling easy submission of new calculations
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+The talk is scheduled for Wednesday, April 3 at 10:40 AM in the 
+__[Valencia Ballroom B-D - Theater 7, Orange County Convention Center](https://plan.core-apps.com/acsorlando2019/place/e6f24cce699c743a97bdd6ed31d8cfcd?booth=76b3edca749516ae86e34075e108fc86).__
+
+For more information, see the __[ACS website](https://plan.core-apps.com/acsorlando2019/event/58640c715f173f381d395f4eb7551398)__.
 
 
-{{< image src="../../images/blog/post-body-image.jpg" srcAlt="../../images/blog/post-body-image.jpg" >}}
-
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
