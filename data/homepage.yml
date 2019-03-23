@@ -3,8 +3,8 @@ banner:
   description : "A central source to compile, aggregate, query, and share quantum chemistry data."
   bgImage : "images/home-banner.webp"
   bgImageAlt : "images/home-banner.png"
-  image : "images/home-banner-illustration.webp"
-  imageAlt : "images/home-banner-illustration.png"
+  image : "images/QCArchiveDrop.svg"
+  imageAlt : "images/QCArchiveDrop.png"
   button:
     # LNN: This should be a download, but no easy way to do that through conda
     btnText : "Visit the Detailed Docs"
@@ -25,7 +25,7 @@ featureOne:
 # feature two
 featureTwo:
   enable : true
-  image : "images/molssi-logo.webp"
+  image : "images/molssi-logo.svg"
   imageAlt : "images/molssi-logo.png"
   title : "A product of The Molecular Sciences Software Institute"
   content : "The QCArchive project is developed by MolSSI and provides support to the broader Computational Molecular Sciences communities. It brings expertise in Big Data management, software development and deployment expertise, and infrastructure control that individual research groups may not have on their own. "

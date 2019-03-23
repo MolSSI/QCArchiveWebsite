@@ -172,7 +172,7 @@ logo = "images/logo.png"
 logoAlt = "images/logo-alt.png"
 # home = "Home"
 # Meta data
-description = "MolSSI's QC Archive Project"
+description = "MolSSI's QCArchive Project"
 author = "The Molecular Sciences Software Institute"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
@@ -205,7 +205,7 @@ googleAnalitycsID = "UA-136219377-1"
   # call to action
  [params.cta]
   enable = true
-  title = "Help contribute to the QC Archive"
-  content = "Want to see your QC code in QC Archive? Find a bug? Have questions in general? Head to the GitHub page and contribute!"
+  title = "Help contribute to the QCArchive"
+  content = "Want to see your code in QCArchive? Find a bug? Have questions in general? Head to the GitHub page and contribute!"
   btnText = "To QCArchive GitHub"
   URL = "https://github.com/MolSSI/QCFractal"

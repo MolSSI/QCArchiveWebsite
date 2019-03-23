@@ -13,13 +13,13 @@ about:
   QCArchive project
   "
   imageSlider:
-    - image : "images/molssi-logo.webp"
-      imageAlt : "images/molssi-logo.png"
+    - image : "images/molssi-logo.svg"
+      imageAlt : "images/molssi-logo-500.png"
 
-    - image : "images/home-banner-illustration.webp"
-      imageAlt : "images/home-banner-illustration.png"
+    - image : "images/QCArchiveLogo.svg"
+      imageAlt : "images/QCArchiveLogo.png"
 
-    - image : "images/about/nsf.webp"
+    - image : "images/about/NSFLogo.svg"
       imageAlt : "images/about/nsf.png"
 
 # behind story
@@ -71,7 +71,7 @@ quoteSlider:
 clients:
   enable : true
   title : "Technology Stack"
-  clientSlider :
+  clientSlider :  # No larger than 150 high
    - clientsLogo : "images/about/stack/mongo.png"
    - clientsLogo : "images/about/stack/dask.png"
    - clientsLogo : "images/about/stack/postgress.png"
