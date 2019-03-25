@@ -65,13 +65,18 @@ paginate = 6
 
     [[menu.main]]
     parent = "Ecosystem"
-    name = "QCA Projects"
-    URL = "/projects"
+    name = "Community"
+    URL = "/community"
 
     [[menu.main]]
     parent = "Ecosystem"
-    name = "Community"
-    URL = "/community"
+    name = "Join Slack"
+    URL = "https://join.slack.com/t/qcdb/shared_invite/enQtNDIzNTQ2OTExODk0LWM3OTgxN2ExYTlkMTlkZjA0OTExZDlmNGRlY2M4NWJlNDlkZGQyYWUxOTJmMzc3M2VlYzZjMjgxMDRkYzFmOTE"
+
+    [[menu.main]]
+    parent = "Ecosystem"
+    name = "QCA Projects"
+    URL = "/projects"
 
     [[menu.main]]
     parent = "Ecosystem"
@@ -96,7 +101,7 @@ paginate = 6
 
     [[menu.main]]
     parent = "Documentation"
-    name = "Tutorials "
+    name = "Examples "
     URL = "http://docs.qcarchive.molssi.org/"
 
     [[menu.main]]
