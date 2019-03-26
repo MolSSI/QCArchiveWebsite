@@ -3,7 +3,7 @@
   {{ partial "page-title.html" . }}
 
   {{ if .Site.Data.community.teamLeaders.enable }}
-  {{ "<!-- Feature Team -->" | safeHTML }}
+  {{ "<!-- Community Members -->" | safeHTML }}
   <section class="founders section pt-0">
     <div class="container">
       <div class="row">
@@ -13,7 +13,7 @@
             <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="featured-member">
             <h2>{{ .name }}</h2>
             <cite>{{ .designation }}</cite>
-            <p>{{ .content }}</p>
+            <p>{{ .content | safeHTML }}</p>
             {{ "<!-- Social Sites -->" | safeHTML }}
             <ul class="list-inline social-links">
               <li class="list-inline-item"><a href="{{ .URL }}"><i class="{{ .icon }}"></i></a></li>
@@ -110,7 +110,7 @@
   {{ end }}
     
   {{ if .Site.Data.community.cta.enable }}
-  {{ partial "cta.html" . }}
+  {{ partial "communitycta.html" . }}
   {{ end }}
 
 {{ end }}

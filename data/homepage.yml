@@ -14,8 +14,8 @@ banner:
 # LNN note: "enable : false" does not remove these blocks of "featureX"
 featureOne:
   enable : true
-  image : "images/boxology_overview_nobar.webp"
-  imageAlt : "images/boxology_overview_nobar.png"
+  image : "images/boxology_centered.png" # Make roughly square
+#  imageAlt : "images/boxology_overview_nobar.webp"
   title : "A free, community-driven, multi-user quantum chemistry database"
   content : 'The core of this project sets out to answer the fundamental question of "How do we compile, aggregate, query, and share quantum chemistry data to accelerate the understanding of new method performance, fitting of novel force fields, and supporting the incredible data needs of machine learning for computational molecular science?"'
   comment : "[Do you want to be quoted on the website?] Sure!"  #LNN Note: Make a real quote of DGAS
@@ -42,7 +42,7 @@ service:
   # In order to convert the image to transparency correctly and have an opaque pixel, I added a small vertical black
   # line to the left most boundary of width 1px
   image : "images/boxology_overview.png"
-  imageAlt : "images/boxology_overview.webp"
+#  imageAlt : "images/boxology_overview.webp"
   serviceItem :
     - icon : "tf-ion-laptop"
       title : "QC Portal"
@@ -85,7 +85,7 @@ testimonial:
   testimonialSlider:
     - name: "Open Force Field Consortium"
       image: "images/collaborators/OpenFFVectorSmallSquare.png"
-      content : "The Open Forcefield Initiative runs calculations through the QCArchive to test parametrize and validate a new classical molecular mechanics forcefield which works without atom types."
+      content : "The Open Force Field Initiative runs calculations through the QCArchive to test parametrize and validate a new classical molecular mechanics force field which works without atom types."
 
     - name: "TorsionDrive"
       image: "images/collaborators/crank.png"

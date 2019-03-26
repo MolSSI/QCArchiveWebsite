@@ -7,7 +7,7 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
 
   privacyDetails:
     - for : "NSF Funding Source"
-      content : "The QCArchive and all of its projects are funded through the NSF Grant XXXXXXXXXXXXXXXX"
+      content : "The QCArchive and all of its projects are funded through the NSF Grant ACI-1547580"
 
                 
     - for : "Software Licenses"
@@ -45,10 +45,8 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
 
 
                 
-    - for : "Code of Conduct"
-      content : "# Contributor Covenant Code of Conduct
-
-                 ## Our Pledge
+    - for : "Contributor Covenant Code of Conduct"
+      content : "### Our Pledge
 
                  In the interest of fostering an open and welcoming environment, we as
                  contributors and maintainers pledge to making participation in our project and
@@ -57,7 +55,7 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
                  experience, nationality, personal appearance, race, religion, or sexual
                  identity and orientation.
 
-                 ## Our Standards
+                 ### Our Standards
 
                  Examples of behavior that contributes to creating a positive environment include:
 
@@ -75,7 +73,7 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
                  * Publishing others' private information, such as a physical or electronic address, without explicit permission
                  * Other conduct which could reasonably be considered inappropriate in a professional setting
 
-                 ## Our Responsibilities
+                 ### Our Responsibilities
 
                  Project maintainers are responsible for clarifying the standards of acceptable
                  behavior and are expected to take appropriate and fair corrective action in
@@ -93,7 +91,7 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
                  final decision as to whether commits are merged into the codebase rests with
                  the team of project maintainers.
 
-                 ## Scope
+                 ### Scope
 
                  This Code of Conduct applies both within project spaces and in public spaces
                  when an individual is representing the project or its community. Examples of
@@ -102,7 +100,7 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
                  appointed representative at an online or offline event. Representation of a
                  project may be further defined and clarified by project maintainers.
 
-                 ## Enforcement
+                 ### Enforcement
 
                  Instances of abusive, harassing, or otherwise unacceptable behavior may be
                  reported by contacting the project team at molssi@vt.edu. The project team will
@@ -115,11 +113,9 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
                  faith may face temporary or permanent repercussions as determined by other
                  members of the project's leadership.
 
-                 ## Attribution
+                 ### Attribution
 
-                 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
+                 This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org),
                  version 1.4, available at
-                 [http://contributor-covenant.org/version/1/4][version]
-
-                 [homepage]: http://contributor-covenant.org
-                 [version]: http://contributor-covenant.org/version/1/4/"
+                 http://contributor-covenant.org/version/1/4
+                 "

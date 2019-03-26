@@ -67,31 +67,37 @@ paginate = 6
     parent = "Ecosystem"
     name = "Community"
     URL = "/community"
+    weight = 2
 
     [[menu.main]]
     parent = "Ecosystem"
     name = "Join Slack"
     URL = "https://join.slack.com/t/qcdb/shared_invite/enQtNDIzNTQ2OTExODk0LWM3OTgxN2ExYTlkMTlkZjA0OTExZDlmNGRlY2M4NWJlNDlkZGQyYWUxOTJmMzc3M2VlYzZjMjgxMDRkYzFmOTE"
+    weight = 5
 
     [[menu.main]]
     parent = "Ecosystem"
     name = "QCA Projects"
     URL = "/projects"
+    weight = 1
 
     [[menu.main]]
     parent = "Ecosystem"
     name = "Use Cases"
-    URL = "/faq"
+    URL = "/usecases"
+    weight = 3
 
     [[menu.main]]
     parent = "Ecosystem"
     name = "Team"
     URL = "/team"
+    weight = 4
 
-    # [[menu.main]]
-    # parent = "FAQ"
+    [[menu.main]]
+    # parent = "Ecosystem"
     # name = "License and Funding"
     # URL = "/privacy"
+    # weight = 20
   
 
   [[menu.main]]
@@ -154,22 +160,28 @@ paginate = 6
   [[menu.footer]]
   name = "About"
   URL = "/about"
+  weight = 1
 
   [[menu.footer]]
-  name = "Using"
-  URL = "/using"
+  name = "Get Started"
+  URL = "/get_started"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Examples"
+  URL = "http://docs.qcarchive.molssi.org/"
+  weight = 3
   
-  # [[menu.footer]]
-  # name = "Contact"
+  [[menu.footer]]
+  name = "Contact Us"
+  URL = "mailto:qcarchive@molssi.org"
   # URL = "/contact"
-  
+  weight = 4
+
   [[menu.footer]]
   name = "License and Funding"
   URL = "/privacy"
-
-  [[menu.footer]]
-  name = "FAQ"
-  URL = "/faq"
+  weight = 5
 
 
 [params]
@@ -214,3 +226,11 @@ googleAnalitycsID = "UA-136219377-1"
   content = "Want to see your code in QCArchive? Find a bug? Have questions in general? Head to the GitHub page and contribute!"
   btnText = "To QCArchive GitHub"
   URL = "https://github.com/MolSSI/QCFractal"
+
+  # Community call to action
+ [params.communitycta]
+  enable = true
+  title = "Become part of the QCArchive Community!"
+  content = "Want to extend QCArchive to your projects? Want to wrap components in other code? Want to help contribute? Want to see what others are doing? Come be part of the QCArchive community today and lets make something greater!"
+  btnText = "Join the QCArchive Slack!"
+  URL = "https://join.slack.com/t/qcdb/shared_invite/enQtNDIzNTQ2OTExODk0LWM3OTgxN2ExYTlkMTlkZjA0OTExZDlmNGRlY2M4NWJlNDlkZGQyYWUxOTJmMzc3M2VlYzZjMjgxMDRkYzFmOTE"

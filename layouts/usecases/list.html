@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.usecases.caseOpener.enable }}
+{{ "<!-- Use Case Opener -->" | safeHTML }}
+{{ with .Site.Data.usecases.caseOpener }}
+<section class="section">
+<div class="container">
+  <div class="row">
+	<div class="col-12">
+	  <div class="section-title mb-0">
+		<h2>{{ .title }}</h2>
+		<p>{{ .content  | safeHTML }}</p>
+	  </div>
+	</div>
+  </div>
+</div>
+</section>
+{{ "<!-- End of Behind Story -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
+{{ "<!-- Use Cases Section -->" | safeHTML }}
+<section class="faq section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 m-auto">
+				<div class="block shadow">
+          {{ $.Scratch.Set "count" 0 }}
+          {{ range .Site.Data.usecases.cases }}
+          {{ $.Scratch.Set "count" (add ($.Scratch.Get "count") 1) }}
+					{{ "<!-- Faq list -->" | safeHTML }}
+					<div class="faq-item">
+						<div class="faq-item-title">
+							<h2>{{ .title }}</h2>
+						</div>
+						<div id="accordions{{$.Scratch.Get `count`}}" data-children=".item">
+              {{ $.Scratch.Set "counter" 0 }}
+              {{ range .caseList }}
+              {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+						  <div class="item">
+						  	<div class="item-link">
+							    <a data-toggle="collapse" data-parent="#accordions{{$.Scratch.Get `count`}}" href="#accordion{{$.Scratch.Get `count`}}{{$.Scratch.Get `counter`}}">{{ .usecase }}</a>
+						  	</div>
+						    <div id="accordion{{$.Scratch.Get `count`}}{{$.Scratch.Get `counter`}}" class="collapse accordion-block">
+						      <p>{{ .explain }}</p>
+						    </div>
+						  </div>
+              {{ end }}
+						</div>
+					</div>
+          {{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!--====  End of Use Cases Section  ====-->" | safeHTML }}
+
+{{ end }}

@@ -1,140 +1,41 @@
 teamLeaders:
   enable : true
   teamLeader:
-    # dgas
-    - image : "images/people/dgasfull.webp"
-      imageAlt : "images/people/dgasfull.jpg"
-      name : "OpenForceField"
-      designation : "Lead Developer"
-      content : "Lead developer on all QCArchive projects and team lead for other developers. Responsibilities include
-      *checks notes* everything, neat!"
-      socialIcon :
-        - icon : "tf-ion-social-github"
-          URL : "https://github.com/dgasmith"
+    # Open Force field Consortium
+    - image : "images/collaborators/OpenFFVector.png"
+#      imageAlt : "images/collaborators/OpenFFVector.png"
+      name : "Open Force Field Consortium"
+      designation : "Collaborator and Sponsor"
+      content : "The <a href='url'>OpenFF Consortium</a> is an academic-industry collaboration designed to improve computer models used to
+                 guide pharmaceutical drug discovery. They are a major sponsor of the QCArchive and the customer for the use case of
+                 generating data for the parameters of a bespoke force field. They fragment and provide inputs for
+                 torsion scans, then provide those inputs to the QCArchive ecosystem for computation. Those computations
+                 then help generate parameters for the force fields based on atomic elements and connectivity rather
+                 than atom typing."
+#      socialIcon :
+#        - icon : "tf-ion-social-github"
+#          URL : "https://github.com/openforcefield/openforcefield"
 
-    # doaa
-    - image: "images/people/doaafull.webp"
-      imageAlt: "images/people/doaa.jpg"
-      name: "Doaa Altarawy"
-      designation: "Developer and Database designer"
-      content: "Developer database design, integrity, and interface"
+    # Distributed Driver
+    # From Lori: seamless embarrassingly parallel capabilities, deconvolute driver code, separate generic QC procedures driver from QC methods backend, checkpointing
+    - image: "images/collaborators/distributedDriver.png"
+      name: "Distributed Driver"
+      designation: "Developer and Extension"
+      content: "The Distributed Driver is a Psi4 compute driver designed to handle nested, conditional, and almost
+                programmatic operations in an iterative fashion. Multiple calculation managers and all their children
+                child managers can be staged together such that compute commands issued at parents are propagated to the
+                children.
+                This sort of distribution and job staging is exactly what the Fractal job queue and distributed
+                managers were designed to handle. Engine's schema-based input enables the type of programmatic execution
+                needed to handle these computations. Fractal, Engine, and Schema together vastly reduce the barrier to
+                efficiently setup and implement this technology and the Distributed Driver handles the top level task
+                creation logic and post-compute processing."
       socialIcon:
       - icon: "tf-ion-social-github"
-        URL: "https://github.com/doaa-altarawy"
+        URL: "https://github.com/psi4/psi4/pull/1351"
 
-    # lnn
-    - image : "images/people/nadenfull.webp"
-      imageAlt : "images/people/nadenfull.jpg"
-      name : "Levi Naden"
-      designation : "Developer"
-      content : "Developer focused on backend cluster integration, user interfaces, software releases and this website's
-      content"
-      socialIcon :
-        - icon : "tf-ion-social-github"
-          URL : "https://github.com/lnaden"
+# The rest of this is a team page, but not used so the content is just removed
 
-
-
-# design team
-designTeam:
-  enable : false
-  title : "Additional developers"
-  description : "More than three people does a project this size make! These additional developers are those who
-  have made significant contributions to individual projects, or the archive as a whole."
-  teamMember :
-
-    # team member
-    - image : "images/people/lorifull-ish.webp"
-      imageAlt : "images/people/lorifull-ish.jpg"
-      name : "Lori Burns"
-      designation : "Lead Psi4 Developer"
-      content : "Lead Psi4 dev and major developer to the QC Engine and QC Elemental projects "
-      socialIcon :
-        - icon : "tf-ion-social-github"
-          URL : "https://github.com/loriab"
-          
-    # team member
-    - image : "images/people/samfull.webp"
-      imageAlt : "images/people/samfull.jpg"
-      name : "Sam Ellis"
-      designation : "Software Scientist for MolSSI"
-      content : "Primary Requirements Engineer for the QCArchive project, keeps the rest of us from the dreaded scope creep"
-
-          
-    # team member
-    - image : "images/people/chayafull.webp"
-      imageAlt : "images/people/chayafull.jpg"
-      name : "Chaya Stern"
-      designation : "Open Forcefield Power User"
-      content : "Scientist on behalf of Open Forcefield who has been using QCArchive since the beginning and helping shape end-user interface and development"
-      socialIcon:
-      - icon: "tf-ion-social-github"
-        URL: "https://github.com/ChayaSt"
-          
-# marketing team
-marketingTeam:
-  enable : false
-  title : "Marketing Team"
-  description : "Small Apps makes it easy to stay on top of your Life Style. No late tasks. No gimmicks."
-  teamMember :
-    # team member
-    - image : "images/team/marketing-team-01.webp"
-      imageAlt : "images/team/marketing-team-01.jpg"
-      name : "Jonathon Andrew"
-      designation : "Head Of Marketing"
-      content : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat."
-      socialIcon :
-        - icon : "tf-ion-social-facebook"
-          URL : "#"
-          
-        - icon : "tf-ion-social-twitter"
-          URL : "#"
-          
-        - icon : "tf-ion-social-instagram"
-          URL : "#"
-          
-        - icon : "tf-ion-social-dribbble"
-          URL : "#"
-          
-    # team member
-    - image : "images/team/marketing-team-02.webp"
-      imageAlt : "images/team/marketing-team-02.jpg"
-      name : "Jonathon Andrew"
-      designation : "Head Of Marketing"
-      content : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat."
-      socialIcon :
-        - icon : "tf-ion-social-facebook"
-          URL : "#"
-          
-        - icon : "tf-ion-social-twitter"
-          URL : "#"
-          
-        - icon : "tf-ion-social-instagram"
-          URL : "#"
-          
-        - icon : "tf-ion-social-dribbble"
-          URL : "#"
-          
-    # team member
-    - image : "images/team/marketing-team-03.webp"
-      imageAlt : "images/team/marketing-team-03.jpg"
-      name : "Jonathon Andrew"
-      designation : "Head Of Marketing"
-      content : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat."
-      socialIcon :
-        - icon : "tf-ion-social-facebook"
-          URL : "#"
-          
-        - icon : "tf-ion-social-twitter"
-          URL : "#"
-          
-        - icon : "tf-ion-social-instagram"
-          URL : "#"
-          
-        - icon : "tf-ion-social-dribbble"
-          URL : "#"
-
-
-# call to action
+# Custom Community call to action
 cta :
   enable : true

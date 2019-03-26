@@ -1,0 +1,15 @@
+{{ "<!-- Section comment -->" | safeHTML }}
+<section class="section cta-hire bg-gary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        {{ with .Site.Params.communitycta }}
+        <h2>{{ .title }}</h2>
+        <p>{{ .content }}</p>
+        {{ end }}
+        <a href="{{ .Site.Params.communitycta.URL | absURL }}" class="btn btn-main">{{ .Site.Params.communitycta.btnText }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- End of Section comment -->" | safeHTML }}

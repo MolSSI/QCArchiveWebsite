@@ -1,13 +1,11 @@
 address:
-  - icon : "tf-phone2"
+  - icon : "tf-ion-email"
     addressList:
-      - listItem : "(00) 789 456 7890 (USA)"
-      - listItem : "(88) 016 725 0455 (UK)"
+      - listItem : "qcarchive@molssi.org"
       
-  - icon : "tf-map2"
+  - icon : "tf-ion-social-twitter"
     addressList:
-      - listItem : "36. St Michael’s St, Oxford OX1, UK"
-      - listItem : "123, Pennsylvania, USA"
+      - listItem : "@molssi_nsf"
 
 form:
-  formAction : "#"
+  formAction : "mailto:qcarchive@molssi.org"
