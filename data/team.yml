@@ -35,7 +35,7 @@ teamLeaders:
     - image: "images/people/lorihead.png"
 #      imageAlt: "images/people/lorifull-ish.webp"
       name: "Lori Burns"
-      designation: "Lead Psi4 Developer"
+      designation: "Core Psi4 Developer"
       content: "Developer for the QCEngine and QCElemental projects"
       socialIcon:
       - icon: "tf-ion-social-github"
