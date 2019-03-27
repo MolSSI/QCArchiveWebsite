@@ -1,8 +1,8 @@
 caseOpener:
     enable: true
     title: "Driven and developed by community needs"
-    content: 'The QCArchive project started from the needs wants of the quantum chemistry community and the fields which
-    benefit from its data. MolSSI reached out to the wider community and asked question such as:
+    content: 'The QCArchive project started from the needs and wants of the quantum chemistry community and the
+    fields which benefit from its data. MolSSI reached out to the wider community and asked question such as:
     <br><q><i>What is getting in the way of you focusing on your scientific efforts?</i></q>
     <br><q><i>What would help the field as a whole?</i></q>
     <br><q><i>What do you think is missing?</i></q>

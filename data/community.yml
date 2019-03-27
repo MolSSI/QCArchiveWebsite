@@ -6,8 +6,9 @@ teamLeaders:
 #      imageAlt : "images/collaborators/OpenFFVector.png"
       name : "Open Force Field Consortium"
       designation : "Collaborator and Sponsor"
-      content : "The <a href='url'>OpenFF Consortium</a> is an academic-industry collaboration designed to improve computer models used to
-                 guide pharmaceutical drug discovery. They are a major sponsor of the QCArchive and the customer for the use case of
+      content : "The <a href='https://openforcefield.org'>OpenFF Consortium</a> is an academic-industry collaboration
+                 designed to improve computer models used to
+                 guide pharmaceutical drug discovery. They are a major sponsor of the QCArchive and the partner for the use case of
                  generating data for the parameters of a bespoke force field. They fragment and provide inputs for
                  torsion scans, then provide those inputs to the QCArchive ecosystem for computation. Those computations
                  then help generate parameters for the force fields based on atomic elements and connectivity rather
@@ -21,10 +22,11 @@ teamLeaders:
     - image: "images/collaborators/distributedDriver.png"
       name: "Distributed Driver"
       designation: "Developer and Extension"
-      content: "The Distributed Driver is a Psi4 compute driver designed to handle nested, conditional, and almost
-                programmatic operations in an iterative fashion. Multiple calculation managers and all their children
-                child managers can be staged together such that compute commands issued at parents are propagated to the
-                children.
+      content: "The Distributed Driver is a Psi4 compute driver designed to deconvolute staged driver operations which
+                depend on one another while also separating the quantum chemistry compute implementations from the
+                higher level theory and procedures. Multiple calculation managers and any subsequent managers
+                which are dependent can be staged together such that compute commands issued at parents are propagated
+                to the children.
                 This sort of distribution and job staging is exactly what the Fractal job queue and distributed
                 managers were designed to handle. Engine's schema-based input enables the type of programmatic execution
                 needed to handle these computations. Fractal, Engine, and Schema together vastly reduce the barrier to

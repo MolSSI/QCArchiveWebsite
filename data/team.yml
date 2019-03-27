@@ -32,11 +32,11 @@ teamLeaders:
         - icon : "tf-ion-social-github"
           URL : "https://github.com/lnaden"
 
-    - image: "images/people/lorifull-ish.jpg"
+    - image: "images/people/lorihead.png"
 #      imageAlt: "images/people/lorifull-ish.webp"
       name: "Lori Burns"
       designation: "Lead Psi4 Developer"
-      content: "Lead Psi4 dev and developer for the QC Engine and QC Elemental projects"
+      content: "Developer for the QCEngine and QCElemental projects"
       socialIcon:
       - icon: "tf-ion-social-github"
         URL: "https://github.com/loriab"
@@ -47,7 +47,7 @@ teamLeaders:
 designTeam:
   enable : true
   title : "Additional developers and contributors"
-  description : "More than four people does a project this size make! These additional developers are those who
+  description : "It take more than four people to make a project this size. These additional developers are those who
   have made significant contributions to individual projects, or the archive as a whole."
   teamMember :
           
