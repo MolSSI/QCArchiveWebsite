@@ -16,7 +16,9 @@
             <p>{{ .content }}</p>
             {{ "<!-- Social Sites -->" | safeHTML }}
             <ul class="list-inline social-links">
+              {{ range .socialIcon }}
               <li class="list-inline-item"><a href="{{ .URL }}"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -48,17 +50,15 @@
           <div class="team-sm">
             <div class="image">
               <img class="img-fluid" src="{{.image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="member-image">
-              <div class="social-links">
-                <ul class="list-inline">
-                  {{ range .socialIcon }}
-                  <li class="list-inline-item"><a href="{{ .URL }}"><i class="{{ .icon }}"></i></a></li>
-                  {{ end }}
-                </ul>
-              </div>
             </div>
             <h3>{{ .name }}</h3>
             <cite>{{ .designation }}</cite>
             <p>{{ .content }}</p>
+            <ul class="list-inline social-links">
+              {{ range .socialIcon }}
+              <li class="list-inline-item"><a href="{{ .URL }}"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
           </div>
         </div>
         {{ end }}
@@ -89,17 +89,15 @@
           <div class="team-sm">
             <div class="image">
               <img class="img-fluid" src="{{.image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="member-image">
-              <div class="social-links">
-                <ul class="list-inline">
-                  {{ range .socialIcon }}
-                  <li class="list-inline-item"><a href="{{ .URL }}"><i class="{{ .icon }}"></i></a></li>
-                  {{ end }}
-                </ul>
-              </div>
             </div>
             <h3>{{ .name }}</h3>
             <cite>{{ .marketingation }}</cite>
             <p>{{ .content }}</p>
+            <ul class="list-inline social-links">
+              {{ range .socialIcon }}
+              <li class="list-inline-item"><a href="{{ .URL }}"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
           </div>
         </div>
         {{ end }}
