@@ -4,6 +4,12 @@
   // Preloader js    
   $(window).on('load', function () {
       $('.preloader').fadeOut(100);
+      // Fix Owl Carousel failing to get correct image size due to dynamic page creation
+      // Carousel image size was calculated before content was populated, so fell to default
+      // https://github.com/OwlCarousel2/OwlCarousel2/issues/461#issuecomment-330080323
+      // https://github.com/OwlCarousel2/OwlCarousel2/issues/2054#issuecomment-328081874
+      // Not related to fix in Owl Carousel 2.3.4
+      $('.owl-carousel').trigger('refresh.owl.carousel');
   });
 
   $(document).on('ready', function () {
