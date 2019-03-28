@@ -32,7 +32,7 @@ behindStory:
   title : "The QCArchive is an Open-Source Ecosystem"
   content : " The QCA project is designed from the start to be open-source and
 available to the computational molecular sciences community. The entire code
-basic is public through GitHub repositories, and we are contributing back to
+base is public through GitHub repositories, and we are contributing back to
 other Open Source projects as good members of the community. Rather than a
 monolithic piece of software, the QCArchive software ecosystem is decomposed
 into several components so that it can be used as a full ecosystem to build on
