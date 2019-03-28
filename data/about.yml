@@ -61,13 +61,10 @@ preserved over any updates of the database. "
   - image: "images/about/boxology_private.webp"
     imageAlt: "images/about/boxology_private.png"
     title: "Private data"
-    content: "We understand that some users and companies have private data. As
-the QCArchive software stack is fully open-source, the primary database and job
+    content: "The QCArchive software stack is fully open-source, the primary database and job
 distribution engine, QCFractal, can be created locally on your hardware and
 connected to your compute cluster without ever communicating outside your
-firewall. There is a feature we are designing which will allow one-way
-communication with our persistent server so you can reference the existing
-database without exposing your own information."
+firewall."
 
 # quote slider
 quoteSlider:

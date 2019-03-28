@@ -6,9 +6,8 @@ banner:
   image : "images/QCArchiveDrop2.svg"
   imageAlt : "images/QCArchiveDrop2.png"
   button:
-    # LNN: This should be a download, but no easy way to do that through conda
-    btnText : "Visit the Detailed Docs"
-    URL : "https://docs.qcarchive.molssi.org/en/latest/index.html"
+    btnText : "Get Started!"
+    URL : "/get_started/"
 
 # Top level overview
 # LNN note: "enable : false" does not remove these blocks of "featureX"
