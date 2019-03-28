@@ -20,7 +20,7 @@ featureOne:
   content : 'The core of this project sets out to answer the fundamental question of "How do we compile, aggregate, query, and share quantum chemistry data to accelerate the understanding of new method performance, fitting of novel force fields, and supporting the incredible data needs of machine learning for computational molecular science?"'
   comment : "[Do you want to be quoted on the website?] Sure!"  #LNN Note: Make a real quote of DGAS
   clientImage : "images/people/dgashead.jpg"
-  clientName : "Daniel G. A. Smith, Head QCA Developer, MolSSI Software Scientist"
+  clientName : "Daniel G. A. Smith, Lead QCA Developer, MolSSI Software Scientist"
 
 # feature two
 featureTwo:
