@@ -66,7 +66,7 @@ open to the community.
     image : "images/about/td_network.png"
     content : "The community can extend the MolSSI QCArchive database by
 supplying additional compute time to this central queue. If you are interested
-in additional methods for a given dataset! Also, if you have a
+in additional methods for a given dataset get in touch! Also, if you have a
 well-structured dataset that is not within our database already, we accept
 contributions. This process is currently in beta, and we are actively looking
 to work with additional groups.
@@ -85,8 +85,9 @@ to work with additional groups.
     content : "The QCArchive ecosystem is an open source project backed by the
 Molecular Sciences Software Institute. In addition to our open-source
 commitments, paid support for custom QCFractal instances, code, consulting, and
-priority support is available. For academics projects, consider writing us into
-your next grant. Contact us for additional information. 
+priority support is available. For academic projects, consider writing us into
+your next grant for priority support and training.  Contact us for additional
+information. 
 
 <br></br>
 
@@ -97,9 +98,9 @@ your next grant. Contact us for additional information.
 
   - image: "images/about/openff_workflow.png"
     title: "Execute Complex Pipelines"
-    content: "QCFractal can execute a single or thousands of pipeline
+    content: "QCFractal can execute a single pipeline or thousands of pipeline
 (workflow) operations simultaneously on a laptop or a dozen supercomputers.
-This elasticity allows for easy development and the ability to explore and
+This elasticity allows for easy development and the ability to explore
 capabilities on laptops while still retaining the ability to scale. We currently
 support Optimization, GridOptimization, and TorsionDrive pipelines. Extra capabilities
 can be quickly added to the stack, get in touch or check out the code!
