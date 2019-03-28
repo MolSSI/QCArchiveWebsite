@@ -20,8 +20,8 @@ use-cases in the Quantum Chemistry field through the QCArchive project. "
     - image : "images/molssi-logo.svg"
       imageAlt : "images/molssi-logo-500.png"
 
-    - image : "images/QCArchiveLogo.svg"
-      imageAlt : "images/QCArchiveLogo.png"
+    - image : "images/QCArchiveLogo.png"
+      imageAlt : "images/QCArchiveLogo.svg"
 
     - image : "images/about/NSFLogo.svg"
       imageAlt : "images/about/nsf.png"
