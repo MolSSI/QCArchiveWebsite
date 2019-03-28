@@ -6,35 +6,59 @@ teamLeaders:
 #      imageAlt : "images/collaborators/OpenFFVector.png"
       name : "Open Force Field Consortium"
       designation : "Collaborator and Sponsor"
-      content : "The <a href='https://openforcefield.org'>OpenFF Consortium</a> is an academic-industry collaboration
-                 designed to improve computer models used to
-                 guide pharmaceutical drug discovery. They are a major sponsor of the QCArchive and the partner for the use case of
-                 generating data for the parameters of a bespoke force field. They fragment and provide inputs for
-                 torsion scans, then provide those inputs to the QCArchive ecosystem for computation. Those computations
-                 then help generate parameters for the force fields based on atomic elements and connectivity rather
-                 than atom typing."
-#      socialIcon :
-#        - icon : "tf-ion-social-github"
-#          URL : "https://github.com/openforcefield/openforcefield"
+      content : "The <a href='https://openforcefield.org'>OpenFF Consortium</a>
+is an academic-industry collaboration designed to improve computer models used
+to guide pharmaceutical drug discovery. They are a major sponsor of the
+QCArchive and the partner for the use case of generating data for the
+parameters of a bespoke force field. They fragment and provide inputs for
+torsion scans, then provide those inputs to the QCArchive ecosystem for
+computation. Those computations then help generate parameters for the force
+fields based on atomic elements and connectivity rather than atom typing."
+      socialIcon :
+        - icon: "tf-ion-laptop"
+          URL: "https://openforcefield.org"
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/openforcefield/openforcefield"
 
     # Distributed Driver
-    # From Lori: seamless embarrassingly parallel capabilities, deconvolute driver code, separate generic QC procedures driver from QC methods backend, checkpointing
     - image: "images/collaborators/distributedDriver.png"
-      name: "Distributed Driver"
+      name: "Quantum Chemistry Distributed Driver"
       designation: "Developer and Extension"
-      content: "The Distributed Driver is a Psi4 compute driver designed to deconvolute staged driver operations which
-                depend on one another while also separating the quantum chemistry compute implementations from the
-                higher level theory and procedures. Multiple calculation managers and any subsequent managers
-                which are dependent can be staged together such that compute commands issued at parents are propagated
-                to the children.
-                This sort of distribution and job staging is exactly what the Fractal job queue and distributed
-                managers were designed to handle. Engine's schema-based input enables the type of programmatic execution
-                needed to handle these computations. Fractal, Engine, and Schema together vastly reduce the barrier to
-                efficiently setup and implement this technology and the Distributed Driver handles the top level task
-                creation logic and post-compute processing."
+      content: "The Distributed Driver is a Psi4 compute driver designed to
+deconvolute staged driver operations which depend on one another while also
+separating the quantum chemistry compute implementations from the higher level
+theory and procedures. Multiple calculation managers and any subsequent
+managers which are dependent can be staged together such that compute commands
+issued at parents are propagated to the children.
+
+                <br></br>
+
+                This sort of distribution and job staging is exactly what the
+QCFractal job queue and distributed managers were designed to handle. QCEngine's
+schema-based input enables the type of programmatic execution needed to handle
+these computations. Fractal, Engine, and Schema together vastly reduce the
+barrier to efficiently setup and implement this technology and the Distributed
+Driver handles the top level task creation logic and post-compute processing."
       socialIcon:
       - icon: "tf-ion-social-github"
         URL: "https://github.com/psi4/psi4/pull/1351"
+
+    - image: "images/collaborators/QuBeKit-300x127.png"
+      name: "QUBEKit: bespoke force field parameters derived from QM"
+      designation: "Collaborator"
+      content: "The QUantum mechanical Bespoke toolkit (QUBEKit) is a software
+package developed at Newcastle University, UK. QUBEKit automates the derivation
+of bespoke bond, angle, dihedral and non-bonded force field parameters for
+small organic molecules directly from quantum chemistry calculations, which are
+reliably provided through the QCEngine. QUBEKit will make use of
+QCArchive/Fractal to rapidly fit torsion parameters of unique molecules, to
+provide an intuitive interface for accurate and bespoke force field design.  
+"
+      socialIcon:
+      - icon: "tf-ion-laptop"
+        URL: "https://blogs.ncl.ac.uk/danielcole/qube-force-field/"
+      - icon: "tf-ion-social-github"
+        URL: "https://github.com/cole-group/QUBEKit"
 
 # The rest of this is a team page, but not used so the content is just removed
 

@@ -18,9 +18,9 @@ featureOne:
 #  imageAlt : "images/boxology_overview_nobar.webp"
   title : "A free, community-driven, multi-user quantum chemistry database"
   content : 'The core of this project sets out to answer the fundamental question of "How do we compile, aggregate, query, and share quantum chemistry data to accelerate the understanding of new method performance, fitting of novel force fields, and supporting the incredible data needs of machine learning for computational molecular science?"'
-  comment : "[Do you want to be quoted on the website?] Sure!"  #LNN Note: Make a real quote of DGAS
+  comment : "Data should be open and extensible, these principles form the basis of open science."  #LNN Note: Make a real quote of DGAS
   clientImage : "images/people/dgashead.jpg"
-  clientName : "Daniel G. A. Smith, Head QCA Developer, MolSSI Software Scientist"
+  clientName : "Daniel G. A. Smith, Lead QCA Developer, MolSSI Software Scientist"
 
 # feature two
 featureTwo:
