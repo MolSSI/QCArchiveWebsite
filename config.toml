@@ -108,27 +108,27 @@ paginate = 6
     [[menu.main]]
     parent = "Documentation"
     name = "Examples "
-    URL = "http://docs.qcarchive.molssi.org/"
+    URL = "https://docs.qcarchive.molssi.org/"
 
     [[menu.main]]
     parent = "Documentation"
     name = "QCPortal "
-    URL = "http://docs.qcarchive.molssi.org/projects/qcportal/en/latest"
+    URL = "https://docs.qcarchive.molssi.org/projects/qcportal/en/latest"
 
     [[menu.main]]
     parent = "Documentation"
     name = "QCFractal "
-    URL = "http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest"
+    URL = "https://docs.qcarchive.molssi.org/projects/qcfractal/en/latest"
 
     [[menu.main]]
     parent = "Documentation"
     name = "QCEngine "
-    URL = "http://docs.qcarchive.molssi.org/projects/qcengine/en/latest"
+    URL = "https://docs.qcarchive.molssi.org/projects/qcengine/en/latest"
 
     [[menu.main]]
     parent = "Documentation"
     name = "QCElemental "
-    URL = "http://docs.qcarchive.molssi.org/projects/qcelemental/en/latest"
+    URL = "https://docs.qcarchive.molssi.org/projects/qcelemental/en/latest"
 
   [[menu.main]]
   weight = 10
@@ -169,7 +169,7 @@ paginate = 6
 
   [[menu.footer]]
   name = "Examples"
-  URL = "http://docs.qcarchive.molssi.org/"
+  URL = "https://docs.qcarchive.molssi.org/"
   weight = 3
   
   [[menu.footer]]

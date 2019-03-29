@@ -39,15 +39,105 @@ into several components so that it can be used as a full ecosystem to build on
 top of or in support of community software. See a full list of software
 components <a href=/projects/>here</a>."
 
+about2:
+  enable: false
+  title : "A multilayered ecosystem"
+  content : "
+<p>
+    The QCArchive ecosystem is made up of a series of layers to suit a variety of different
+use cases. The QCArchive ecosystem consists of the following: 
+
+<div class='col-12 text-center'>
+        <a href='/get_started' class='btn btn-main-md'>Get Started!</a>
+</div>
+"
+
+  imageSlider:
+    - image : "images/molssi-logo.svg"
+      imageAlt : "images/molssi-logo-500.png"
+
+    - image : "images/QCArchiveLogo.png"
+      imageAlt : "images/QCArchiveLogo.svg"
+
+    - image : "images/about/NSFLogo.svg"
+      imageAlt : "images/about/nsf.png"
+
 # create story
 createStory:
+
+  - title : "A multilayered ecosystem"
+    content : "
+<p>
+    The QCArchive ecosystem is made up of a series of layers to suit a variety of different
+use cases. The QCArchive ecosystem consists of the following: 
+</p>
+
+<div class='col-12 text-left'>
+<ul>
+  <li>
+    Support libraries for quantum chemistry, from physical constants to abstract program execution engines.
+  </li>
+  <li>
+    A distributed task engine for running and organizing arbitrary computations.
+  </li>
+  <li>
+    The MolSSI QCArchive instance for the community to share and archive data.
+  </li>
+  <li>
+    High-level organizational layers known as <i>Collections</i> to compute and analyize commonly found operations.
+  </li>
+</ul>
+</div>
+
+<p>
+See our getting started page for help on finding the right place to start:
+</p>
+
+<br></br>
+
+<div class='col-12 text-center'>
+        <a href='/get_started' class='btn btn-main-md'>Get Started!</a>
+</div>
+<br></br>
+"
+
   - image : "images/about/cookie.webp"
     imageAlt : "images/about/cookie.png"
     title : "We support software best practices"
     content : "QCArchive's projects are all based on the same software best
 practices. Both users and developers can follow the code structure between all
 of the projects, and these practices are provided back to the community through
-the external projects like the CMS-Cookiecutter."
+the external projects like the CMS-Cookiecutter. This cookiecutter supports:
+
+<br></br>
+
+<div class='col-12 text-left'>
+<ul>
+  <li>
+    Continuous integration with automated testing and testing coverage
+  </li>
+  <li>
+    Automated versionsing and package distribution via Conda-Forge and PyPI
+  </li>
+  <li>
+    Code quality and linting checks for beutiful code
+  </li>
+  <li>
+    Automatic package organization and documentation setup
+  </li>
+</ul>
+</div>
+
+
+"
+
+  - image: "images/about/boxology_private.webp"
+    imageAlt: "images/about/boxology_private.png"
+    title: "Private data"
+    content: "The QCArchive software stack is fully open-source, the primary database and job
+distribution engine, QCFractal, can be created locally on your hardware and
+connected to your compute cluster without ever communicating outside your
+firewall."
 
   - image : "images/about/covlgtm.webp"
     imageAlt : "images/about/covlgtm.png"
@@ -57,14 +147,6 @@ continuous integration, code linters, and test coverage tools which help reduce
 the chance that bugs are introduced. We take data accuracy very seriously and
 all results and calculations are versioned, provenance tracked, and will be
 preserved over any updates of the database. "
-
-  - image: "images/about/boxology_private.webp"
-    imageAlt: "images/about/boxology_private.png"
-    title: "Private data"
-    content: "The QCArchive software stack is fully open-source, the primary database and job
-distribution engine, QCFractal, can be created locally on your hardware and
-connected to your compute cluster without ever communicating outside your
-firewall."
 
 # quote slider
 quoteSlider:
