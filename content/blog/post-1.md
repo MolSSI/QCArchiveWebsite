@@ -3,7 +3,7 @@ title: "QCArchive at ACS 2019"
 date: 2019-03-23
 description: "QCA at ACS"
 pageDescription : "The Quantum Chemistry Archive makes its debut at the American Chemical Society annual meeting in Spring of 2019"
-type : "featured-post"
+type : "post"
 image : "images/blog/acs2019.png"
 author : "Levi Naden"
 authorImage : "images/people/nadenhead.jpg"
