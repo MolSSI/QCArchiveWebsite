@@ -59,6 +59,10 @@ join our
 National ACS Orlando meeting find us at the MolSSI symposium on Sustainable
 Software (Valencia Ballroom, Theater 7)!
 
+<div class='col-12 text-center'>
+        <a href='/get_started/' class='btn btn-main-md'>Get Started!</a>
+</div>
+
 We hope you find this project useful and will consider working with us to help
 us evolve the project to provide a central data repository for the
 computational molecular sciences community.
