@@ -85,7 +85,7 @@ Sincerely,
 - Sam Ellis (MolSSI)
 - Chaya Stern (MSKCC)
 - Fang Liu (MIT)
-- Sebastian Dick (Berkeley)
+- Sebastian Lee (Cal Tech)
 - Dom Sirianni (Georgia Tech)
 - Daniel Nascimento (Georgia Tech)
 - Yudong Qiu (UC Davis)
