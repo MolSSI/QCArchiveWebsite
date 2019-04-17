@@ -71,12 +71,12 @@ service:
 # promo video
 # LNN: The "enable" works here
 promoVideo:
-  enable : false
-  bgImage : "images/background/promo-video-back.webp"
-  bgImageAlt : "images/background/promo-video-back.jpg"
-  title : "Watch Our Promo Video"
-  content : "Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus"
-  videoURL : "http://www.youtube.com/watch?v=opj24KnzrWo"
+  enable : True
+  bgImage : "images/background/qcablackback.png"
+  #bgImageAlt : "images/background/qcablackback.png"
+  title : "Watch Our Debut Presentation!"
+  content : "Watch the debut presentation of the QCArchive also presented at the 2019 Spring ACS Conference"
+  videoURL : "http://www.youtube.com/watch?v=0dmqZqVQAR8"
 
 # testimonial
 testimonial:
