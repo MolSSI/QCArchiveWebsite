@@ -323,7 +323,7 @@
 			bottom: 0;
 			left: 0;
 			right: 0;
-			background-color: rgba(255, 255, 255, .1);
+			background-color: rgba(255, 255, 255, .15);
 			transform: rotate(-35deg);
 			position: absolute;
 			border-radius: 50px;
@@ -441,4 +441,25 @@
 		width: 100px;
 		height: 5px;
 	}
+
+	.shape:nth-child(17) {
+		top: 10%;
+		right: 51%;
+		left: 49%;
+		width: 600px;
+		height: 600px;
+        position: relative;
+
+		&::before {
+			content: '';
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: rgba(255, 255, 255, .25);
+			transform: rotate(-45deg);
+			position: absolute;
+			border-radius: 50px;
+		}
+    }
 }
