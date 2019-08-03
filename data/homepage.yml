@@ -13,11 +13,11 @@ banner:
 bannerFeature:
   - icon: "tf-linegraph"
     title: "FAIR Data"
-    description: "The MolSSI hosts a central QCArchive server which stores millions of computations for the molecular sciences community."
+    description: "MolSSI hosts a central QCArchive server which stores millions of computations for the molecular sciences community."
 
   - icon: "tf-ion-ios-pie"
     title: "Interactive Visualization"
-    description: "Not only for computing and storing quantum chemistry computations at scale, but for visualizing and understanding results as well."
+    description: "Not only for computing and storing quantum chemistry computations at scale, but also for visualizing and understanding results as well."
 
   - icon: "tf-ion-erlenmeyer-flask"
     title: "Private Instances"
