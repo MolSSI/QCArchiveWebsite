@@ -1,7 +1,7 @@
 baseURL = "https://qcarchive.molssi.org"
 languageCode = "en-us"
 title = "The MolSSI QCArchive"
-theme = "small-apps"
+theme = "small-apps-v2"
 summaryLength = "10"
 paginate = 6
 

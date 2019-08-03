@@ -9,6 +9,22 @@ banner:
     btnText : "Get Started!"
     URL : "/get_started/"
 
+# banner-feature
+bannerFeature:
+  - icon: "tf-linegraph"
+    title: "FAIR Data"
+    description: "The MolSSI hosts a central QCArchive server which stores millions of computations for the molecular sciences community."
+
+  - icon: "tf-ion-ios-pie"
+    title: "Interactive Visualization"
+    description: "Not only for computing and storing quantum chemistry computations at scale, but for visualizing and understanding results as well."
+
+  - icon: "tf-ion-erlenmeyer-flask"
+    title: "Private Instances"
+    description: "The QCArchive ecosystem is fully open-souce. Spin up your own instance to compute private data and share only with collaborators."
+
+#Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam dignissimos molestias."
+
 # Top level overview
 # LNN note: "enable : false" does not remove these blocks of "featureX"
 featureOne:
