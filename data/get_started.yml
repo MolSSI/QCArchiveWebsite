@@ -1,52 +1,7 @@
-about:
-  enable: true
-  title : "View data with QCPortal"
-  content : "
-QCPortal is the Python front-end for analyzing and visualizing results.
-QCPortal contains many types of <i>Collections</i> that organize large amounts
-of data in canonical ways such as a <i>RectionDataset</i> which contains many
-common interaction energy, thermochemical, and conformational datasets from the
-literature.
-
-<br></br>
-
-Get started with our examples:
-
-<div class='col-12 text-left'>
-        <a href='http://docs.qcarchive.molssi.org/en/latest/' class='btn btn-main-md'>See Examples</a>
-</div>
-
-  "
-  imageSlider:
-    - image : "images/about/client_connection.png"
-    - image : "images/about/violin_plot.png"
-    - image : "images/about/torsiondrive_plot.png"
-
-about2:
-  enable: false
-  title : "Execute Complex Workflows"
-  content : "
-This is another slider aligned to the right
-
-<br></br>
-Get started with our examples:
-
-<div class='col-12 text-left'>
-        <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md'>Contact Us</a>
-</div>
-
-  "
-  imageSlider:
-    - image : "images/about/client_connection.png"
-    - image : "images/about/violin_plot.png"
-    - image : "images/about/torsiondrive_plot.png"
-
-
-
-# create story
-createStory:
-  - image: "images/about/github_ecosystem.png"
-    title: "Using the QCArchive ecosystem"
+ecosystem:
+    enable: true
+    image: "images/about/github_ecosystem.png"
+    title: "Use the QCArchive ecosystem in your software"
     content: "The QCArchive ecosystem was created not as a monolithic piece of
 software, but as several modules that form an ecosystem.  This provides many
 libraries that can be used independently. Whether you want physical constants
@@ -57,15 +12,40 @@ open to the community.
 <br></br>
 
 <div class='col-12 text-center'>
-        <a href='/projects' class='btn btn-main-md'>Projects</a>
+        <a href='/projects' class='btn btn-main-md'>QCArchive Projects</a>
 </div>
 
 "
 
-  - title : "Extend the MolSSI QCArchive database"
+qcportal:
+  enable: true
+  title : "View data with QCPortal"
+  image : "images/about/violin_plot.png"
+  content : "
+MolSSI curates many common 
+interaction energy, thermochemical, and conformational datasets 
+from the literature.
+These data can be accessed, analyzed, and visualized through 
+QCPortal, a Python front-end.
+
+<br></br>
+
+<div class='col-12 text-center'>
+        <a href='http://docs.qcarchive.molssi.org/en/latest/' class='btn btn-main-md-red'>See Examples</a>
+</div>
+  "
+  imageSlider:
+    - image : "images/about/client_connection.png"
+    - image : "images/about/violin_plot.png"
+    - image : "images/about/torsiondrive_plot.png"
+
+
+extend:
+    enable: true
+    title : "Extend the MolSSI QCArchive"
     image : "images/about/td_network.png"
     content : "The community can extend the MolSSI QCArchive database by
-supplying additional compute time to this central queue. If you are interested
+supplying compute time or data. If you are interested
 in additional methods for a given dataset get in touch! Also, if you have a
 well-structured dataset that is not within our database already, we accept
 contributions. This process is currently in beta, and we are actively looking
@@ -74,13 +54,15 @@ to work with additional groups.
 <br></br>
 
 <div class='col-12 text-center'>
-        <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md'>Contact Us</a>
+        <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md-red'>Contact Us</a>
 </div>
 <br></br>
-
 "
 
-  - image : "images/about/code_demo.png"
+
+paidSupport:
+    enable: true
+    image : "images/about/code_demo.png"
     title : "Paid Support"
     content : "The QCArchive ecosystem is an open source project backed by the
 Molecular Sciences Software Institute. In addition to our open-source
@@ -96,7 +78,9 @@ information.
 </div>
 "
 
-  - image: "images/about/openff_workflow.png"
+fractal:
+    enable: true
+    image: "images/about/openff_workflow.png"
     title: "Execute Complex Pipelines"
     content: "QCFractal can execute a single pipeline or thousands of pipeline
 (workflow) operations simultaneously on a laptop or a dozen supercomputers.
@@ -107,7 +91,7 @@ can be quickly added to the stack, get in touch or check out the code!
 
 <br></br>
 <div class='col-12 text-center'>
-        <a href='https://github.com/MolSSI/QCFractal' class='btn btn-main-md'>QCFractal</a>
+        <a href='https://github.com/MolSSI/QCFractal' class='btn btn-main-md'>QCFractal on GitHub</a>
 </div>
 "
 

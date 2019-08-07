@@ -2,102 +2,102 @@
 
   {{ partial "page-title.html" . }}
 
-  {{ if .Site.Data.get_started.about.enable }}
-  {{ "<!-- Our Story -->" | safeHTML }}
-  <section class="section about p-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <div class="content">
-              {{ with .Site.Data.get_started.about }}
-            <h2>{{ .title }}</h2>
-            <p>{{ .content  | safeHTML }}</p>
-            {{ end }}
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="about-slider owl-carousel owl-theme">
-            {{ range .Site.Data.get_started.about.imageSlider }}
-            <div class="item">
-              <img src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="slider-image">
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {{ "<!-- End of Our Story -->" | safeHTML }}
-  {{ end }}
-
-  {{ if .Site.Data.get_started.behindStory.enable }}
-  {{ "<!-- Behind Story -->" | safeHTML }}
-  {{ with .Site.Data.get_started.behindStory }}
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="section-title mb-0">
-            <h2>{{ .title }}</h2>
-            <p>{{ .content  | safeHTML }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {{ "<!-- End of Behind Story -->" | safeHTML }}
-  {{ end }}
-  {{ end }}
-
-  {{ "<!-- Create Story -->" | safeHTML }}
-  <section class="section create-stories pt-0">
-    <div class="container">
-      <div class="row">
-        {{ range .Site.Data.get_started.createStory }}
-        <div class="col-lg-6">
-          <div class="block">
-            <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image">
-            <h3>{{ .title }}</h3>
-            <p>{{ .content  | safeHTML }}</p>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-  {{ "<!-- End of Create Story -->" | safeHTML }}
+ 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;border: none;max-width:1000px;
+min-width: 800px;}
+.tg td{font-size:28px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-size:28px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-r2ek{background-color:#ed1c24;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-pq37{background-color:#2e7eed;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-feht{background-color:#ffccc9;text-align:justify;vertical-align:top; padding: 30px 30px; width: 50%;}
+.tg .tg-3kui{background-color:#dae8fc;text-align:justify;vertical-align:top; padding: 30px 30px; width: 50%;}
+.tg .tg-73oq{text-align:center;vertical-align:top}
+.btn-main-md-red{
+    padding: 17px 38px;
+    border-radius: 3px;
+    background: #ed1c24;
+    color: #ffffff;
+    outline: none;
+    &:hover{
+        color: #ffffff;
+    }
+    &:focus{
+        color: #ffffff;
+        box-shadow: none;
+    }
+}
+</style>
+  <table class="tg">
+      <tr>
+          <th class="tg-r2ek">Access the MolSSI QCArchive</th>
+          <th class="tg-pq37">Download QCArchive software</th>
+      </tr>
+      <tr>
+          <td class="tg-feht">
+              {{ "<!-- qcportal -->" | safeHTML }}
+              {{ with .Site.Data.get_started.qcportal }}
+              <section class="section create-stories pt-0">
+                  <h3>{{ .title }}</h3>
+                  <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px #ed1c24 solid ">
+                  <p>{{ .content  | safeHTML }}</p>
+              </section>
+              {{ end }}
+              {{ "<!-- End of qcportal -->" | safeHTML }}
 
 
+          <td class="tg-3kui">
+              {{ "<!-- fractal -->" | safeHTML }}
+              {{ with .Site.Data.get_started.fractal }}
+              <section class="section create-stories pt-0">
+                  <h3>{{ .title }}</h3>
+                  <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px solid #2e7eed">
+                  <p>{{ .content  | safeHTML }}</p>
+              </section>
+              {{ end }}
+              {{ "<!-- End of fractal -->" | safeHTML }}
+          </td>
+      </tr>
+      <tr>
+          <td class="tg-feht">
+              {{ "<!-- extend  -->" | safeHTML }}
+              {{ with .Site.Data.get_started.extend }}
+              <section class="section create-stories pt-0">
+                  <h3>{{ .title }}</h3>
+                  <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px solid #ed1c24">
+                  <p>{{ .content  | safeHTML }}</p>
+              </section>
+              {{ end }}
+              {{ "<!-- End of extend -->" | safeHTML }}
+          </td>
+          <td class="tg-3kui">
+              {{ "<!-- ecosystem -->" | safeHTML }}
+              {{ with .Site.Data.get_started.ecosystem }}
+              <section class="section create-stories pt-0">
+                  <h3>{{ .title }}</h3>
+                  <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px solid #2e7eed">
+                  <p>{{ .content  | safeHTML }}</p>
+              </section>
+              {{ end }}
+              {{ "<!-- End of ecosystem -->" | safeHTML }}
+          </td>
+      </tr>
+      <tr>
+          <td colspan=2>
+              <center>
+              {{ "<!-- paidSupport -->" | safeHTML }}
+              {{ with .Site.Data.get_started.paidSupport }}
+              <section class="section create-stories pt-0">
+                  <h3>{{ .title }}</h3>
+                  <p>{{ .content  | safeHTML }}</p>
+              </section>
+              {{ end }}
+              {{ "<!-- End of paidSupport -->" | safeHTML }}
+              </center>
+          </td>
+      </tr>
+  </table>
 
-  {{ if .Site.Data.get_started.about2.enable }}
-  {{ "<!-- Our Story2 -->" | safeHTML }}
-  <section class="section about p-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="about-slider owl-carousel owl-theme">
-            {{ range .Site.Data.get_started.about2.imageSlider }}
-            <div class="item">
-              <img src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="slider-image">
-            </div>
-            {{ end }}
-          </div>
-        </div>
-
-        <div class="col-md-6 align-self-center">
-          <div class="content">
-              {{ with .Site.Data.get_started.about2 }}
-            <h2>{{ .title }}</h2>
-            <p>{{ .content  | safeHTML }}</p>
-            {{ end }}
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  {{ "<!-- End of Our Story2 -->" | safeHTML }}
-  {{ end }}
 
 
   {{ if .Site.Data.get_started.quoteSlider.enable }}
@@ -174,6 +174,25 @@
 
   {{ if .Site.Data.get_started.cta.enable }}
   {{ partial "cta.html" . }}
+  {{ end }}
+
+  {{ if .Site.Data.get_started.behindStory.enable }}
+  {{ "<!-- Behind Story -->" | safeHTML }}
+  {{ with .Site.Data.get_started.behindStory }}
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title mb-0">
+            <h2>{{ .title }}</h2>
+            <p>{{ .content  | safeHTML }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ "<!-- End of Behind Story -->" | safeHTML }}
+  {{ end }}
   {{ end }}
 
 {{ end }}
