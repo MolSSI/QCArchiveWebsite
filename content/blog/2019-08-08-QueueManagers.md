@@ -63,12 +63,12 @@ flooding of a compute resource queue with a large number of tasks which it may n
 
 We currently support the following task execution systems for various contexts:
 
-* [RADICAL](https://radical-cybertools.github.io)
-* [Parsl](https://parsl.readthedocs.io/en/latest/index.html)
-* [Dask Jobqueue](https://jobqueue.dask.org/en/latest/)
-* [Balsam](https://balsam.readthedocs.io/en/latest/)
-* [FireWorks](https://materialsproject.github.io/fireworks/)
-* [Python ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html)
+* **[RADICAL](https://radical-cybertools.github.io)**
+* **[Parsl](https://parsl.readthedocs.io/en/latest/index.html)**
+* **[Dask Jobqueue](https://jobqueue.dask.org/en/latest/)**
+* **[Balsam](https://balsam.readthedocs.io/en/latest/)**
+* **[FireWorks](https://materialsproject.github.io/fireworks/)**
+* **[Python ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html)**
 
 Each of these task execution systems has proven to be useful in assisting us to distribute tasks on dozens of different 
 campus clusters, each of which has a unique setup. There are cases where an LSF scheduler is only available in 
@@ -78,7 +78,7 @@ the typical use case so that users do not need to try such a wide variety of too
 working closely with the developers of the task execution layers to extend their capability to cover a wider variety of 
 compute clusters.
 
-To test our capabilities, we ran on Argonne Theta using the [Balsam adapter](https://balsam.readthedocs.io/en/latest/) 
+To test our capabilities, we ran on Argonne Theta using the **[Balsam adapter](https://balsam.readthedocs.io/en/latest/)**
 task execution system. With the help from the Balsam team at Argonne, we were able to add Balsam to our list of 
 available task execution systems. An initial trial run on Theta consisted of six hours of wall clock time and 802 nodes 
 where we submitted a total of 28,000 tasks consuming roughly 300,000 core hours. Midway through the run, we noticed 
