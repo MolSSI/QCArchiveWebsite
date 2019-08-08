@@ -94,7 +94,6 @@ as we have found bugs in the code and needed to make the Queue Managers' interfa
 to suit everyone's needs. However, with active researcher feedback and much-appreciated patience, we have been able to 
 resolve most of those as they have come up.
 
-When we first made the Queue Managers available, the MolSSI public instance of the Fractal Server only had 40,000 tasks 
-computed, run mostly by us, the developers. Since May 2019 when we started requesting our early adopters to use our 
-Queue Manager, we have now added 4.5M computations of to our database representing 900,000 core hours of compute time 
+When we first made the Database available in May 2019, the MolSSI public instance of the Fractal Server only store ~40k computations, run mostly by us, the developers. Since May 2019 when we started requesting our early adopters to use our 
+Queue Manager, we have now added 4.5M computations to our database representing ~900,000 core hours of compute time 
 across 12 physical sites, and we only expect that number to increase.
