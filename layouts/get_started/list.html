@@ -35,6 +35,27 @@ min-width: 800px;}
       </tr>
       <tr>
           <td class="tg-feht">
+              {{ "<!-- molssiArchiveHeader -->" | safeHTML }}
+              {{ with .Site.Data.get_started.molssiArchiveHeader }}
+              <section class="section create-stories pt-0">
+                  <p>{{ .content  | safeHTML }}</p>
+              </section>
+              {{ end }}
+              {{ "<!-- End of molssiArchiveHeader -->" | safeHTML }}
+
+
+          <td class="tg-3kui">
+              {{ "<!-- ecosystemHeader -->" | safeHTML }}
+              {{ with .Site.Data.get_started.ecosystemHeader }}
+              <section class="section create-stories pt-0">
+                  <p>{{ .content  | safeHTML }}</p>
+              </section>
+              {{ end }}
+              {{ "<!-- End of ecosystemHeader -->" | safeHTML }}
+          </td>
+      </tr>
+      <tr>
+          <td class="tg-feht">
               {{ "<!-- qcportal -->" | safeHTML }}
               {{ with .Site.Data.get_started.qcportal }}
               <section class="section create-stories pt-0">

@@ -1,3 +1,15 @@
+molssiArchiveHeader:
+    enable: true
+    content: "The MolSSI QCArchive offers <a href='https://www.go-fair.org/fair-principles/'>FAIR</a> access to millions of computational molecular science results. 
+These include curated interaction energy, thermochemical, and conformational datasets from the literature; 
+data from the <a href='https://openforcefield.org/'>OpenFF</a> initiative; and data donated to or computed by MolSSI. 
+You are also welcome to submit your data.
+"
+
+ecosystemHeader:
+    enable: true
+    content: "The complete QCArchive ecosystem of software is open source. Spin up your own private QCArchive, manage your complete compute pipeline, or incorporate QCArchive components into your software stack."
+
 ecosystem:
     enable: true
     image: "images/about/github_ecosystem.png"
@@ -22,12 +34,7 @@ qcportal:
   title : "View data with QCPortal"
   image : "images/about/violin_plot.png"
   content : "
-MolSSI curates many common 
-interaction energy, thermochemical, and conformational datasets 
-from the literature.
-These data can be accessed, analyzed, and visualized through 
-QCPortal, a Python front-end.
-
+QCPortal is a Python front-end for analyzing and visualizing results. QCPortal provides access to many types of Collections that organize large amounts of data into structured Python objects.
 <br></br>
 
 <div class='col-12 text-center'>
