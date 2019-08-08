@@ -6,7 +6,7 @@ pageDescription : "The QCArchive Queue Managers and how they have evolved"
 type : "post"
 image : "images/QCArchiveLogo.svg"
 author : "Levi Naden and Daniel Smith"
-authorImage : "images/people/lnn_dgas_heads.jpg"
+authorImage : "images/molssi-logo.svg"
 authorDescription : "Levi is a MolSSI Software Scientist and a QCArchive developer. Daniel is a MolSSI Software Scientist and the lead QCArchive developer."
 #authorSocial : 
 #  - icon : "tf-ion-social-facebook"
