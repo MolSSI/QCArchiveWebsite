@@ -3,11 +3,11 @@ title: "Running multi-site, heterogeneous, compute that our users manage: Queue 
 date: 2019-08-08
 description: "QueueManager Evolution"
 pageDescription : "The QCArchive Queue Managers and how they have evolved"
-type : "featured-post"
+type : "post"
 image : "images/QCArchiveLogo.svg"
-author : "Levi Naden"
+author : "Levi Naden and Daniel Smith"
 authorImage : "images/molssi-logo.svg"
-authorDescription : "QC Archive Developer"
+authorDescription : "Levi is a MolSSI Software Scientist and a QCArchive developer. Daniel is a MolSSI Software Scientist and the lead QCArchive developer."
 #authorSocial : 
 #  - icon : "tf-ion-social-facebook"
 #    URL : "#"
@@ -37,7 +37,7 @@ we can break up the steps into smaller chunks and leverage existing tools which 
 image below shows the communication levels between QCFractal, and the actual compute being carried out, but it's worth 
 covering each layer in brief as well. 
 
-{{< image src="../../static/images/blog/QCQuManagerNetwork.png" srcAlt="../../static/images/blog/QCQuManagerNetwork.png" >}}
+{{< image src="../../images/blog/QCQuManagerNetwork.png" srcAlt="../../images/blog/QCQuManagerNetwork.png" >}}
 
 The Fractal server produces a central workload that contains a list of tasks that do not depend on one another.
 A Queue Manager which controls a physical compute resource will request a subset of this central workload to evaluate.
@@ -59,17 +59,16 @@ that is optimal for the hardware. For example, Parsl appears to be a solid gener
 while Balsam runs optimally on Argonne leadership compute facilities. Finally, the worker design pattern prevents the 
 flooding of a compute resource queue with a large number of tasks which it may not be able to handle.
 
-{{< image src="../../static/images/blog/QCQuManagerBasic.png"
-srcAlt="../../static/images/blog/QCQuManagerBasic.png" >}}
+{{< image src="../../images/blog/QCQuManagerBasic.png" srcAlt="../../images/blog/QCQuManagerBasic.png" >}}
 
 We currently support the following task execution systems for various contexts:
 
-* [RADICAL](https://radical-cybertools.github.io)
-* [Parsl](https://parsl.readthedocs.io/en/latest/index.html)
-* [Dask Jobqueue](https://jobqueue.dask.org/en/latest/)
-* [Balsam](https://balsam.readthedocs.io/en/latest/)
-* [FireWorks](https://materialsproject.github.io/fireworks/)
-* [Python ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html)
+* **[RADICAL](https://radical-cybertools.github.io)**
+* **[Parsl](https://parsl.readthedocs.io/en/latest/index.html)**
+* **[Dask Jobqueue](https://jobqueue.dask.org/en/latest/)**
+* **[Balsam](https://balsam.readthedocs.io/en/latest/)**
+* **[FireWorks](https://materialsproject.github.io/fireworks/)**
+* **[Python ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html)**
 
 Each of these task execution systems has proven to be useful in assisting us to distribute tasks on dozens of different 
 campus clusters, each of which has a unique setup. There are cases where an LSF scheduler is only available in 
@@ -79,7 +78,7 @@ the typical use case so that users do not need to try such a wide variety of too
 working closely with the developers of the task execution layers to extend their capability to cover a wider variety of 
 compute clusters.
 
-To test our capabilities, we ran on Argonne Theta using the [Balsam adapter](https://balsam.readthedocs.io/en/latest/) 
+To test our capabilities, we ran on Argonne Theta using the **[Balsam adapter](https://balsam.readthedocs.io/en/latest/)**
 task execution system. With the help from the Balsam team at Argonne, we were able to add Balsam to our list of 
 available task execution systems. An initial trial run on Theta consisted of six hours of wall clock time and 802 nodes 
 where we submitted a total of 28,000 tasks consuming roughly 300,000 core hours. Midway through the run, we noticed 
