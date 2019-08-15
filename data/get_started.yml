@@ -8,37 +8,36 @@ You are also welcome to submit your data.
 
 ecosystemHeader:
     enable: true
-    content: "The complete QCArchive ecosystem of software is open source. Spin up your own private QCArchive, manage your complete compute pipeline, or incorporate QCArchive components into your software stack."
+    content: "The complete QCFractal ecosystem of software is open source. Spin up your own private QCArchive, manage your complete compute pipeline, or incorporate QCFractal components into your software stack."
 
 ecosystem:
     enable: true
     image: "images/about/github_ecosystem.png"
-    title: "Use the QCArchive ecosystem in your software"
-    content: "The QCArchive ecosystem was created not as a monolithic piece of
+    title: "Use the QCFractal Ecosystem in Your Projects"
+    content: "The QCFractal ecosystem was created not as a monolithic piece of
 software, but as several modules that form an ecosystem.  This provides many
 libraries that can be used independently. Whether you want physical constants
 and molecule parsing with QCElemental, a quantum chemistry program agnostic
 executor with QCEngine, or the run your own QCFractal instance all software is
 open to the community.
 
-<br></br>
+<br><br>
 
 <div class='col-12 text-center'>
         <a href='/projects' class='btn btn-main-md'>QCArchive Projects</a>
 </div>
-
 "
 
 qcportal:
   enable: true
-  title : "View data with QCPortal"
+  title : "View Data with QCPortal"
   image : "images/about/violin_plot.png"
   content : "
 QCPortal is a Python front-end for analyzing and visualizing results. QCPortal provides access to many types of Collections that organize large amounts of data into structured Python objects.
-<br></br>
+<br><br>
 
 <div class='col-12 text-center'>
-        <a href='http://docs.qcarchive.molssi.org/en/latest/' class='btn btn-main-md-red'>See Examples</a>
+        <a href='http://docs.qcarchive.molssi.org/en/latest/' class='btn btn-main-md' style='background: var(--molssi-red)'>See Examples</a>
 </div>
   "
   imageSlider:
@@ -58,12 +57,11 @@ well-structured dataset that is not within our database already, we accept
 contributions. This process is currently in beta, and we are actively looking
 to work with additional groups.
 
-<br></br>
+<br><br>
 
 <div class='col-12 text-center'>
-        <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md-red'>Contact Us</a>
+    <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md' style='background: var(--molssi-red)'>Contact Us</a>
 </div>
-<br></br>
 "
 
 
@@ -71,14 +69,14 @@ paidSupport:
     enable: true
     image : "images/about/code_demo.png"
     title : "Paid Support"
-    content : "The QCArchive ecosystem is an open source project backed by the
+    content : "The QCFractal ecosystem is an open source project backed by the
 Molecular Sciences Software Institute. In addition to our open-source
 commitments, paid support for custom QCFractal instances, code, consulting, and
 priority support is available. For academic projects, consider writing us into
 your next grant for priority support and training.  Contact us for additional
 information. 
 
-<br></br>
+<br><br>
 
 <div class='col-12 text-center'>
         <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md'>Contact Us</a>
@@ -96,7 +94,7 @@ capabilities on laptops while still retaining the ability to scale. We currently
 support Optimization, GridOptimization, and TorsionDrive pipelines. Extra capabilities
 can be quickly added to the stack, get in touch or check out the code!
 
-<br></br>
+<br><br>
 <div class='col-12 text-center'>
         <a href='https://github.com/MolSSI/QCFractal' class='btn btn-main-md'>QCFractal on GitHub</a>
 </div>
