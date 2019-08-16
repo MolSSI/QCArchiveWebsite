@@ -117,10 +117,10 @@ download:
   title : "Access QCArchive Now"
   description : "Download QCPortal client to access the database"
   downloadButton :
-    - btnText : "Conda Forge Download"
+    - btnText : "Conda-Forge Download"
       icon : "tf-ion-ios-cloud-download"
       URL : "https://anaconda.org/conda-forge/qcportal"
 
-    - btnText : "PyPi and pip"
+    - btnText : "PyPI and pip"
       icon : "tf-ion-ios-cloud-download"
       URL : "https://pypi.org/project/qcportal/#description"
