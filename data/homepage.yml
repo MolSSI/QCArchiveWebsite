@@ -35,7 +35,7 @@ featureOne:
   content : 'The core of this project sets out to answer the fundamental question of "How do we compile, aggregate, query, and share quantum chemistry data to accelerate the understanding of new method performance, fitting of novel force fields, and supporting the incredible data needs of machine learning for computational molecular science?"'
   comment : "Data should be open and extensible, these principles form the basis of open science."  #LNN Note: Make a real quote of DGAS
   clientImage : "images/people/dgashead.jpg"
-  clientName : "Daniel G. A. Smith, Lead QCA Developer, MolSSI Software Scientist"
+  clientName : "Daniel G. A. Smith, Lead QCArchive Developer, MolSSI Software Scientist"
 
 # feature two
 featureTwo:
@@ -46,13 +46,13 @@ featureTwo:
   content : "The QCArchive project is developed by MolSSI and provides support to the broader Computational Molecular Sciences communities. It brings expertise in Big Data management, software development and deployment expertise, and infrastructure control that individual research groups may not have on their own. "
   comment : "Science should not be gated behind a learning curve of hardware implementation, software distribution, cluster management, and parallel task deployment."
   clientImage : "images/people/nadenhead.jpg"
-  clientName : "Levi Naden, QCA Developer, MolSSI Software Scientist"
+  clientName : "Levi Naden, QCArchive Developer, MolSSI Software Scientist"
 
 # service
 service:
   enable : true
   title : "QCArchive Ecosystem"
-  description : "The QCArchive Ecosystem provides access at every step of the compute lifecycle. From simple result lookup to computation of proprietary basis sets on your hardware."
+  description : "The QCArchive Ecosystem provides access at every step of the compute lifecycle, from simple result lookup to computation of proprietary basis sets on your hardware."
   # LNN Note: The logic on this image is find the first, 100% opaque pixel and align to the left of that.
   # In order to convert the image to transparency correctly and have an opaque pixel, I added a small vertical black
   # line to the left most boundary of width 1px
@@ -60,28 +60,28 @@ service:
 #  imageAlt : "images/boxology_overview.webp"
   serviceItem :
     - icon : "tf-ion-laptop"
-      title : "QC Portal"
-      content : "Client-side portal access to either MolSSI's permanent database (QC Fractal), or a private one of your own."
+      title : "QCPortal"
+      content : "Client-side portal access to either MolSSI's permanent database (QCFractal), or a private one of your own."
       URL: "http://docs.qcarchive.molssi.org/projects/qcportal/en/latest/"
 
     - icon : "tf-ion-ios-cloud-outline"
-      title : "QC Fractal"
+      title : "QCFractal"
       content : "A distributed compute and database platform for quantum chemistry."
       URL: "http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/"
 
     - icon : "tf-speedometer"
-      title : "QC Engine"
-      content : "Hardware agnostic Quantum chemistry program executor and IO standard (via common interface and QCSchema)."
+      title : "QCEngine"
+      content : "Hardware agnostic quantum chemistry program executor and I/O standard (via common interface and QCSchema)."
       URL: "http://docs.qcarchive.molssi.org/projects/qcengine/en/latest/"
 
     - icon : "tf-ion-erlenmeyer-flask-bubbles"
-      title : "QC Elemental"
-      content : "A Periodic table, version controlled physical constants, and molecule parsing for quantum chemistry."
+      title : "QCElemental"
+      content : "A periodic table, version controlled physical constants, and molecule parsing for quantum chemistry."
       URL: "http://docs.qcarchive.molssi.org/projects/qcelemental/en/latest/"
 
     - icon : "tf-ion-ios-list-outline"
-      title: "QC Schema"
-      content: "A JSON Schema to format Quantum Chemistry results and data structures to enable regular format and easy searches."
+      title: "QCSchema"
+      content: "A JSON schema to format quantum chemistry results and data structures to enable regular format and easy searches."
       URL: "#"
 
 # promo video
@@ -108,19 +108,19 @@ testimonial:
 
     - name: "Machine Learning through regular data"
       image: "images/empty_px_placeholder.png"
-      content : "The database maintained in QCArchive can be easily queried as results have a regular format through the QC Schema structure."
+      content : "The database maintained in QCArchive can be easily queried as results have a regular format through the QCSchema structure."
 
 
 # download
 download:
   enable : true
   title : "Access QCArchive Now"
-  description : "Download QC Portal client to access the database"
+  description : "Download QCPortal client to access the database"
   downloadButton :
-    - btnText : "Conda Forge Download"
+    - btnText : "Conda-Forge Download"
       icon : "tf-ion-ios-cloud-download"
       URL : "https://anaconda.org/conda-forge/qcportal"
 
-    - btnText : "PyPi and pip"
+    - btnText : "PyPI and pip"
       icon : "tf-ion-ios-cloud-download"
       URL : "https://pypi.org/project/qcportal/#description"
