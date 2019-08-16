@@ -35,7 +35,7 @@ featureOne:
   content : 'The core of this project sets out to answer the fundamental question of "How do we compile, aggregate, query, and share quantum chemistry data to accelerate the understanding of new method performance, fitting of novel force fields, and supporting the incredible data needs of machine learning for computational molecular science?"'
   comment : "Data should be open and extensible, these principles form the basis of open science."  #LNN Note: Make a real quote of DGAS
   clientImage : "images/people/dgashead.jpg"
-  clientName : "Daniel G. A. Smith, Lead QCA Developer, MolSSI Software Scientist"
+  clientName : "Daniel G. A. Smith, Lead QCArchive Developer, MolSSI Software Scientist"
 
 # feature two
 featureTwo:
@@ -46,7 +46,7 @@ featureTwo:
   content : "The QCArchive project is developed by MolSSI and provides support to the broader Computational Molecular Sciences communities. It brings expertise in Big Data management, software development and deployment expertise, and infrastructure control that individual research groups may not have on their own. "
   comment : "Science should not be gated behind a learning curve of hardware implementation, software distribution, cluster management, and parallel task deployment."
   clientImage : "images/people/nadenhead.jpg"
-  clientName : "Levi Naden, QCA Developer, MolSSI Software Scientist"
+  clientName : "Levi Naden, QCArchive Developer, MolSSI Software Scientist"
 
 # service
 service:
