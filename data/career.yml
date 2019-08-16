@@ -63,7 +63,7 @@ job:
         - experience : "Configurable to point a non-MolSSI QCFractal instances"
       formAction : "#"
       # LNN: All of these were added on my layouts/projects/list.html
-      docs : "http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/portal-client.html"
+      docs : "http://docs.qcarchive.molssi.org/projects/qcportal/en/latest/"
       github: "https://github.com/MolSSI/QCPortal"
       pypi: "https://pypi.org/project/qcportal/"
       conda: "https://anaconda.org/conda-forge/qcportal"
