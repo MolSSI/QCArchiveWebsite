@@ -71,7 +71,7 @@ service:
 
     - icon : "tf-speedometer"
       title : "QCEngine"
-      content : "Hardware agnostic quantum chemistry program executor and IO standard (via common interface and QCSchema)."
+      content : "Hardware agnostic quantum chemistry program executor and I/O standard (via common interface and QCSchema)."
       URL: "http://docs.qcarchive.molssi.org/projects/qcengine/en/latest/"
 
     - icon : "tf-ion-erlenmeyer-flask-bubbles"
