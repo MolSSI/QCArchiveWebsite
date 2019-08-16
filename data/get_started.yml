@@ -4,7 +4,7 @@ about:
   content : "
 QCPortal is the Python front-end for analyzing and visualizing results.
 QCPortal contains many types of <i>Collections</i> that organize large amounts
-of data in canonical ways such as a <i>RectionDataset</i> which contains many
+of data in canonical ways such as a <i>ReactionDataset</i> which contains many
 common interaction energy, thermochemical, and conformational datasets from the
 literature.
 
