@@ -52,7 +52,7 @@ featureTwo:
 service:
   enable : true
   title : "QCArchive Ecosystem"
-  description : "The QCArchive Ecosystem provides access at every step of the compute lifecycle. From simple result lookup to computation of proprietary basis sets on your hardware."
+  description : "The QCArchive Ecosystem provides access at every step of the compute lifecycle, from simple result lookup to computation of proprietary basis sets on your hardware."
   # LNN Note: The logic on this image is find the first, 100% opaque pixel and align to the left of that.
   # In order to convert the image to transparency correctly and have an opaque pixel, I added a small vertical black
   # line to the left most boundary of width 1px
