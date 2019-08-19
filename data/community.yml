@@ -46,7 +46,7 @@ Driver handles the top level task creation logic and post-compute processing."
     - image: "images/collaborators/QuBeKit-300x127.png"
       name: "QUBEKit: bespoke force field parameters derived from QM"
       designation: "Collaborator"
-      content: "The QUantum mechanical Bespoke toolkit (QUBEKit) is a software
+      content: "The QUantum mechanical BEspoke toolkit (QUBEKit) is a software
 package developed at Newcastle University, UK. QUBEKit automates the derivation
 of bespoke bond, angle, dihedral and non-bonded force field parameters for
 small organic molecules directly from quantum chemistry calculations, which are
