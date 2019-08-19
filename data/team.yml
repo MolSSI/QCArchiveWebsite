@@ -18,7 +18,7 @@ teamLeaders:
 #      imageAlt: "images/people/doaa.webp"
       name: "Doaa Altarawy"
       designation: "Developer and Database designer"
-      content: "Developer database design, integrity, and interface"
+      content: "Developer focused on database design, integrity, and interface"
       socialIcon:
       - icon: "tf-ion-social-github"
         URL: "https://github.com/doaa-altarawy"
@@ -34,6 +34,7 @@ teamLeaders:
         - icon : "tf-ion-social-github"
           URL : "https://github.com/lnaden"
 
+    # lori
     - image: "images/people/lorihead.png"
 #      imageAlt: "images/people/lorifull-ish.webp"
       name: "Lori Burns"
@@ -42,6 +43,15 @@ teamLeaders:
       socialIcon:
       - icon: "tf-ion-social-github"
         URL: "https://github.com/loriab"
+
+    # matt
+    - image: "images/people/mattfull.jpg"
+      name: "Matthew Welborn"
+      designation: "Developer"
+      content: "Developer focused on documenation and machine learning"
+      socialIcon:
+      - icon: "tf-ion-social-github"
+        URL: "https://github.com/mattwelborn"
 
 
 
