@@ -50,7 +50,7 @@
 				<div class="col-md-4 mb-4 text-center">
 					<i class="{{ .icon }} text-primary h1"></i>
 					<h3 class="mt-4 text-capitalize h5 ">{{.title }}</h3>
-					<p class="regular text-muted">{{.description | markdownify }}</p>
+					<p class="regular text-muted" style="text-align: justify;">{{.description | markdownify }}</p>
 				</div>
 				{{ end }}
 			</div>
@@ -239,6 +239,24 @@
 					</li>
 					{{ end }}
 				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+
+{{ if .Site.Data.homepage.getStarted.enable }}
+<section class="call-to-action-app section bg-blue">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				{{ with .Site.Data.homepage.getStarted }}
+				<h2>{{ .title }}</h2>
+				<p>{{ .description | safeHTML }}</p>
+				<a href="{{ .btnURL | relURL }}" class="btn btn-rounded-icon">
+					{{ .btnText }}
+				</a>
+				{{ end }}
 			</div>
 		</div>
 	</div>
