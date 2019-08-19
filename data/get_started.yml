@@ -3,23 +3,25 @@ molssiArchiveHeader:
     content: "The MolSSI QCArchive offers <a href='https://www.go-fair.org/fair-principles/'>FAIR</a> access to millions of computational molecular science results. 
 These include curated interaction energy, thermochemical, and conformational datasets from the literature; 
 data from the <a href='https://openforcefield.org/'>OpenFF</a> initiative; and data donated to or computed by MolSSI. 
-You are also welcome to submit your data.
+You are also welcome to submit your own data.
 "
 
-ecosystemHeader:
+infrastructureHeader:
     enable: true
-    content: "The complete QCFractal ecosystem of software is open source. Spin up your own private QCArchive, manage your complete compute pipeline, or incorporate QCFractal components into your software stack."
+    content: "The complete QCArchive software infrastructure is open source. Spin up your own private database, manage your complete compute workflow, or incorporate QCArchive components into your software stack."
 
-ecosystem:
+
+
+infrastructure:
     enable: true
     image: "images/about/github_ecosystem.png"
-    title: "Use the QCFractal Ecosystem in Your Projects"
-    content: "The QCFractal ecosystem was created not as a monolithic piece of
+    title: "Use the QCArchive Infrastructure in Your Projects"
+    content: "The QCArchive software infrastructure was created not as a monolithic piece of
 software, but as several modules that form an ecosystem.  This provides many
 libraries that can be used independently. Whether you want physical constants
 and molecule parsing with QCElemental, a quantum chemistry program agnostic
-executor with QCEngine, or the run your own QCFractal instance all software is
-open to the community.
+executor with QCEngine, or to run your own QCFractal database and/or compute workflow, 
+all software is open to the community.
 
 <br><br>
 
@@ -33,7 +35,7 @@ qcportal:
   title : "View Data with QCPortal"
   image : "images/about/violin_plot.png"
   content : "
-QCPortal is a Python front-end for analyzing and visualizing results. QCPortal provides access to many types of Collections that organize large amounts of data into structured Python objects.
+QCPortal is a Python front-end for analyzing and visualizing results. QCPortal provides access to models that organize large amounts of data into structured Python objects.
 <br><br>
 
 <div class='col-12 text-center'>
@@ -69,7 +71,7 @@ paidSupport:
     enable: true
     image : "images/about/code_demo.png"
     title : "Paid Support"
-    content : "The QCFractal ecosystem is an open source project backed by the
+    content : "The QCFractal ecosystem is an open-source project backed by the
 Molecular Sciences Software Institute. In addition to our open-source
 commitments, paid support for custom QCFractal instances, code, consulting, and
 priority support is available. For academic projects, consider writing us into
@@ -83,15 +85,29 @@ information.
 </div>
 "
 
-fractal:
+fractalDatabase:
     enable: true
     image: "images/about/openff_workflow.png"
+    title: "Organize Your Data"
+    content: "Run your own private database of quantum chemical results using QCFractal -- the software that powers the MolSSI QCArchive. Store all computations ever executed in a research group in an easily indexable manner, organize large datasets into Collections for easy reference and manipulation, and easily share quantum chemistry data with colleagues or the community through accessibility settings.
+
+<br><br>
+<div class='col-12 text-center'>
+        <a href='https://github.com/MolSSI/QCFractal' class='btn btn-main-md'>QCFractal on GitHub</a>
+</div>
+"
+
+fractalCompute:
+    enable: true
+    image: "images/boxology_overview_nobar.png"
     title: "Execute Complex Pipelines"
-    content: "QCFractal can execute a single pipeline or thousands of pipeline
-(workflow) operations simultaneously on a laptop or a dozen supercomputers.
+    content: "QCFractal is more than just a database. 
+    With highly configurable distributed computing managers, 
+    QCFractal can execute a single pipeline or thousands of pipeline
+    (workflow) operations simultaneously, scaling seamlessly from a laptop to a dozen supercomputers.
 This elasticity allows for easy development and the ability to explore
 capabilities on laptops while still retaining the ability to scale. We currently
-support Optimization, GridOptimization, and TorsionDrive pipelines. Extra capabilities
+support Optimization, GridOptimization, and TorsionDrive pipelines. These pipelines are driven by quantum chemistry, semiempirical, or force field programs, all managed through a single interface. Extra capabilities
 can be quickly added to the stack, get in touch or check out the code!
 
 <br><br>

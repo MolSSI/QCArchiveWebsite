@@ -34,7 +34,7 @@
 .tg .molssiArchiveHeader{
     background-color:var(--molssi-red);
 }
-.tg .ecosystemHeader{
+.tg .infrastructureHeader{
     background-color:var(--theme-blue);
 }
 .tg td{
@@ -50,7 +50,7 @@
 .tg .molssiArchivePanel{
     background-color:var(--molssi-red-light);
 }
-.tg .ecosystemPanel{
+.tg .infrastructurePanel{
     background-color:var(--theme-blue-light);
 }
 .tg .footer{
@@ -60,13 +60,14 @@
 h3{
     font-size: 26px;
 }
-
-
+p.blurb{
+    margin-top: 8px;
+}
 </style>
   <table class="tg">
       <tr>
           <th class="molssiArchiveHeader">Access the MolSSI QCArchive</th>
-          <th class="ecosystemHeader">Download QCArchive software</th>
+          <th class="infrastructureHeader">Download QCArchive software</th>
       </tr>
       <tr>
           <td class="molssiArchivePanel">
@@ -79,14 +80,14 @@ h3{
               {{ "<!-- End of molssiArchiveHeader -->" | safeHTML }}
 
 
-          <td class="ecosystemPanel">
-              {{ "<!-- ecosystemHeader -->" | safeHTML }}
-              {{ with .Site.Data.get_started.ecosystemHeader }}
+          <td class="infrastructurePanel">
+              {{ "<!-- infrastructureHeader -->" | safeHTML }}
+              {{ with .Site.Data.get_started.infrastructureHeader }}
               <section class="section create-stories pt-0 pb-0">
                   <p>{{ .content  | safeHTML }}</p>
               </section>
               {{ end }}
-              {{ "<!-- End of ecosystemHeader -->" | safeHTML }}
+              {{ "<!-- End of infrastructureHeader -->" | safeHTML }}
           </td>
       </tr>
       <tr>
@@ -96,22 +97,22 @@ h3{
               <section class="section create-stories pt-0 pb-0">
                   <h3>{{ .title }}</h3>
                   <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px #ed1c24 solid ">
-                  <p>{{ .content  | safeHTML }}</p>
+                  <p class="blurb">{{ .content  | safeHTML }}</p>
               </section>
               {{ end }}
               {{ "<!-- End of qcportal -->" | safeHTML }}
 
 
-          <td class="ecosystemPanel">
-              {{ "<!-- fractal -->" | safeHTML }}
-              {{ with .Site.Data.get_started.fractal }}
+          <td class="infrastructurePanel">
+              {{ "<!-- fractalDatabase -->" | safeHTML }}
+              {{ with .Site.Data.get_started.fractalDatabase }}
               <section class="section create-stories pt-0 pb-0">
                   <h3>{{ .title }}</h3>
-                  <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px solid #2e7eed">
-                  <p>{{ .content  | safeHTML }}</p>
+                  <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px solid #2e7eed; background:white">
+                  <p class="blurb">{{ .content  | safeHTML }}</p>
               </section>
               {{ end }}
-              {{ "<!-- End of fractal -->" | safeHTML }}
+              {{ "<!-- End of fractalDatabase -->" | safeHTML }}
           </td>
       </tr>
       <tr>
@@ -121,23 +122,40 @@ h3{
               <section class="section create-stories pt-0 pb-0">
                   <h3>{{ .title }}</h3>
                   <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px solid #ed1c24">
-                  <p>{{ .content  | safeHTML }}</p>
+                  <p class="blurb">{{ .content  | safeHTML }}</p>
               </section>
               {{ end }}
               {{ "<!-- End of extend -->" | safeHTML }}
           </td>
-          <td class="ecosystemPanel">
-              {{ "<!-- ecosystem -->" | safeHTML }}
-              {{ with .Site.Data.get_started.ecosystem }}
+
+          <td class="infrastructurePanel">
+              {{ "<!-- fractalCompute -->" | safeHTML }}
+              {{ with .Site.Data.get_started.fractalCompute }}
+              <section class="section create-stories pt-0 pb-0">
+                  <h3>{{ .title }}</h3>
+                  <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px solid #2e7eed; background:white">
+                  <p class="blurb">{{ .content  | safeHTML }}</p>
+              </section>
+              {{ end }}
+              {{ "<!-- End of fractalCompute -->" | safeHTML }}
+          </td>
+      </tr>
+      <tr>
+          <td class="molssiArchivePanel">
+          </td>
+          <td class="infrastructurePanel">
+              {{ "<!-- infrastructure -->" | safeHTML }}
+              {{ with .Site.Data.get_started.infrastructure }}
               <section class="section create-stories pt-0 pb-0">
                   <h3>{{ .title }}</h3>
                   <img class="img-fluid" src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" alt="Story-Image" style="border:2px solid #2e7eed">
-                  <p>{{ .content  | safeHTML }}</p>
+                  <p class="blurb">{{ .content  | safeHTML }}</p>
               </section>
               {{ end }}
-              {{ "<!-- End of ecosystem -->" | safeHTML }}
+              {{ "<!-- End of infrastructure -->" | safeHTML }}
           </td>
-      </tr>
+
+          
       <tr>
           <td colspan=2>
               <center>
