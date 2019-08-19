@@ -63,7 +63,7 @@ job:
         - experience : "Configurable to point a non-MolSSI QCFractal instances"
       formAction : "#"
       # LNN: All of these were added on my layouts/projects/list.html
-      docs : "http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/portal-client.html"
+      docs : "http://docs.qcarchive.molssi.org/projects/qcportal/en/latest/"
       github: "https://github.com/MolSSI/QCPortal"
       pypi: "https://pypi.org/project/qcportal/"
       conda: "https://anaconda.org/conda-forge/qcportal"
@@ -91,8 +91,8 @@ job:
       conda: "https://anaconda.org/conda-forge/qcfractal"
 
     - title : "QCEngine"
-      location : "Quantum chemistry program executor and IO standard"  #Sub item
-      details : "Hardware agnostic quantum chemistry program executor and IO standard (via common interface and QCSchema)."
+      location : "Quantum chemistry program executor and I/O standard"  #Sub item
+      details : "Hardware agnostic quantum chemistry program executor and I/O standard (via common interface and QCSchema)."
       experienceList:
         - experience : "Common execution program deployed to compute hardware through QCFractal and distribution manager"
         - experience : "Interfaces with various quantum chemistry compute programs (the applications doing the heavy lifting)"
