@@ -25,7 +25,7 @@
         </li>
         {{ else }}
         <li class="nav-item">
-          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+          <a class="nav-link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
         </li>
         {{ end }}
         {{ end }}
