@@ -4,6 +4,8 @@ title = "The MolSSI QCArchive"
 theme = "small-apps-v2"
 summaryLength = "10"
 paginate = 6
+pygmentsCodefences = true
+pygmentsStyle = "solarized-dark"
 
 # Plugins
 [params.plugins]
@@ -88,12 +90,25 @@ paginate = 6
     # name = "License and Funding"
     # URL = "/privacy"
     # weight = 20
+
+  [[menu.main]]
+  weight = 9
+  name = "Examples"
+  URL = "/examples"
   
 
   [[menu.main]]
   name = "QCA Infrastructure"
   URL = "/projects"
   weight = 10
+
+
+  # footer menu
+  [[menu.footer]]
+  name = "About"
+  URL = "/about"
+  weight = 1
+
 
   [[menu.footer]]
   name = "Get Started"
