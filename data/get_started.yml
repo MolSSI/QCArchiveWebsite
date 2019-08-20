@@ -1,187 +1,89 @@
-about:
+qcportal:
   enable: true
-  title : "View data with QCPortal"
+  title : "Explore data with QCPortal"
   content : "
-QCPortal is the Python front-end for analyzing and visualizing results.
-QCPortal contains many types of <i>Collections</i> that organize large amounts
-of data in canonical ways such as a <i>ReactionDataset</i> which contains many
-common interaction energy, thermochemical, and conformational datasets from the
-literature.
-
-<br></br>
-
-Get started with our examples:
-
-<div class='col-12 text-left'>
-        <a href='http://docs.qcarchive.molssi.org/en/latest/' class='btn btn-main-md'>See Examples</a>
-</div>
-
-  "
-  imageSlider:
-    - image : "images/about/client_connection.png"
-    - image : "images/about/violin_plot.png"
-    - image : "images/about/torsiondrive_plot.png"
-
-about2:
-  enable: false
-  title : "Execute Complex Workflows"
-  content : "
-This is another slider aligned to the right
-
-<br></br>
-Get started with our examples:
-
-<div class='col-12 text-left'>
-        <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md'>Contact Us</a>
-</div>
-
-  "
-  imageSlider:
-    - image : "images/about/client_connection.png"
-    - image : "images/about/violin_plot.png"
-    - image : "images/about/torsiondrive_plot.png"
-
-
-
-# create story
-createStory:
-  - image: "images/about/github_ecosystem.png"
-    title: "Using the QCArchive ecosystem"
-    content: "The QCArchive ecosystem was created not as a monolithic piece of
-software, but as several modules that form an ecosystem.  This provides many
-libraries that can be used independently. Whether you want physical constants
-and molecule parsing with QCElemental, a quantum chemistry program agnostic
-executor with QCEngine, or the run your own QCFractal instance all software is
-open to the community.
-
-<br></br>
+QCPortal is the primary front-end for accessing, analyzing, and visualizing QCArchive data.
+QCPortal provides models that organize large sets of calculations into structured Python objects.
+Get started with our examples.
+<br><br>
 
 <div class='col-12 text-center'>
-        <a href='/projects' class='btn btn-main-md'>Projects</a>
+        <a href='/examples' class='btn btn-main-md'>See Examples</a>
 </div>
+  "
+  imageSlider:
+    - image : "images/about/client_connection.png"
+    - image : "images/about/violin_plot.png"
+    - image : "images/about/torsiondrive_plot.png"
 
-"
+compute:
+    enable: true
+    title : "Compute with QCArchive"
+    image : "images/about/openff_workflow.png"
+    content : "
+  QCArchive provides a complete platform for computing, managing, and organizing large-scale quantum chemical workflows and datasets.
+  The platform is already used by many partner groups to produce open data and distribute it to the community.
+  We are actively looking to work with additional partners to generate open data within QCArchive for machine learning, force field fitting, methodology assessment, and more.
+  <br><br>
 
-  - title : "Extend the MolSSI QCArchive database"
+  <div class='col-12 text-center'>
+    <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md'>Contact Us</a>
+  </div>
+  "
+
+ingest:
+    enable: true
+    title : "Contribute your data"
     image : "images/about/td_network.png"
-    content : "The community can extend the MolSSI QCArchive database by
-supplying additional compute time to this central queue. If you are interested
-in additional methods for a given dataset get in touch! Also, if you have a
-well-structured dataset that is not within our database already, we accept
-contributions. This process is currently in beta, and we are actively looking
-to work with additional groups.
+    content : "
+  QCArchive welcomes data contributions and suggestions from the community.
+  If you have a well-structured dataset that is not yet within the QCArchive,
+  please reach out.
+  If you are interested in additional methods for an existing dataset,
+  or would like to suggest that we add a dataset,
+  get in touch!
 
-<br></br>
+  <br><br>
+
+  <div class='col-12 text-center'>
+    <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md'>Contact Us</a>
+  </div>
+  "
+
+infrastructure:
+    enable: true
+    image: "images/about/github_ecosystem.png"
+    title: "Use the QCArchive infrastructure in your projects"
+    content: "
+QCArchive is powered by an open-source software infrastructure.
+This infrastructure was created not as a monolithic piece of
+software, but as several modules that form an ecosystem of independent libraries.
+Whether you want physical constants and molecule parsing with QCElemental, a quantum chemistry program agnostic
+executor with QCEngine, or to run your own QCFractal database and/or compute workflow,
+all software is open to the community.
+
+<br><br>
+
+<div class='col-12 text-center'>
+        <a href='https://docs.qcarchive.molssi.org/' class='btn btn-main-md'>QCArchive Infrastructure</a>
+</div>
+"
+
+paidSupport:
+    enable: true
+    image : "images/about/code_demo.png"
+    title : "Paid support"
+    content : "
+The QCArchive infrastructure is an open-source project backed by the
+Molecular Sciences Software Institute.
+In addition to our open-source commitments, paid support for custom QCFractal instances, code, consulting, and
+priority support is available.
+For academic projects, consider writing us into your next grant for priority support and training.
+Contact us for additional information.
+
+<br><br>
 
 <div class='col-12 text-center'>
         <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md'>Contact Us</a>
 </div>
-<br></br>
-
 "
-
-  - image : "images/about/code_demo.png"
-    title : "Paid Support"
-    content : "The QCArchive ecosystem is an open source project backed by the
-Molecular Sciences Software Institute. In addition to our open-source
-commitments, paid support for custom QCFractal instances, code, consulting, and
-priority support is available. For academic projects, consider writing us into
-your next grant for priority support and training.  Contact us for additional
-information. 
-
-<br></br>
-
-<div class='col-12 text-center'>
-        <a href='mailto:qcarchive@molssi.org' class='btn btn-main-md'>Contact Us</a>
-</div>
-"
-
-  - image: "images/about/openff_workflow.png"
-    title: "Execute Complex Pipelines"
-    content: "QCFractal can execute a single pipeline or thousands of pipeline
-(workflow) operations simultaneously on a laptop or a dozen supercomputers.
-This elasticity allows for easy development and the ability to explore
-capabilities on laptops while still retaining the ability to scale. We currently
-support Optimization, GridOptimization, and TorsionDrive pipelines. Extra capabilities
-can be quickly added to the stack, get in touch or check out the code!
-
-<br></br>
-<div class='col-12 text-center'>
-        <a href='https://github.com/MolSSI/QCFractal' class='btn btn-main-md'>QCFractal</a>
-</div>
-"
-
-
-# quote slider
-quoteSlider:
-  enable : false
-  sliderItem :
-    - quote : "Behind every great product, there is a great mind."
-      quoteBy : "-TechCrunch"
-
-    - quote : "Behind every great product, there is a great mind."
-      quoteBy : "-TechCrunch"
-
-# clients slider (LNN: Using this as a technology stack slider)
-clients:
-  enable : false
-  title : "Technology Stack"
-  clientSlider :
-   - clientsLogo : "images/about/stack/mongo.png"
-   - clientsLogo : "images/about/stack/dask.png"
-   - clientsLogo : "images/about/stack/postgress.png"
-   - clientsLogo : "images/about/stack/psi4.png"
-   - clientsLogo : "images/about/stack/rdkit.png"
-   - clientsLogo : "images/about/stack/apache.png"
-   - clientsLogo : "images/about/stack/pandas.png"
-   - clientsLogo : "images/about/stack/parsl.png"
-
-# investors
-investors :
-  enable : false
-  title : "Our Angel Investors"
-  description : "Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat."
-  investor :
-    - image : "images/team/marketing-team-01.webp"
-      imageAlt : "images/team/marketing-team-01.jpg"
-      name : "Spider Web"
-      designation : "Investor"
-
-    - image : "images/team/marketing-team-02.webp"
-      imageAlt : "images/team/marketing-team-02.jpg"
-      name : "Spider Web"
-      designation : "Investor"
-
-    - image : "images/team/marketing-team-03.webp"
-      imageAlt : "images/team/marketing-team-03.jpg"
-      name : "Spider Web"
-      designation : "Investor"
-
-    - image : "images/team/marketing-team-01.webp"
-      imageAlt : "images/team/marketing-team-01.jpg"
-      name : "Spider Web"
-      designation : "Investor"
-
-    - image : "images/team/marketing-team-02.webp"
-      imageAlt : "images/team/marketing-team-02.jpg"
-      name : "Spider Web"
-      designation : "Investor"
-
-    - image : "images/team/marketing-team-03.webp"
-      imageAlt : "images/team/marketing-team-03.jpg"
-      name : "Spider Web"
-      designation : "Investor"
-
-    - image : "images/team/marketing-team-01.webp"
-      imageAlt : "images/team/marketing-team-01.jpg"
-      name : "Spider Web"
-      designation : "Investor"
-
-    - image : "images/team/marketing-team-02.webp"
-      imageAlt : "images/team/marketing-team-02.jpg"
-      name : "Spider Web"
-      designation : "Investor"
-
-# call to action
-cta :
-  enable : false

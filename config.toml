@@ -108,9 +108,8 @@ pygmentsStyle = "solarized-dark"
   # footer menu
   [[menu.footer]]
   name = "Examples"
-  URL = "/example"
+  URL = "/examples"
   weight = 1
-
 
   [[menu.footer]]
   name = "Get Started"
