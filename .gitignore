@@ -2,3 +2,5 @@
 # Hugo stuff
 # /resources/_gen/assets/js/*
 /public/
+
+/resources/_gen/
