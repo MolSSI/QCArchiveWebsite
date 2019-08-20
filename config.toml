@@ -99,7 +99,7 @@ pygmentsStyle = "solarized-dark"
 
   [[menu.main]]
   name = "Infrastructure"
-  URL = "/projects"
+  URL = "https://docs.qcarchive.molssi.org"
   weight = 10
   pre = "<u>"
   post = "</u>"
