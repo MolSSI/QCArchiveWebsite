@@ -98,9 +98,11 @@ pygmentsStyle = "solarized-dark"
   
 
   [[menu.main]]
-  name = "QCA Infrastructure"
+  name = "Infrastructure"
   URL = "/projects"
   weight = 10
+  pre = "<u>"
+  post = "</u>"
 
 
   # footer menu
