@@ -22,8 +22,8 @@ compute:
     image : "images/about/openff_workflow.png"
     content : "
   QCArchive provides a complete platform for computing, managing, and organizing large-scale quantum chemical workflows and datasets.
-  This platform is already used by the OpenFF project, and we are actively looking
-  to work with additional groups.
+  The platform is already used by many partner groups to produce open data and distribute it to the community.
+  We are actively looking to work with additional partners to generate open data within QCArchive for machine learning, force field fitting, methodology assessment, and more.
   <br><br>
 
   <div class='col-12 text-center'>
