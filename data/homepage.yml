@@ -21,7 +21,7 @@ bannerFeature:
 
   - icon: "tf-ion-erlenmeyer-flask"
     title: "Private Instances"
-    description: "The QCArchive ecosystem is fully open-souce. Spin up your own instance to compute private data and share only with collaborators."
+    description: "The infrastructure behind QCArchive is fully open-souce. Spin up your own instance to compute private data and share only with collaborators."
 
 #Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam dignissimos molestias."
 
@@ -29,7 +29,7 @@ bannerFeature:
 # LNN note: "enable : false" does not remove these blocks of "featureX"
 featureOne:
   enable : true
-  image : "images/boxology_centered.png" # Make roughly square
+  image : "images/about/violin_plot.png" # Make roughly square
 #  imageAlt : "images/boxology_overview_nobar.webp"
   title : "A free, community-driven, multi-user quantum chemistry database"
   content : 'The core of this project sets out to answer the fundamental question of "How do we compile, aggregate, query, and share quantum chemistry data to accelerate the understanding of new method performance, fitting of novel force fields, and supporting the incredible data needs of machine learning for computational molecular science?"'
@@ -50,7 +50,7 @@ featureTwo:
 
 # service
 service:
-  enable : true
+  enable : false
   title : "QCArchive Ecosystem"
   description : "The QCArchive Ecosystem provides access at every step of the compute lifecycle, from simple result lookup to computation of proprietary basis sets on your hardware."
   # LNN Note: The logic on this image is find the first, 100% opaque pixel and align to the left of that.
@@ -88,6 +88,7 @@ service:
 # LNN: The "enable" works here
 promoVideo:
   enable : True
+  # TODO(Levi): remove the QC, leaving the black textured background
   bgImage : "images/background/qcablackback.png"
   #bgImageAlt : "images/background/qcablackback.png"
   title : "Watch Our Debut Presentation!"
@@ -113,7 +114,7 @@ testimonial:
 
 # download
 download:
-  enable : true
+  enable : false
   title : "Access QCArchive Now"
   description : "Download QCPortal client to access the database"
   downloadButton :
@@ -124,3 +125,11 @@ download:
     - btnText : "PyPI and pip"
       icon : "tf-ion-ios-cloud-download"
       URL : "https://pypi.org/project/qcportal/#description"
+
+getStarted:
+    enable: true
+    title: "Get Started with QCArchive Now"
+    description: "View data, see examples, and more."
+    btnText: "Get Started!"
+    btnURL: "/get_started"
+

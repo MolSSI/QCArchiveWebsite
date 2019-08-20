@@ -42,136 +42,64 @@ paginate = 6
 # navigation
 [menu]
     
-  [[menu.main]]
-  name = "About"
-  URL = "/about"
-  weight = 2
 
   [[menu.main]]
   name = "Get Started"
   URL = "/get_started"
-  weight = 3
+  weight = 1
 
   [[menu.main]]
   name = "Blog"
   URL = "/blog"
-  weight = 4
+  weight = 2
   
 
   [[menu.main]]
-  weight = 8
-  name = "Ecosystem"
+  weight = 3
+  name = "Community"
   hasChildren = true
 
     [[menu.main]]
-    parent = "Ecosystem"
-    name = "Community"
+    parent = "Community"
+    name = "Partners"
     URL = "/community"
     weight = 2
 
     [[menu.main]]
-    parent = "Ecosystem"
+    parent = "Community"
     name = "Join Slack"
     URL = "https://join.slack.com/t/qcdb/shared_invite/enQtNDIzNTQ2OTExODk0LWM3OTgxN2ExYTlkMTlkZjA0OTExZDlmNGRlY2M4NWJlNDlkZGQyYWUxOTJmMzc3M2VlYzZjMjgxMDRkYzFmOTE"
     weight = 5
 
     [[menu.main]]
-    parent = "Ecosystem"
-    name = "QCA Projects"
-    URL = "/projects"
-    weight = 1
-
-    [[menu.main]]
-    parent = "Ecosystem"
+    parent = "Community"
     name = "Use Cases"
     URL = "/usecases"
     weight = 3
 
     [[menu.main]]
-    parent = "Ecosystem"
+    parent = "Community"
     name = "Team"
     URL = "/team"
     weight = 4
 
     [[menu.main]]
-    # parent = "Ecosystem"
+    # parent = "Community"
     # name = "License and Funding"
     # URL = "/privacy"
     # weight = 20
   
 
   [[menu.main]]
-  weight = 9
-  name = "Documentation"
-  hasChildren = true
-
-    [[menu.main]]
-    parent = "Documentation"
-    name = "Examples "
-    URL = "https://docs.qcarchive.molssi.org/"
-
-    [[menu.main]]
-    parent = "Documentation"
-    name = "QCPortal "
-    URL = "https://docs.qcarchive.molssi.org/projects/qcportal/en/latest"
-
-    [[menu.main]]
-    parent = "Documentation"
-    name = "QCFractal "
-    URL = "https://docs.qcarchive.molssi.org/projects/qcfractal/en/latest"
-
-    [[menu.main]]
-    parent = "Documentation"
-    name = "QCEngine "
-    URL = "https://docs.qcarchive.molssi.org/projects/qcengine/en/latest"
-
-    [[menu.main]]
-    parent = "Documentation"
-    name = "QCElemental "
-    URL = "https://docs.qcarchive.molssi.org/projects/qcelemental/en/latest"
-
-  [[menu.main]]
+  name = "QCA Infrastructure"
+  URL = "/projects"
   weight = 10
-  name = "GitHub"
-  hasChildren = true
-
-    [[menu.main]]
-    parent = "GitHub"
-    name = "QCPortal"
-    URL = "https://github.com/MolSSI/QCFractal"
-
-    [[menu.main]]
-    parent = "GitHub"
-    name = "QCFractal"
-    URL = "https://github.com/MolSSI/QCFractal"
-
-    [[menu.main]]
-    parent = "GitHub"
-    name = "QCEngine"
-    URL = "https://github.com/MolSSI/QCEngine"
-
-    [[menu.main]]
-    parent = "GitHub"
-    name = "QCElemental"
-    URL = "https://github.com/MolSSI/QCElemental"
-
-
-  # footer menu
-  [[menu.footer]]
-  name = "About"
-  URL = "/about"
-  weight = 1
 
   [[menu.footer]]
   name = "Get Started"
   URL = "/get_started"
   weight = 2
 
-  [[menu.footer]]
-  name = "Examples"
-  URL = "https://docs.qcarchive.molssi.org/"
-  weight = 3
-  
   [[menu.footer]]
   name = "Contact Us"
   URL = "mailto:qcarchive@molssi.org"
