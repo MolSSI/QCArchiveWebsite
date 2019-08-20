@@ -1,45 +1,14 @@
-molssiArchiveHeader:
-    enable: true
-    content: "
-      The MolSSI QCArchive offers <a href='https://www.go-fair.org/fair-principles/'>FAIR</a> access to millions of computational molecular science results.
-      These include curated interaction energy, thermochemical, and conformational datasets from the literature;
-      data from the <a href='https://openforcefield.org/'>OpenFF</a> initiative; and data donated to or computed by MolSSI.
-      You are also welcome to submit your own data.
-"
-
-infrastructureHeader:
-    enable: true
-    content: "The complete QCArchive software infrastructure is open source. Spin up your own private database, manage your complete compute workflow, or incorporate QCArchive components into your software stack."
-
-
-infrastructure:
-    enable: true
-    image: "images/about/github_ecosystem.png"
-    title: "Use the QCArchive Infrastructure in Your Projects"
-    content: "The QCArchive software infrastructure was created not as a monolithic piece of
-software, but as several modules that form an ecosystem.  This provides many
-libraries that can be used independently. Whether you want physical constants
-and molecule parsing with QCElemental, a quantum chemistry program agnostic
-executor with QCEngine, or to run your own QCFractal database and/or compute workflow, 
-all software is open to the community.
-
-<br><br>
-
-<div class='col-12 text-center'>
-        <a href='/projects' class='btn btn-main-md'>QCArchive Projects</a>
-</div>
-"
-
 qcportal:
   enable: true
-  title : "View Data with QCPortal"
-  image : "images/about/violin_plot.png"
+  title : "Explore data with QCPortal"
   content : "
-QCPortal is a Python front-end for analyzing and visualizing results. QCPortal provides access to models that organize large amounts of data into structured Python objects.
+QCPortal is the primary front-end for accessing, analyzing, and visualizing QCArchive data.
+QCPortal provides models that organize large sets of calculations into structured Python objects.
+Get started with our examples.
 <br><br>
 
 <div class='col-12 text-center'>
-        <a href='http://docs.qcarchive.molssi.org/en/latest/' class='btn btn-main-md'>See Examples</a>
+        <a href='/examples' class='btn btn-main-md'>See Examples</a>
 </div>
   "
   imageSlider:
@@ -49,11 +18,12 @@ QCPortal is a Python front-end for analyzing and visualizing results. QCPortal p
 
 compute:
     enable: true
-    title : "Compute with MolSSI"
+    title : "Compute with QCArchive"
     image : "images/about/openff_workflow.png"
     content : "
-  Compute and stuff. Compute and stuff. Compute and stuff. Compute and stuff. Compute and stuff. Compute and stuff. Compute and stuff. Compute and stuff. Compute and stuff. Compute and stuff. Compute and stuff.
-
+  QCArchive provides a complete platform for computing, managing, and organizing large-scale quantum chemical workflows and datasets.
+  This platform is already used by the OpenFF project, and we are actively looking
+  to work with additional groups.
   <br><br>
 
   <div class='col-12 text-center'>
@@ -66,12 +36,12 @@ ingest:
     title : "Contribute your data"
     image : "images/about/td_network.png"
     content : "
-  The community can extend the MolSSI QCArchive database by
-  supplying compute time or data. If you are interested
-  in additional methods for a given dataset get in touch! Also, if you have a
-  well-structured dataset that is not within our database already, we accept
-  contributions. This process is currently in beta, and we are actively looking
-  to work with additional groups.
+  QCArchive welcomes data contributions and suggestions from the community.
+  If you have a well-structured dataset that is not yet within the QCArchive,
+  please reach out.
+  If you are interested in additional methods for an existing dataset,
+  or would like to suggest that we add a dataset,
+  get in touch!
 
   <br><br>
 
@@ -80,17 +50,36 @@ ingest:
   </div>
   "
 
+infrastructure:
+    enable: true
+    image: "images/about/github_ecosystem.png"
+    title: "Use the QCArchive infrastructure in your projects"
+    content: "
+QCArchive is powered by an open-source software infrastructure.
+This infrastructure was created not as a monolithic piece of
+software, but as several modules that form an ecosystem of independent libraries.
+Whether you want physical constants and molecule parsing with QCElemental, a quantum chemistry program agnostic
+executor with QCEngine, or to run your own QCFractal database and/or compute workflow,
+all software is open to the community.
+
+<br><br>
+
+<div class='col-12 text-center'>
+        <a href='https://docs.qcarchive.molssi.org/' class='btn btn-main-md'>QCArchive Infrastructure</a>
+</div>
+"
 
 paidSupport:
     enable: true
     image : "images/about/code_demo.png"
-    title : "Paid Support"
-    content : "The QCFractal ecosystem is an open-source project backed by the
-Molecular Sciences Software Institute. In addition to our open-source
-commitments, paid support for custom QCFractal instances, code, consulting, and
-priority support is available. For academic projects, consider writing us into
-your next grant for priority support and training.  Contact us for additional
-information. 
+    title : "Paid support"
+    content : "
+The QCArchive infrastructure is an open-source project backed by the
+Molecular Sciences Software Institute.
+In addition to our open-source commitments, paid support for custom QCFractal instances, code, consulting, and
+priority support is available.
+For academic projects, consider writing us into your next grant for priority support and training.
+Contact us for additional information.
 
 <br><br>
 
