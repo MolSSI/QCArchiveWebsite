@@ -3,8 +3,8 @@
 QCArchiveWebsite
 ================
 
-This repository contain the qcarchive.molssi.org website. If you find bugs with
-the website please consider making a pull request here. This website is automatically
+This repository contains the qcarchive.molssi.org website. If you find bugs with
+the website, please consider making a pull request here. This website is automatically
 built with Netlify.
 
 ## Local builds
@@ -18,6 +18,6 @@ built with Netlify.
 
 The small-apps theme has been purchased from
 [Themefischer](https://themefisher.com) and is not available for public use
-without a license. If you enjoy the theme as much as we do please purchase it
+without a license. If you enjoy the theme as much as we do, please purchase it
 from their website.
 
