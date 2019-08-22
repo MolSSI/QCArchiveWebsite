@@ -88,9 +88,8 @@ service:
 # LNN: The "enable" works here
 promoVideo:
   enable : True
-  # TODO(Levi): remove the QC, leaving the black textured background
-  bgImage : "images/background/qcablackback.png"
-  #bgImageAlt : "images/background/qcablackback.png"
+  bgImage : "images/background/blackback.png"
+  #bgImageAlt : "images/background/blackback.png"
   title : "Watch Our Debut Presentation!"
   content : "Watch the debut presentation of the QCArchive also presented at the 2019 Spring ACS Conference"
   videoURL : "http://www.youtube.com/watch?v=0dmqZqVQAR8"
