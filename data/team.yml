@@ -35,7 +35,7 @@ teamLeaders:
           URL : "https://github.com/lnaden"
 
     # lori
-    - image: "images/people/lorihead.png"
+    - image: "images/people/lorifull.png"
 #      imageAlt: "images/people/lorifull-ish.webp"
       name: "Lori Burns"
       designation: "Core Psi4 Developer"
