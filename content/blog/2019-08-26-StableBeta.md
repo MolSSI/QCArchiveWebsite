@@ -82,6 +82,7 @@ a variety of projects such as **[QUBEKit](https://github.com/cole-group/QUBEKit)
 **[MultirefPredict](https://github.com/hjkgrp/MultirefPredict)**.
 
 This stable beta release means several things for the infrastructure:
+
 1. We are satisfied that the core infrastructure components are in a state that is extensible for the future without 
    significant overhauls. Several extensive component overhauls are now complete and unlikely to change in the future.
 2. All data in QCFractal can be migrated forwards, and no data will be lost.
