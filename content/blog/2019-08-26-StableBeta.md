@@ -1,11 +1,11 @@
 ---
-title: "Stable-Beta Announcment for the Quantum Chemistry Archive Project"
+title: "The QCArchive Stable Beta"
 date: 2019-08-26
 description: "Stable Beta"
-pageDescription : "The QCArchive is now in Stable Beta"
+pageDescription : "The QCArchive Stable Beta"
 type : "featured-post"
 image : "images/QCArchiveLogo.png"
-author : "Daniel Smith, Matt Welborn, Levi Naden, Doaa Altarawy, and Lori Burns"
+author : "The QCArchive developers"
 authorImage : "images/molssi-logo.svg"
 authorDescription : "The QCArchive Team"
 #authorSocial : 
@@ -96,3 +96,5 @@ calculations you want to run? Talk to us about leveraging our compute resources!
 The MolSSI QCArchive project was created to support the computational molecular science community to help create, 
 share, and understand data. We have begun to take the first steps in this journey and will continue to expand and 
 refine these tools until they are useful to everyone in the community.
+
+\- The QCArchive Team
