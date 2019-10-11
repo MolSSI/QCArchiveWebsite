@@ -1,7 +1,7 @@
 .main-nav{
   background: $light;
   .navbar-brand{
-	padding: 0;
+	  padding: 0.8rem 0;
   }
   .navbar-nav{
 	.nav-item{
@@ -116,6 +116,11 @@
 }
 
 // bootstrap override
-.navbar-toggler:focus, .navbar-toggler:hover{
-  outline: none;
+.navbar-toggler {
+  font-size: 2rem;
+
+  &:focus,
+  &:hover {
+	outline: none;
+  }
 }
