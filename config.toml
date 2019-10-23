@@ -39,7 +39,8 @@ pygmentsStyle = "solarized-dark"
   URL = "plugins/aos/aos.js"
   [[params.plugins.js]]
   URL = "plugins/google-map/gmap.js"
-
+  [[params.plugins.js]]
+  URL = "plugins/particles/particles.min.js"
 
 # navigation
 [menu]
