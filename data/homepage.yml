@@ -3,7 +3,7 @@ banner:
   description : "A central source to compile, aggregate, query, and share quantum chemistry data."
   bgImage : "images/home-banner.webp"
   bgImageAlt : "images/home-banner.png"
-  image : "images/QCArchiveLogoWhite.svg"
+  image : "images/QCArchiveLogoLight.png"
   imageAlt : "images/QCArchiveDrop2.png"
   button:
     btnText : "Get Started!"
