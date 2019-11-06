@@ -1,7 +1,7 @@
 .call-to-action-app{
 	text-align: center;
 	h2, p, a{
-		color: $light !important;
+		color: $light;
 	}
 	p{
 		margin-bottom: 60px;
@@ -23,6 +23,18 @@
 				}
 			}
 		}
+	}
+
+	.btn {
+
+		&:hover {
+			background: #fff;
+			color: $primary-color;
+		}
+	}
+
+	@include screenHeightLPlus {
+		padding: 8rem 0;
 	}
 }
 

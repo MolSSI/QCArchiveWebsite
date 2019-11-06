@@ -25,14 +25,14 @@
 {{ "<!-- End of Hero Section -->" | safeHTML }}
 
 {{"<!-- banner-feature -->" | safeHTML}}
-<section class="section pt-0 position-relative pull-top">
+<section class="section pt-0 pb-0 position-relative pull-top">
 	<div class="container">
 		<div class="rounded shadow p-5 bg-white">
 			<div class="row justify-content-center">
 				{{ range .Site.Data.homepage.bannerFeature }}
 				<div class="col-md-4 mb-4 text-center">
 					<i class="{{ .icon }} text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">{{.title }}</h3>
+					<h3 class="mt-4 mb-3 text-capitalize h5 ">{{.title }}</h3>
 					<p class="regular text-muted" style="text-align: justify;">{{.description | markdownify }}</p>
 				</div>
 				{{ end }}
@@ -45,7 +45,7 @@
 {{ if .Site.Data.homepage.featureOne }}
 {{ "<!-- Feature Grid -->" | safeHTML }}
 {{ with .Site.Data.homepage.featureOne }}
-<section class="feature section pt-0">
+<section class="feature section">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 ml-auto justify-content-center">
@@ -80,7 +80,7 @@
 
 {{ if .Site.Data.homepage.featureTwo }}
 {{ with .Site.Data.homepage.featureTwo }}
-<section class="feature section pt-0">
+<section class="feature section">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 ml-auto align-self-center">

@@ -90,6 +90,28 @@ a:hover {
 
 .page-title {
   text-align: center;
+
+	@include screenHeightLPlus {
+		padding: 4rem 0 6rem 0;
+
+		h1 {
+			padding-bottom: 4rem;
+			margin-bottom: 0;
+			position: relative;
+
+			&:after {
+				width: 40px;
+				height: 2px;
+				content: '';
+				display: block;
+				background: $link-color;
+				position: absolute;
+				bottom: 2rem;
+				left: 50%;
+				transform: translate(-50%, 0);
+			}
+		}
+	}
 }
 
 // Promo Video

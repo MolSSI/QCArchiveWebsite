@@ -19,7 +19,8 @@
     color: $light;
     outline: none;
     &:hover{
-    	color: $light;
+    	background: $primary-color-lighter;
+		color: $light;
     }
     &:focus{
     	color: $light;
