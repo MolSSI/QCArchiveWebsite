@@ -20,7 +20,12 @@
   }
 }
 @mixin large-desktop{
-  @media(max-width:1200px){
-    @content;
-  }
+	@media(max-width:1200px){
+		@content;
+	}
+}
+@mixin screenHeightLPlus{
+	@media(min-height:900px){
+		@content;
+	}
 }

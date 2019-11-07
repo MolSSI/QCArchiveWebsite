@@ -115,10 +115,14 @@
 				font-size: 14px;
 			}
 		}
-	}	
+	}
 }
 
 .feature{
+	padding: 50px 0;
+	.row {
+		align-items: center;
+	}
 	.feature-content{
 		h2, p{
 			margin-bottom: 25px;
@@ -133,9 +137,9 @@
 		}
 		p{
 			font-family: $secondary-font;
-			margin-bottom: 10px;
+			margin-bottom: 1.1rem;
 			font-style: italic;
-			color: #242424;
+			color: $text-color-light;
 		}
 		ul.meta{
 			li{
@@ -148,6 +152,13 @@
 				}
 			}
 		}
+	}
+	& + .feature {
+		padding-top: 0;
+	}
+
+	@include screenHeightLPlus {
+		padding: 8rem 0;
 	}
 }
 
@@ -205,9 +216,11 @@
 		h2{
 			font-size: 30px;
 			color: $light;
+			margin-bottom: 1.4rem;
 		}
 		p{
 			margin-bottom: 30px;
+			color: $light-gray;
 		}
 		a{
 			i.video{
@@ -230,8 +243,18 @@
 
 .testimonial{
 	.testimonial-slider{
+		.owl-stage {
+			display: flex;
+
+			.owl-item {
+				display: flex;
+				flex-grow: 1;
+			}
+		}
 		.item{
 			padding-bottom: 10px;
+			display: flex;
+			flex-grow: 1;
 			.block{
 				padding: 40px;
 				text-align: center;
@@ -239,6 +262,7 @@
 		        border-radius: 5px;
 				.image{
 					margin-top: 30px;
+					margin-bottom: 5px;
 					margin-bottom: 5px;
 					width: 100%;
 					display: flex;
@@ -250,7 +274,7 @@
 						height: 40px;
 						width: 40px;
 				        border-radius: 100%;
-					}	
+					}
 				}
 				p{
 					font-family: $secondary-font;
@@ -276,7 +300,7 @@
 					span{
 						background: $primary-color;
 					}
-				}	
+				}
 			}
 		}
 	}

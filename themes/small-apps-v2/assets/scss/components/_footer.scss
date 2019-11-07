@@ -54,6 +54,13 @@
 			}
 		}
 	}
+	.social-icon {
+		margin-top: 2rem;
+	}
+
+	@include screenHeightLPlus {
+		padding: 4rem 0;
+	}
 }
 
 .footer-classic{
