@@ -3,6 +3,7 @@
 # /resources/_gen/assets/js/*
 /public/
 
-# /resources/_gen/
+/resources/_gen/
+
 .idea/
 *.DS_Store
