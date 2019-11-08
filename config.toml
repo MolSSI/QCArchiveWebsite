@@ -109,17 +109,17 @@ pygmentsStyle = "solarized-dark"
     URL ="/apps/reaction_viewer"
     weight = 1
 
+#    [[menu.main]]
+#    parent = "Apps"
+#    name = "Test App 2"
+#    URL = "/apps/dash_example/"
+#    weight = 2
 
     [[menu.main]]
     parent = "Apps"
-    name = "Test App 2"
-    URL = "/apps/dash_example/"
-    weight = 2
-
-    [[menu.main]]
-    parent = "Apps"
-    name = "Download Datasets"
-    URL = "https://dashapps.herokuapp.com/download_datasets"
+    name = "Machine Learning Datasets"
+#    URL = "https://dashapps.herokuapp.com/ml_datasets"
+    URL = "/apps/ml_datasets"
     weight = 3
 
 
