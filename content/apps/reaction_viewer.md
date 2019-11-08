@@ -5,5 +5,5 @@ description: "Dash apps in QCArchive"
 pageDescription : "Dash Apps"
 layout: "apps"
 
-app_url: "https://dashapps.herokuapp.com/reaction_viewer/"
+app_url: "https://qcarchive-webapps.herokuapp.com/reaction_viewer/"
 ---
