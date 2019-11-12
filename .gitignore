@@ -3,7 +3,8 @@
 # /resources/_gen/assets/js/*
 /public/
 
-resources/_gen/
+# scss compiting not supported on hugo
+#resources/_gen/
 
 .idea/
 *.DS_Store
