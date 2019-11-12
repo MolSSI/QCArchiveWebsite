@@ -107,9 +107,18 @@
       // ----------------------------
       // Particles
       // ----------------------------
-      particlesJS.load('particles-js', '/config/particles.json', function() {
-          console.log('callback - particles.js config loaded');
-      });
+      if($('#particles-js').length) {
+          particlesJS.load('particles-js', '/config/particles.json', function() {
+              console.log('callback - particles.js config loaded');
+          });
+      }
+
+      // ----------------------------
+      // Iframe
+      // ----------------------------
+      if($('#crossDomainIframe').length) {
+          iFrameResize({log: true}, '#crossDomainIframe');
+      }
 
   });
 

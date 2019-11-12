@@ -41,6 +41,8 @@ pygmentsStyle = "solarized-dark"
   URL = "plugins/google-map/gmap.js"
   [[params.plugins.js]]
   URL = "plugins/particles/particles.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/iframe/iframe.js"
 
 # navigation
 [menu]
