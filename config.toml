@@ -93,10 +93,30 @@ pygmentsStyle = "solarized-dark"
     # weight = 20
 
   [[menu.main]]
-  weight = 9
+  weight = 4
   name = "Examples"
   URL = "/examples"
   
+
+[[menu.main]]
+  weight = 9
+  name = "Apps"
+  hasChildren = true
+
+#    [[menu.main]]
+#    parent = "Apps"
+#    name = "Reaction Datasets"
+#    URL ="/apps/reaction_viewer"
+#    weight = 1
+
+
+    [[menu.main]]
+    parent = "Apps"
+    name = "Machine Learning Datasets"
+#    URL = "https://dashapps.herokuapp.com/ml_datasets"
+    URL = "/apps/ml_datasets"
+    weight = 3
+
 
   [[menu.main]]
   name = "Infrastructure"
