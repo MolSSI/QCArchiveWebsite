@@ -103,17 +103,12 @@ pygmentsStyle = "solarized-dark"
   name = "Apps"
   hasChildren = true
 
-    [[menu.main]]
-    parent = "Apps"
-    name = "Reaction Datasets"
-    URL ="/apps/reaction_viewer"
-    weight = 1
-
 #    [[menu.main]]
 #    parent = "Apps"
-#    name = "Test App 2"
-#    URL = "/apps/dash_example/"
-#    weight = 2
+#    name = "Reaction Datasets"
+#    URL ="/apps/reaction_viewer"
+#    weight = 1
+
 
     [[menu.main]]
     parent = "Apps"
