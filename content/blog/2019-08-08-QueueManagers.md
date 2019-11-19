@@ -4,7 +4,7 @@ date: 2019-08-08
 description: "QueueManager Evolution"
 pageDescription : "The QCArchive Queue Managers and how they have evolved"
 type : "post"
-image : "images/blog/QCQuManagerNetwork.png"
+image : "images/blog/QCQuManagerNetwork.gif"
 author : "Levi Naden and Daniel Smith"
 authorImage : "images/molssi-logo.svg"
 authorDescription : "Levi is a MolSSI Software Scientist and a QCArchive developer. Daniel is a MolSSI Software Scientist and the lead QCArchive developer."

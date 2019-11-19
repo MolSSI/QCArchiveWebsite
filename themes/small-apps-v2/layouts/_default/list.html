@@ -44,7 +44,7 @@
       {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
       {{ range $index, $element := $paginator.Pages }}
       <div class="card shadow p-4 mb-4">
-        <div class="header d-flex align-items-center justify-content-center h-100 text-center  mb-4">
+        <div class="header d-flex align-items-center justify-content-center text-center  mb-4">
           <a href="{{ .Permalink }}"><img class="img-fluid" src="{{ .Params.Image | absURL }}" onerror="this.src='{{ .Params.ImageAlt | absURL }}'" alt="Post-Image"></a>
         </div>
         <div class="body flex-column h-100">
