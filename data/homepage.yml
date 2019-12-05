@@ -13,7 +13,7 @@ banner:
 bannerFeature:
   - icon: "tf-linegraph"
     title: "FAIR Data"
-    description: "MolSSI hosts the QCArchive server, the largest publically available collection of quantum chemistry data. So far, it store ten million computations for the molecular sciences community."
+    description: "MolSSI hosts the QCArchive server, the largest publicly available collection of quantum chemistry data. So far, it store ten million computations for the molecular sciences community."
 
   - icon: "tf-ion-ios-pie"
     title: "Interactive Visualization"
