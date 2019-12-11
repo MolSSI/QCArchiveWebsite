@@ -120,56 +120,27 @@
           iFrameResize({log: true}, '#crossDomainIframe');
       }
 
+      function num_with_commas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
       // Server stats
       $.get({
           url: 'https://api.qcarchive.molssi.org:443/information',
       }).done(function (data) {
           data = data['counts'];
+          for (var k in data){
+              data[k] = num_with_commas(data[k]);
+          }
           $('#db_stats').removeClass('d-none');
           $('#molecule_count').html(data['molecule']);
           $('#result_count').html(data['result']);
           $('#collection_count').html(data['collection']);
       }).fail(function () {
          $('#db_stats').addClass('d-none');
-      }).always(function () {  // TODO: to be removed
-          $('#db_stats').removeClass('d-none');
-          var data = {
-            'molecule': '123,456',
-            'result': '345,123',
-            'collection': '5,678'
-          };
-          $('#db_stats').removeClass('d-none');
-          $('#molecule_count').html(data['molecule']);
-          $('#result_count').html(data['result']);
-          $('#collection_count').html(data['collection']);
       });
 
   });
 
-  // fetch('https://api.qcarchive.molssi.org:443/information', {
-  //       method: 'GET', //
-  //       mode: 'cors', // no-cors, *cors, same-origin
-  //       headers: {
-  //         'Content-Type': 'application/json'
-  //       },
-  //       body: JSON.stringify('{}') // body data type must match "Content-Type" header
-  //     }).then(
-  //       function(response) {
-  //         if (response.status !== 200) {
-  //           console.log('Looks like there was a problem. Status Code: ' +
-  //             response.status);
-  //           return;
-  //         }
-  //
-  //         // Examine the text in the response
-  //         response.json().then(function(data) {
-  //           console.log(data);
-  //         });
-  //       }
-  //     )
-  //     .catch(function(err) {
-  //       alert(err);
-  //       console.log('Fetch Error :-S', err);
-  //     });
-
+  
 })(jQuery);
