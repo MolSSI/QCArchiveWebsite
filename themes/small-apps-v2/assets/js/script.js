@@ -125,6 +125,20 @@
           url: 'https://api.qcarchive.molssi.org:443/information',
       }).done(function (data) {
           data = data['counts'];
+          $('#db_stats').removeClass('d-none');
+          $('#molecule_count').html(data['molecule']);
+          $('#result_count').html(data['result']);
+          $('#collection_count').html(data['collection']);
+      }).fail(function () {
+         $('#db_stats').addClass('d-none');
+      }).always(function () {  // TODO: to be removed
+          $('#db_stats').removeClass('d-none');
+          var data = {
+            'molecule': '123,456',
+            'result': '345,123',
+            'collection': '5,678'
+          };
+          $('#db_stats').removeClass('d-none');
           $('#molecule_count').html(data['molecule']);
           $('#result_count').html(data['result']);
           $('#collection_count').html(data['collection']);
