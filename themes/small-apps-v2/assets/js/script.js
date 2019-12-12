@@ -120,6 +120,27 @@
           iFrameResize({log: true}, '#crossDomainIframe');
       }
 
+      function num_with_commas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
+      // Server stats
+      $.get({
+          url: 'https://api.qcarchive.molssi.org:443/information',
+      }).done(function (data) {
+          data = data['counts'];
+          for (var k in data){
+              data[k] = num_with_commas(data[k]);
+          }
+          $('#db_stats').removeClass('d-none');
+          $('#molecule_count').html(data['molecule']);
+          $('#result_count').html(data['result']);
+          $('#collection_count').html(data['collection']);
+      }).fail(function () {
+         $('#db_stats').addClass('d-none');
+      });
+
   });
 
+  
 })(jQuery);
