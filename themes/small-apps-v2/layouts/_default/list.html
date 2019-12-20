@@ -6,23 +6,29 @@
 <section class="section featured-article">
   <div class="container">
     <div class="row">
-        {{ range first 1 (where .Data.Pages "Type" "featured-post") }}
+      {{ range first 1 (where .Data.Pages "Type" "featured-post") }}
       <div class="col-md-12">
         <article class="featured">
           <div class="image">
             <a href="{{ .Permalink }}"><img src="{{ .Params.Image | absURL }}" onerror="this.src='{{ .Params.ImageAlt | absURL }}'" alt="featured-article"></a>
           </div>
-          <div class="content">
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <ul class="list-inline post-tag">
-              <li class="list-inline-item">
-                <img src="{{ .Params.AuthorImage | absURL }}" alt="author-thumb">
-              </li>
-              <li class="list-inline-item">{{ .Params.Author }}</li>
-              <li class="list-inline-item">{{ .PublishDate.Format "January 02, 2006" }}</li>
-            </ul>
-            <p>{{ .Summary }}</p>
-            <a class="btn btn-main-sm" href="{{ .Permalink }}">Read more</a>
+          <div class="body">
+            <div class="content">
+              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              <p>{{ .Summary }}</p>
+              <a class="btn btn-main-sm" href="{{ .Permalink }}">Read more</a>
+            </div>
+            <div class="card-footer mt-5 p-0 pt-3 bg-transparent">
+              <div class="post-info">
+                <div class="mr-3">
+                  <img src="{{ .Params.AuthorImage | absURL }}" alt="author-thumb">
+                </div>
+                <div>
+                  <p>{{ .Params.Author }}</p>
+                  <p>{{ .PublishDate.Format "January 02, 2006" }}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </article>
       </div>
@@ -34,32 +40,35 @@
 
 <section class="post-grid section pt-0">
   <div class="container">
-    <div class="row">
+    <div class="card-deck mb-3">
       {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-      {{ range $paginator.Pages }}
-      <div class="col-lg-4 col-md-6">
-        {{ "<!-- Post -->" | safeHTML }}
-        <article class="post-sm">
-          <div class="post-thumb">
-            <a href="{{ .Permalink }}"><img class="img-fluid" src="{{ .Params.Image | absURL }}" onerror="this.src='{{ .Params.ImageAlt | absURL }}'" alt="Post-Image"></a>
+      {{ range $index, $element := $paginator.Pages }}
+      <div class="card shadow p-4 mb-4">
+        <div class="header align-items-center justify-content-center text-center  mb-4">
+          <a href="{{ .Permalink }}"><img class="img-fluid" src="{{ .Params.Image | absURL }}" onerror="this.src='{{ .Params.ImageAlt | absURL }}'" alt="Post-Image"></a>
+        </div>
+        <div class="body flex-column h-100">
+          <h3 class="mb-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p class="card-text">{{ .Summary }}</p>
+        </div>
+        <div class="card-footer mt-5 p-0 pt-3 bg-transparent">
+          <div class="post-info">
+            <div class="mr-3">
+              <img src="{{ .Params.AuthorImage | absURL }}" alt="author-thumb">
+            </div>
+            <div>
+              <p>{{ .Params.Author }}</p>
+              <p>{{ .PublishDate.Format "January 02, 2006" }}</p>
+            </div>
           </div>
-          <div class="post-title">
-            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-          </div>
-          <div class="post-meta">
-            <ul class="list-inline post-tag">
-              <li class="list-inline-item">
-                <img src="{{ .Params.AuthorImage | absURL }}" alt="author-thumb">
-              </li>
-              <li class="list-inline-item">{{ .Params.Author }}</li>
-              <li class="list-inline-item">{{ .PublishDate.Format "January 02, 2006" }}</li>
-            </ul>
-          </div>
-          <div class="post-details">
-            <p>{{ .Summary }}</p>
-          </div>
-        </article>
+        </div>
       </div>
+      {{ if (eq (mod (add $index 1) 2) 0) }}
+      <div class="w-100 d-none d-sm-block d-lg-none"><!-- wrap every 2 on md--></div>
+      {{ end }}
+      {{ if (eq (mod (add $index 1) 3) 0) }}
+      <div class="w-100 d-none d-lg-block"><!-- wrap every 3 on lg--></div>
+      {{ end }}
       {{ end }}
       <div class="col-12">
         {{"<!-- pagination -->" | safeHTML }}
@@ -95,41 +104,41 @@
               {{ end }}
               <!-- Page numbers. -->
               {{ range $paginator.Pagers }}
-                {{ $.Scratch.Set "page_number_flag" false }}
-                <!-- Advanced page numbers. -->
-                {{ if gt $paginator.TotalPages $max_links }}
-                  <!-- Lower limit pages. -->
-                  <!-- If the user is on a page which is in the lower limit.  -->
-                  {{ if le $paginator.PageNumber $lower_limit }}
-                    <!-- If the current loop page is less than max_links. -->
-                    {{ if le .PageNumber $max_links }}
-                      {{ $.Scratch.Set "page_number_flag" true }}
-                    {{ end }}
-                  <!-- Upper limit pages. -->
-                  <!-- If the user is on a page which is in the upper limit. -->
-                  {{ else if ge $paginator.PageNumber $upper_limit }}
-                    <!-- If the current loop page is greater than total pages minus $max_links -->
-                    {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
-                      {{ $.Scratch.Set "page_number_flag" true }}
-                    {{ end }}
-                  <!-- Middle pages. -->
-                  {{ else }}
-                    {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
-                      {{ $.Scratch.Set "page_number_flag" true }}
-                    {{ end }}
-                  {{ end }}
-                <!-- Simple page numbers. -->
-                {{ else }}
-                  {{ $.Scratch.Set "page_number_flag" true }}
-                {{ end }}
-                <!-- Output page numbers. -->
-                {{ if eq ($.Scratch.Get "page_number_flag") true }}
-                  <li class="page-item{{ if eq . $paginator }} page-item active {{ end }}">
-                    <a href="{{ .URL }}" class="page-link hover-ripple">
-                      {{ .PageNumber }}
-                    </a>
-                  </li>
-                {{ end }}
+              {{ $.Scratch.Set "page_number_flag" false }}
+              <!-- Advanced page numbers. -->
+              {{ if gt $paginator.TotalPages $max_links }}
+              <!-- Lower limit pages. -->
+              <!-- If the user is on a page which is in the lower limit.  -->
+              {{ if le $paginator.PageNumber $lower_limit }}
+              <!-- If the current loop page is less than max_links. -->
+              {{ if le .PageNumber $max_links }}
+              {{ $.Scratch.Set "page_number_flag" true }}
+              {{ end }}
+              <!-- Upper limit pages. -->
+              <!-- If the user is on a page which is in the upper limit. -->
+              {{ else if ge $paginator.PageNumber $upper_limit }}
+              <!-- If the current loop page is greater than total pages minus $max_links -->
+              {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
+              {{ $.Scratch.Set "page_number_flag" true }}
+              {{ end }}
+              <!-- Middle pages. -->
+              {{ else }}
+              {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
+              {{ $.Scratch.Set "page_number_flag" true }}
+              {{ end }}
+              {{ end }}
+              <!-- Simple page numbers. -->
+              {{ else }}
+              {{ $.Scratch.Set "page_number_flag" true }}
+              {{ end }}
+              <!-- Output page numbers. -->
+              {{ if eq ($.Scratch.Get "page_number_flag") true }}
+              <li class="page-item{{ if eq . $paginator }} page-item active {{ end }}">
+                <a href="{{ .URL }}" class="page-link hover-ripple">
+                  {{ .PageNumber }}
+                </a>
+              </li>
+              {{ end }}
               {{ end }}
               <!-- Next page. -->
               {{ if $paginator.HasNext }}

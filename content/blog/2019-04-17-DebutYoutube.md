@@ -4,7 +4,7 @@ date: 2019-04-17
 description: "QCA on YouTube"
 pageDescription : "There is YouTube uplaod of the re-recording of the Quantum Chemistry Archive's presentation from ACS 2019"
 type : "post"
-image : "images/blog/qcaopen.png"
+image : "images/blog/qcaopen.jpg"
 author : "Levi Naden"
 authorImage : "images/people/nadenhead.jpg"
 authorDescription : "Levi is a MolSSI Software Scientist and a QCArchive developer"
