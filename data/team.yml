@@ -97,7 +97,7 @@ designTeam:
     - image : "images/empty_px_placeholder.png"
       name : "Logan Ward"
       designation : "Code contributor"
-      content : "MPI implementation in QCFractal and QCEngine. TODO"
+      content : "MPI implementation in QCFractal and QCEngine."
       socialIcon :
         - icon : "tf-ion-social-github"
           URL : "https://github.com/WardLT"
@@ -159,7 +159,7 @@ designTeam:
           URL : "https://github.com/bdice"
 
     - image : "images/empty_px_placeholder.png"
-      name : "ahurta92 (TODO)"
+      name : "Adrian Hurtado"
       designation : "QCEngine contributor"
       content : "Improvements to NWChem harness in QCEngine."
       socialIcon :
