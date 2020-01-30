@@ -48,26 +48,24 @@ teamLeaders:
     - image: "images/people/mattfull.jpg"
       name: "Matthew Welborn"
       designation: "Developer"
-      content: "Developer focused on documenation and machine learning"
+      content: "Developer focused on data and machine learning"
       socialIcon:
       - icon: "tf-ion-social-github"
         URL: "https://github.com/mattwelborn"
 
 
-
-# design team
+# major contributors
 designTeam:
   enable : true
   title : "Additional developers and contributors"
-  description : "These additional developers are those who
-  have made significant contributions to individual projects, or the archive as a whole."
+  description : "These additional developers are those who have made significant contributions to individual projects, or the archive as a whole."
   teamMember :
           
     # team member
     - image : "images/empty_px_placeholder.png"
 #      imageAlt : "images/people/samfull.jpg"
       name : "Sam Ellis"
-      designation : "Software Scientist at the MolSSI"
+      designation : "Software Scientist at MolSSI"
       content : "Primary Requirements Engineer for the QCArchive project, keeps the rest of us from the dreaded scope creep."
           
     # team member
@@ -77,51 +75,328 @@ designTeam:
       designation : "Open Forcefield Member"
       content : "Scientist on behalf of Open Force Field who has been using QCArchive since the beginning and helping shape end-user interface and development"
       socialIcon:
-      - icon: "tf-ion-social-github"
-        URL: "https://github.com/ChayaSt"
+        - icon: "tf-ion-social-github"
+          URL: "https://github.com/ChayaSt"
 
     - image : "images/empty_px_placeholder.png"
       name : "Fang Liu"
       designation : "QCEngine contributor"
-      content : "TeraChem wrapper implementation in QCEngine."
+      content : "TeraChem harness implementation in QCEngine."
       socialIcon :
         - icon : "tf-ion-social-github"
           URL : "https://github.com/ffangliu"
 
-    - image: "images/empty_px_placeholder.png"
-      name: "Sebastian Lee"
-      designation: "QCEngine contributor"
-      content: "Molpro wrapper implementation in QCEngine."
-      socialIcon:
-        - icon: "tf-ion-social-github"
-          URL: "https://github.com/sjrl"
+    - image : "images/empty_px_placeholder.png"
+      name : "Sebastian Lee"
+      designation : "Code contributor"
+      content : "Molpro and entos harness implementation in QCEngine. Contributions to QCSchema."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/sjrl"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Logan Ward"
+      designation : "Code contributor"
+      content : "MPI implementation in QCFractal and QCEngine. TODO"
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/WardLT"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "eljost (TODO)"
+      designation : "Code contributor"
+      content : "Turbomole harness in QCEngine and molecule parser in QCElemental."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/eljost"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Taylor A. Barnes"
+      designation : "Software Scientist at MolSSI"
+      content : "MolSSI Driver Interface implemenation in QCEngine."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/taylor-a-barnes"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Annabelle Lolinco"
+      designation : "QCEngine contributor"
+      content : "NWChem harness in QCEngine."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/VivaceBelles"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Zach Glick"
+      designation : "QCEngine contributor"
+      content : "GAMESS harness in QCEngine."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/zachglick"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Justin Turney"
+      designation : "QCEngine contributor"
+      content : "Improvements to program harness and compute infrastructure in QCEngine."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/jturney"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Farhad Ramezanghorbani"
+      designation : "QCEngine contributor"
+      content : "Improvements to TorchANI harness in QCEngine."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/farhadrgh"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Bradley Dice"
+      designation : "QCEngine contributor"
+      content : "Code cleanup in QCEngine."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/bdice"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "ahurta92 (TODO)"
+      designation : "QCEngine contributor"
+      content : "Improvements to NWChem harness in QCEngine."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/ahurta92"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Rollin King"
+      designation : "QCElemental contributor"
+      content : "Improvements to molecule alignment in QCElemental."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/psi-rking"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "David Dotson"
+      designation : "Code contributor"
+      content : "OpenMM harness in QCEngine and improvements to QCElemental."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/dotsdl"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Rovberto di Remigio"
+      designation : "QCElemental contributor"
+      content : "Added complex numbers to QCElemental."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/robertodr"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Bert de Jong"
+      designation : "QCSchema contributor"
+      content : "TODO"
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/wadejong"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Aaron Virshup"
+      designation : "QCSchema contributor"
+      content : "TODO"
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Ben Pritchard"
+      designation : "Software Scientist at MolSSI"
+      content : "Maintainer of QCSchema"
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/bennybp"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Geoff Hutchison"
+      designation : "QCSchema contributor"
+      content : "TODO"
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/ghutchis"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Marcus D. Hanwell"
+      designation : "QCSchema contributor"
+      content : "TODO"
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/cryos"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "John Herr"
+      designation : "Data contributor"
+      content : "TensorMol datasets."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/TODO"
+
+    - image : "images/empty_px_placeholder.png"
+      name : "Kun Yao"
+      designation : "Data contributor"
+      content : "TensorMol datasets."
+      socialIcon :
+        - icon : "tf-ion-social-github"
+          URL : "https://github.com/TODO"
+
+#   - image : "images/empty_px_placeholder.png"
+#     name : ""
+#     designation : "Code contributor"
+#     content : ""
+#     socialIcon :
+#       - icon : "tf-ion-social-github"
+#         URL : "https://github.com/"
 
 
 # Overloading this for additional thanks
 marketingTeam:
-  enable : false
-  title : "Testers, contributors, and thanks"
-  description : "The people below are people the QCArchive development team would like to thank and give credit to.
-                 Either for rigorous testing, feature contributions, scientific discussion, bug fixing, and more. The
-                 project would not be possible without them!"
+  enable : true
+  title : "Community Members"
+  description : "The QCArchive would not have been possible without contributions from the community, including 
+                 rigorous testing, new features, scientific discussions, bug fixing, and more."
   teamMember :
     - image : "images/empty_px_placeholder.png"
-      name : "Fang Liu"
-      designation : "Engine wrapper contributor"
-      content : "TeraChem wrapper implementation in Engine"
-      socialIcon :
-        - icon : "tf-ion-social-github"
-          URL : "https://github.com/ffangliu"
+      name : "nstair (TODO)"
+      marketingation : "TODO"
 
     - image: "images/empty_px_placeholder.png"
-      name: "Sebastian Lee"
-      designation: "Engine wrapper contributor"
-      content: "Molpro wrapper implementation in Engine"
-      socialIcon:
-        - icon: "tf-ion-social-github"
-          URL: "https://github.com/sjrl"
+      name: "Sina Mostafanejad"
+      marketingation: "Florida State University"
 
+    - image: "images/empty_px_placeholder.png"
+      name: "Zhi Wang"
+      marketingation: "TODO"
 
+    - image: "images/empty_px_placeholder.png"
+      name: "Chuck Witt"
+      marketingation: "Princeton"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Tucker Burgin"
+      marketingation: "University of Michigan"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "sgreene8 (TODO)"
+      marketingation: ""
+
+    - image: "images/empty_px_placeholder.png"
+      name: "laurennk (TODO)"
+      marketingation: ""
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Jennifer A. Clark"
+      marketingation: "TODO"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Hannah Bruce Macdonald"
+      marketingation: "TODO"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Giuseppe Barbalinardo"
+      marketingation: "TODO"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Toon Verstraelen"
+      marketingation: "TODO"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Jonathon Misiewicz"
+      marketingation: "University of Georgia"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Eric Berquist"
+      marketingation: "USC Information Sciences Institute"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Jessica Nash"
+      marketingation: "MolSSI"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "David Sherill"
+      marketingation: "Georgia Tech"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Daniel Crawford"
+      marketingation: "MolSSI"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Lee-Ping Wang"
+      marketingation: "University of California - Davis"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Jeff Wagner"
+      marketingation: "Open Force Field"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "John D. Chodera"
+      marketingation: "Memorial Sloan Kettering Cancer Center"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Dom Sitianni"
+      marketingation: "Georgia Tech"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Nick Petosa"
+      marketingation: "Microsoft"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Daniel R. Nascimento"
+      marketingation: "PNNL"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Shantenu Jha"
+      marketingation: "Rutgers"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Matteo Turilli"
+      marketingation: "Rutgers"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Andre Merzky"
+      marketingation: "Rutgers"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Theresa Windus"
+      marketingation: "Iowa State"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Daniel Cole"
+      marketingation: "Newcastle"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Kyle Chard"
+      marketingation: "University of Chicago"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Kaitlin Groothius"
+      marketingation: "Science Gateways Community Institute"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Yu-Chuan Chen"
+      marketingation: "Science Gateways Community Institute"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Ilya Shunko"
+      marketingation: "Science Gateways Community Institute"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Brandon Dentler"
+      marketingation: "Science Gateways Community Institute"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Nuwan Desilva"
+      marketingation: "Iowa University"
+
+    - image: "images/empty_px_placeholder.png"
+      name: "Teresa Head-Gordon"
+      marketingation: "University of California - Berkeley"
 
 # call to action
 cta :
