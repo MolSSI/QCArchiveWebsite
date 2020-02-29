@@ -5,7 +5,7 @@ description: "ML Datasets Download"
 pageDescription : "ML Datasets Download"
 layout: "apps"
 
-app_url: "https://qcarchive-webapps.herokuapp.com/ml_datasets/"
+app_url: "http://qcarchive-webapps.eastus.cloudapp.azure.com/ml_datasets/"
 #app_url: "http://localhost:5000/ml_datasets/"
 
 ---

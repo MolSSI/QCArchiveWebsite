@@ -98,27 +98,23 @@ pygmentsStyle = "solarized-dark"
   weight = 4
   name = "Examples"
   URL = "/examples"
-  
 
-[[menu.main]]
+  [[menu.main]]
   weight = 9
   name = "Apps"
   hasChildren = true
 
-#    [[menu.main]]
-#    parent = "Apps"
-#    name = "Reaction Datasets"
-#    URL ="/apps/reaction_viewer"
-#    weight = 1
-
-
     [[menu.main]]
     parent = "Apps"
     name = "Machine Learning Datasets"
-#    URL = "https://dashapps.herokuapp.com/ml_datasets"
     URL = "/apps/ml_datasets"
-    weight = 3
+    weight = 1
 
+    [[menu.main]]
+    parent = "Apps"
+    name = "Reaction Datasets Viewer"
+    URL ="/apps/reaction_viewer"
+    weight = 2
 
   [[menu.main]]
   name = "Infrastructure"
@@ -126,7 +122,6 @@ pygmentsStyle = "solarized-dark"
   weight = 10
   pre = "<u>"
   post = "</u>"
-
 
   # footer menu
   [[menu.footer]]
