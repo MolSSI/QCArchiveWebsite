@@ -5,5 +5,5 @@ description: "Dash apps in QCArchive"
 pageDescription : "Dash Apps"
 layout: "apps"
 
-app_url: "https://qcarchive-webapps.herokuapp.com/dash_example/"
+app_url: "https://qcarchive-webapps.eastus.cloudapp.azure.com/dash_example/"
 ---
