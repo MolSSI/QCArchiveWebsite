@@ -1,4 +1,4 @@
-privacy:  # LNN: Figure out how to silence the default theme placeholder content at bottom
+privacy:
   privacyList:
     - title : "NSF Funding Source"
     - title : "Software Licenses"
@@ -7,7 +7,7 @@ privacy:  # LNN: Figure out how to silence the default theme placeholder content
 
   privacyDetails:
     - for : "NSF Funding Source"
-      content : "The QCArchive and all of its projects are funded through the NSF Grant ACI-1547580"
+      content : "The QCArchive and all of its projects are funded through the NSF Grant OCI-1547580"
 
                 
     - for : "Software Licenses"
