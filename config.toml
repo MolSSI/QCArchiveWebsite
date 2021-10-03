@@ -1,4 +1,4 @@
-baseURL = "https://qcarchive.molssi.org"
+baseURL = "https://qcarchive2.molssi.org"
 languageCode = "en-us"
 title = "The MolSSI QCArchive"
 theme = "small-apps-v2"

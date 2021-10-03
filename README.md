@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3917f13a-54e5-4697-bf2c-adf169576e55/deploy-status)](https://app.netlify.com/sites/qcarchive-molssi/deploys)
-
 QCArchiveWebsite
 ================
 

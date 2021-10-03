@@ -108,7 +108,7 @@
       // Particles
       // ----------------------------
       if($('#particles-js').length) {
-          particlesJS.load('particles-js', '/config/particles.json', function() {
+          particlesJS.load('particles-js', './config/particles.json', function() {
               console.log('callback - particles.js config loaded');
           });
       }

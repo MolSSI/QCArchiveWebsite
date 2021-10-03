@@ -1,0 +1,29 @@
+name: Build and Deploy Website
+
+on:
+  push:
+    branches:
+      - test_docs
+  pull_request:
+    branches:
+      - test_docs
+
+jobs:
+  deploy_docs:
+    runs-on: ubuntu-latest
+        
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install hugo
+        run: sudo apt install -y hugo
+
+      - name: Build website
+        run: hugo --gc --minify
+
+      - name: GitHub Pages Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        if: github.event_name == 'push'
+        with:
+          branch: gh-pages
+          folder: public
