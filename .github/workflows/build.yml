@@ -3,10 +3,10 @@ name: Build and Deploy Website
 on:
   push:
     branches:
-      - test_docs
+      - master
   pull_request:
     branches:
-      - test_docs
+      - master
 
 jobs:
   deploy_docs:
