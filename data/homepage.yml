@@ -88,7 +88,7 @@ service:
 # LNN: The "enable" works here
 promoVideo:
   enable : True
-  bgImage : "images/background/blackback.png"
+  bgImage : "images/background/blackback2.png"
   #bgImageAlt : "images/background/blackback.png"
   title : "Watch Our Debut Presentation!"
   content : "Watch the debut presentation of the QCArchive also presented at the 2019 Spring ACS Conference"
