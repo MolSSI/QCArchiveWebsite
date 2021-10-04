@@ -37,8 +37,8 @@ pygmentsStyle = "solarized-dark"
   URL = "plugins/syotimer/jquery.syotimer.min.js"
   [[params.plugins.js]]
   URL = "plugins/aos/aos.js"
-  [[params.plugins.js]]
-  URL = "plugins/google-map/gmap.js"
+#  [[params.plugins.js]]
+#  URL = "plugins/google-map/gmap.js"
   [[params.plugins.js]]
   URL = "plugins/particles/particles.min.js"
   [[params.plugins.js]]
@@ -154,12 +154,12 @@ logoAlt = "images/logo-alt.png"
 description = "MolSSI's QCArchive Project"
 author = "The Molecular Sciences Software Institute"
 # google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "37.2001382,"
-mapLongitude = "-80.4105687"
-mapMarker = "images/marker.png"
+#gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+#mapLatitude = "37.2001382,"
+#mapLongitude = "-80.4105687"
+#mapMarker = "images/marker.png"
 # Google Analitycs
-googleAnalitycsID = "UA-136219377-1"
+#googleAnalitycsID = "UA-136219377-1"
 
   # Preloader
   [params.preloader]
