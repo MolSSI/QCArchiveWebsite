@@ -22,7 +22,7 @@ jobs:
         run: hugo --gc --minify
 
       - name: GitHub Pages Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         if: github.event_name == 'push'
         with:
           clean: true
