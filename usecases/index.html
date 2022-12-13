@@ -1,12 +1,261 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><title>The MolSSI QCArchive</title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=description content="this is meta description"><meta name=author content="The Molecular Sciences Software Institute"><meta name=generator content="Hugo 0.68.3"><noscript><link rel=stylesheet href=https://qcarchive.molssi.org/plugins/bootstrap/bootstrap.min.css><link rel=stylesheet href=https://qcarchive.molssi.org/plugins/themefisher-font/style.css><link rel=stylesheet href=https://qcarchive.molssi.org/plugins/owl-carousel/assets/owl.carousel.min.css><link rel=stylesheet href=https://qcarchive.molssi.org/plugins/owl-carousel/assets/owl.theme.green.min.css><link rel=stylesheet href=https://qcarchive.molssi.org/plugins/fancybox/jquery.fancybox.min.css><link rel=stylesheet href=https://qcarchive.molssi.org/plugins/aos/aos.css></noscript><link rel=stylesheet href=https://qcarchive.molssi.org/scss/style.min.12f5c4e33ce4b1ab53a5ed343a436db755b9b2bafe3cef1255334f56e5a72633.css integrity="sha256-EvXE4zzksatTpe00OkNtt1W5srr+PO8SVTNPVuWnJjM=" media=screen><link rel="shortcut icon" href=https://qcarchive.molssi.org/images/favicon.png type=image/x-icon><link rel=icon href=https://qcarchive.molssi.org/images/favicon.png type=image/x-icon></head><body class=body-wrapper><div class=preloader></div><nav class="navbar main-nav navbar-expand-lg p-0"><div class=container><a class=navbar-brand href=https://qcarchive.molssi.org><img src=https://qcarchive.molssi.org/images/logo.png alt=logo></a>
+<!doctype html><html lang=en-us><head>
+<meta charset=utf-8>
+<title>The MolSSI QCArchive</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="this is meta description">
+<meta name=author content="The Molecular Sciences Software Institute">
+<meta name=generator content="Hugo 0.92.2">
+<noscript>
+<link rel=stylesheet href=https://qcarchive.molssi.org/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href=https://qcarchive.molssi.org/plugins/themefisher-font/style.css>
+<link rel=stylesheet href=https://qcarchive.molssi.org/plugins/owl-carousel/assets/owl.carousel.min.css>
+<link rel=stylesheet href=https://qcarchive.molssi.org/plugins/owl-carousel/assets/owl.theme.green.min.css>
+<link rel=stylesheet href=https://qcarchive.molssi.org/plugins/fancybox/jquery.fancybox.min.css>
+<link rel=stylesheet href=https://qcarchive.molssi.org/plugins/aos/aos.css>
+</noscript>
+<link rel=stylesheet href=https://qcarchive.molssi.org/scss/style.min.047931e281c8237e418e1dd97672cef037f48218269ed79c0859652b4e7d0b1b.css integrity="sha256-BHkx4oHII35Bjh3ZdnLO8Df0ghgmntecCFllK059Cxs=" media=screen>
+<link rel="shortcut icon" href=https://qcarchive.molssi.org/images/favicon.png type=image/x-icon>
+<link rel=icon href=https://qcarchive.molssi.org/images/favicon.png type=image/x-icon>
+</head><body class=body-wrapper>
+<div class=preloader></div>
+<nav class="navbar main-nav navbar-expand-lg p-0">
+<div class=container>
+<a class=navbar-brand href=https://qcarchive.molssi.org><img src=https://qcarchive.molssi.org/images/logo.png alt=logo></a>
 <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarNav aria-controls=navbarNav aria-expanded=false aria-label="Toggle navigation">
-<span class=tf-ion-android-menu></span></button><div class="collapse navbar-collapse" id=navbarNav><ul class="navbar-nav ml-auto"><li class=nav-item><a class=nav-link href=https://qcarchive.molssi.org></a></li><li class=nav-item><a class=nav-link href=/get_started>Get Started</a></li><li class=nav-item><a class=nav-link href=/blog>Blog</a></li><li class="nav-item dropdown dropdown-slide"><a class=nav-link href=# data-toggle=dropdown>Community
-<span><i class=tf-ion-ios-arrow-down></i></span></a><div class=dropdown-menu><a class=dropdown-item href=/community>Partners</a>
+<span class=tf-ion-android-menu></span>
+</button>
+<div class="collapse navbar-collapse" id=navbarNav>
+<ul class="navbar-nav ml-auto">
+<li class=nav-item>
+<a class=nav-link href=https://qcarchive.molssi.org></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/get_started>Get Started</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/blog>Blog</a>
+</li>
+<li class="nav-item dropdown dropdown-slide">
+<a class=nav-link href=# data-toggle=dropdown>Community
+<span><i class=tf-ion-ios-arrow-down></i></span>
+</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=/community>Partners</a>
 <a class=dropdown-item href=/usecases>Use Cases</a>
 <a class=dropdown-item href=/team>Team</a>
-<a class=dropdown-item href=https://join.slack.com/t/qcarchive/shared_invite/enQtNDIzNTQ2OTExODk0LTE3MWI0YzBjNzVhNzczNDM0ZTA5MmQ1ODcxYTc0YTA1ZDQ2MTk1NDhlMjhjMmQ0YWYwOGMzYzJkZTM2NDlmOGM>Join Slack</a></div></li><li class=nav-item><a class=nav-link href=/examples>Examples</a></li><li class="nav-item dropdown dropdown-slide"><a class=nav-link href=# data-toggle=dropdown>Apps
-<span><i class=tf-ion-ios-arrow-down></i></span></a><div class=dropdown-menu><a class=dropdown-item href=/apps/ml_datasets>Machine Learning Datasets</a>
-<a class=dropdown-item href=/apps/reaction_viewer>Reaction Datasets Viewer</a></div></li><li class=nav-item><a class=nav-link href=https://docs.qcarchive.molssi.org><u>Infrastructure</u></a></li><li class=nav-item><a class=nav-link href></a></li></ul></div></div></nav><section class="section page-title"><div class=container><div class=row><div class="col-sm-8 m-auto"><h1>Use Cases</h1><p>What drives the QCArchive's development and features?</p></div></div></div></section><section class=section><div class=container><div class=row><div class=col-12><div class="section-title mb-0"><h2>Driven and developed by community needs</h2><p>The QCArchive project started from the needs and wants of the quantum chemistry community and the fields which benefit from its data. MolSSI reached out to the wider community and asked question such as:<br><q><i>What is getting in the way of you focusing on your scientific efforts?</i></q><br><q><i>What would help the field as a whole?</i></q><br><q><i>What do you think is missing?</i></q><br>It was from these interviews and research that the the concept of the QCArchive arose. From there, the needs were turned into the primary use cases below that QCArchive would then be designed to solve.</p></div></div></div></div></section><section class="faq section pt-0"><div class=container><div class=row><div class="col-lg-10 m-auto"><div class="block shadow"><div class=faq-item><div class=faq-item-title><h2>Use cases driving QCArchive's design and development</h2></div><div id=accordions1 data-children=.item><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion11>I am a new student who is interested in machine learning, and I would like to obtain the ANI-1 dataset or similar in a format compatible with Keras using a single line of code to get started.</a></div><div id=accordion11 class="collapse accordion-block"><p>This was a modern case we heard involving machine learning. The many derivatives of this case all came down to "I want large data to do machine learning with for quantum chemistry." This use case illustrated the need for a regular structured, indexed, searchable database, but also to have small quantities of data returned for any query.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion12>I am an academic or industrial partner who wishes to use quantum chemistry methods to generate bespoke parameters for a new drug molecule using a pre-existing database of quantum chemical data, or contribute molecules covering regions of chemical space to be included in general organic small molecule force field parametrization.</a></div><div id=accordion12 class="collapse accordion-block"><p>The primary non-machine learning application are those who need access to Q. Chem. data. Having a central repository of these calculations, especially for small molecule fragments, was a popular request. This avoids repeating calculations for small, derivative changes, but also recognizes when the molecules are changed enough to run new calculations. This is the primary use case for our partners at The Open Force Field Consortium.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion13>I am a researcher who would like to benchmark a new methodology and would like reference datasets and the ability to compare results easily.</a></div><div id=accordion13 class="collapse accordion-block"><p>The need to benchmark data is a long a sordid tale throughout all scientific research. Quantum chemistry research relies on access to large data sets to compare your calculations against. Hopefully all that data is in the same place, and hopefully its all formatted the same searchable way. Having a regular, persistent, searchable database of these calculations vastly reduces the time from needing the data to analyzing the data.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion14>I have a set of reactions that look like the following … Which DFT methods historically give the best results for similar reactions?</a></div><div id=accordion14 class="collapse accordion-block"><p>Sometimes, you just need to compare different methods. But aggregating many labs worth of research and calculations can be challenging. An index of molecules and calculations helps researches find these comparisons quickly.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion15>We want to compute an open AI database to accelerate drug discovery and cheminformatics research, subscribe to our BOINC server.</a></div><div id=accordion15 class="collapse accordion-block"><p>Big data is still big data, and training AI databases takes less overhead when the Big Data is well formatted. Although the main use case presented is for the CMS community, this use case has garnered the interest of more general AI community as well.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion16>I am running many computations and I would like to query the database to see if they have already been completed.</a></div><div id=accordion16 class="collapse accordion-block"><p>One large problem in research is finding what has already been done. Whether to reference those data in papers, look them up as a precursors to your own research, or to avoid a duplicate calculation. The QCArchive looks to reduce this problem through its indexed, regular, searchable results.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion17>I am a researcher who needs to compute a very large open dataset for (many-body force fields, ML-based force fields, method comparisons, etc) and I need help deploying/accessing software to support this.</a></div><div id=accordion17 class="collapse accordion-block"><p>Science is often gated behind technical expertise and infrastructure limitations. We QCArchive developers have elected to provide this expertise and build a tool everyone can benefit from, and we hope our efforts reduce the lag time from hypothesis to result. We also understand that many industrial and proprietary data groups have need of such software as well. This is why we have chosen to provide the software open source with instructions and examples of how to set up and run it on your own platforms, without exposing your data.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion18>I have a few reactions and would like to see if I need to run new benchmark energies on them all or if some have already been performed.</a></div><div id=accordion18 class="collapse accordion-block"><p>This is a deceptively simple use case and one we often hear from researchers, especially PhD students. This is a deceptive use case because it sounds like it something which should be easy, but is hard to do because it requires not only searching the literature and existing data bases (assuming they can be searched or found) for previous calculations. It also requires that the researcher set up the calculations in a comparable, fair way; which in turn requires incorporating new molecules and parameters into their code. QCArchive tries to handle all of these problems by automatically checking for the calculations' existence, and then setting up and running the calculations.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion19>I am a researcher who has just published a large data set, and I neither want my results to get buried in CSV in a Supplemental Material tarball, nor do I want to receive email inquiries, nor do I want to design a web portal for others to access.</a></div><div id=accordion19 class="collapse accordion-block"><p>QCArchive's database is designed to support exactly this. You can supply your data through our Portal without setting up your own server. Your data's provenance information can also be submitted with data so its author and program can be tracked as well. Know that submitting your data to QCArchive's central data base will make it public.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion110>I am a PI, and I don’t want to task my graduate students and postdocs with learning databases and distributed queueing systems.</a></div><div id=accordion110 class="collapse accordion-block"><p>This is a reasonable request, and we understand graduate student time is finite. As as PI, you will want your graduate students focusing on the science behind their work, not database management. QCArchive's user facing Portal abstracts the database interface through a more user-friendly set of API calls. Users do not need to understand database tables, or even how we have organized the data on the back end. We'll handle that, you focus on the science.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion111>I am a researcher in a multi-university collaboration with a neat idea I want to test quickly. My collaborator and I each have local and university computing resources we can allocate to the project, as well as an NCSA allocation. I want to make sure all my calculations are run the same way and not spend my days submitting and herding input/output files.</a></div><div id=accordion111 class="collapse accordion-block"><p>QCArchive is designed to handle multiple compute locations, and handles the distribution of compute jobs for the user, with minimal initial setup. Once you configure the compute manager for a given compute site, you can configure any number of managers to talk back to a central QCFractal server. Then all the researchers in your collaboration can submit jobs to the same central QCFractal server and jobs will be distributed to all attached managers.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion112>I want to enable “O(0)” quantum chemical calculations by having my quantum chemistry code deposit results in a database automatically, querying it before a computation to see if the effect may already exist. The resulting datasets may also be useful to those doing machine learning from large QC datasets.</a></div><div id=accordion112 class="collapse accordion-block"><p>At its heart, this is what QCArchive aims to accomplish. This use case shares overlap with other use cases in this list. Please see the Uses Cases on Machine Learning, Database Management, and Duplicate Calculations above.</p></div></div><div class=item><div class=item-link><a data-toggle=collapse data-parent=#accordions1 href=#accordion113>I want to publish a static workflow which accomplishes a single task and allow users and developers to run this static workflow. An example of this would be to compute IR spectra with peak broadening which would involve many quantum chemistry computations.</a></div><div id=accordion113 class="collapse accordion-block"><p>QCArchive is a dynamic collection of methods and calculations, not a fixed set of immutable known calculations. We encourage users to develop their own procedures and interfaces to other quantum chemistry codes. We also encourage users to contribute these changes back to the QCArchive through GitHub Pull Requests to bring those into the code for everyone else to use.</p></div></div></div></div></div></div></div></div></section><footer class=footer-main><div class=container><div class=row><div class="col-12 text-center"><div class=block><ul class="list-inline mb-4"><li class="list-inline-item mx-3"><a class=text-white href=/examples>Examples</a></li><li class="list-inline-item mx-3"><a class=text-white href=/get_started>Get Started</a></li><li class="list-inline-item mx-3"><a class=text-white href=mailto:qcarchive@molssi.org>Contact Us</a></li><li class="list-inline-item mx-3"><a class=text-white href=/privacy>License and Funding</a></li></ul><a href=https://qcarchive.molssi.org><img src=https://qcarchive.molssi.org/images/logo-alt.png alt=footer-logo></a><p>Powered by
+<a class=dropdown-item href=https://join.slack.com/t/qcarchive/shared_invite/enQtNDIzNTQ2OTExODk0LTE3MWI0YzBjNzVhNzczNDM0ZTA5MmQ1ODcxYTc0YTA1ZDQ2MTk1NDhlMjhjMmQ0YWYwOGMzYzJkZTM2NDlmOGM>Join Slack</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/examples>Examples</a>
+</li>
+<li class="nav-item dropdown dropdown-slide">
+<a class=nav-link href=# data-toggle=dropdown>Apps
+<span><i class=tf-ion-ios-arrow-down></i></span>
+</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=/apps/ml_datasets>Machine Learning Datasets</a>
+<a class=dropdown-item href=/apps/reaction_viewer>Reaction Datasets Viewer</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://docs.qcarchive.molssi.org><u>Infrastructure</u></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href></a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="section page-title">
+<div class=container>
+<div class=row>
+<div class="col-sm-8 m-auto">
+<h1>Use Cases</h1>
+<p>What drives the QCArchive's development and features?</p>
+</div>
+</div>
+</div>
+</section>
+<section class=section>
+<div class=container>
+<div class=row>
+<div class=col-12>
+<div class="section-title mb-0">
+<h2>Driven and developed by community needs</h2>
+<p>The QCArchive project started from the needs and wants of the quantum chemistry community and the fields which benefit from its data. MolSSI reached out to the wider community and asked question such as: <br><q><i>What is getting in the way of you focusing on your scientific efforts?</i></q> <br><q><i>What would help the field as a whole?</i></q> <br><q><i>What do you think is missing?</i></q> <br> It was from these interviews and research that the the concept of the QCArchive arose. From there, the needs were turned into the primary use cases below that QCArchive would then be designed to solve.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="faq section pt-0">
+<div class=container>
+<div class=row>
+<div class="col-lg-10 m-auto">
+<div class="block shadow">
+<div class=faq-item>
+<div class=faq-item-title>
+<h2>Use cases driving QCArchive's design and development</h2>
+</div>
+<div id=accordions1 data-children=.item>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion11>I am a new student who is interested in machine learning, and I would like to obtain the ANI-1 dataset or similar in a format compatible with Keras using a single line of code to get started.</a>
+</div>
+<div id=accordion11 class="collapse accordion-block">
+<p>This was a modern case we heard involving machine learning. The many derivatives of this case all came down to "I want large data to do machine learning with for quantum chemistry." This use case illustrated the need for a regular structured, indexed, searchable database, but also to have small quantities of data returned for any query.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion12>I am an academic or industrial partner who wishes to use quantum chemistry methods to generate bespoke parameters for a new drug molecule using a pre-existing database of quantum chemical data, or contribute molecules covering regions of chemical space to be included in general organic small molecule force field parametrization.</a>
+</div>
+<div id=accordion12 class="collapse accordion-block">
+<p>The primary non-machine learning application are those who need access to Q. Chem. data. Having a central repository of these calculations, especially for small molecule fragments, was a popular request. This avoids repeating calculations for small, derivative changes, but also recognizes when the molecules are changed enough to run new calculations. This is the primary use case for our partners at The Open Force Field Consortium.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion13>I am a researcher who would like to benchmark a new methodology and would like reference datasets and the ability to compare results easily.</a>
+</div>
+<div id=accordion13 class="collapse accordion-block">
+<p>The need to benchmark data is a long a sordid tale throughout all scientific research. Quantum chemistry research relies on access to large data sets to compare your calculations against. Hopefully all that data is in the same place, and hopefully its all formatted the same searchable way. Having a regular, persistent, searchable database of these calculations vastly reduces the time from needing the data to analyzing the data.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion14>I have a set of reactions that look like the following … Which DFT methods historically give the best results for similar reactions?</a>
+</div>
+<div id=accordion14 class="collapse accordion-block">
+<p>Sometimes, you just need to compare different methods. But aggregating many labs worth of research and calculations can be challenging. An index of molecules and calculations helps researches find these comparisons quickly.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion15>We want to compute an open AI database to accelerate drug discovery and cheminformatics research, subscribe to our BOINC server.</a>
+</div>
+<div id=accordion15 class="collapse accordion-block">
+<p>Big data is still big data, and training AI databases takes less overhead when the Big Data is well formatted. Although the main use case presented is for the CMS community, this use case has garnered the interest of more general AI community as well.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion16>I am running many computations and I would like to query the database to see if they have already been completed.</a>
+</div>
+<div id=accordion16 class="collapse accordion-block">
+<p>One large problem in research is finding what has already been done. Whether to reference those data in papers, look them up as a precursors to your own research, or to avoid a duplicate calculation. The QCArchive looks to reduce this problem through its indexed, regular, searchable results.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion17>I am a researcher who needs to compute a very large open dataset for (many-body force fields, ML-based force fields, method comparisons, etc) and I need help deploying/accessing software to support this.</a>
+</div>
+<div id=accordion17 class="collapse accordion-block">
+<p>Science is often gated behind technical expertise and infrastructure limitations. We QCArchive developers have elected to provide this expertise and build a tool everyone can benefit from, and we hope our efforts reduce the lag time from hypothesis to result. We also understand that many industrial and proprietary data groups have need of such software as well. This is why we have chosen to provide the software open source with instructions and examples of how to set up and run it on your own platforms, without exposing your data.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion18>I have a few reactions and would like to see if I need to run new benchmark energies on them all or if some have already been performed.</a>
+</div>
+<div id=accordion18 class="collapse accordion-block">
+<p>This is a deceptively simple use case and one we often hear from researchers, especially PhD students. This is a deceptive use case because it sounds like it something which should be easy, but is hard to do because it requires not only searching the literature and existing data bases (assuming they can be searched or found) for previous calculations. It also requires that the researcher set up the calculations in a comparable, fair way; which in turn requires incorporating new molecules and parameters into their code. QCArchive tries to handle all of these problems by automatically checking for the calculations' existence, and then setting up and running the calculations.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion19>I am a researcher who has just published a large data set, and I neither want my results to get buried in CSV in a Supplemental Material tarball, nor do I want to receive email inquiries, nor do I want to design a web portal for others to access.</a>
+</div>
+<div id=accordion19 class="collapse accordion-block">
+<p>QCArchive's database is designed to support exactly this. You can supply your data through our Portal without setting up your own server. Your data's provenance information can also be submitted with data so its author and program can be tracked as well. Know that submitting your data to QCArchive's central data base will make it public.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion110>I am a PI, and I don’t want to task my graduate students and postdocs with learning databases and distributed queueing systems.</a>
+</div>
+<div id=accordion110 class="collapse accordion-block">
+<p>This is a reasonable request, and we understand graduate student time is finite. As as PI, you will want your graduate students focusing on the science behind their work, not database management. QCArchive's user facing Portal abstracts the database interface through a more user-friendly set of API calls. Users do not need to understand database tables, or even how we have organized the data on the back end. We'll handle that, you focus on the science.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion111>I am a researcher in a multi-university collaboration with a neat idea I want to test quickly. My collaborator and I each have local and university computing resources we can allocate to the project, as well as an NCSA allocation. I want to make sure all my calculations are run the same way and not spend my days submitting and herding input/output files.</a>
+</div>
+<div id=accordion111 class="collapse accordion-block">
+<p>QCArchive is designed to handle multiple compute locations, and handles the distribution of compute jobs for the user, with minimal initial setup. Once you configure the compute manager for a given compute site, you can configure any number of managers to talk back to a central QCFractal server. Then all the researchers in your collaboration can submit jobs to the same central QCFractal server and jobs will be distributed to all attached managers.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion112>I want to enable “O(0)” quantum chemical calculations by having my quantum chemistry code deposit results in a database automatically, querying it before a computation to see if the effect may already exist. The resulting datasets may also be useful to those doing machine learning from large QC datasets.</a>
+</div>
+<div id=accordion112 class="collapse accordion-block">
+<p>At its heart, this is what QCArchive aims to accomplish. This use case shares overlap with other use cases in this list. Please see the Uses Cases on Machine Learning, Database Management, and Duplicate Calculations above.</p>
+</div>
+</div>
+<div class=item>
+<div class=item-link>
+<a data-toggle=collapse data-parent=#accordions1 href=#accordion113>I want to publish a static workflow which accomplishes a single task and allow users and developers to run this static workflow. An example of this would be to compute IR spectra with peak broadening which would involve many quantum chemistry computations.</a>
+</div>
+<div id=accordion113 class="collapse accordion-block">
+<p>QCArchive is a dynamic collection of methods and calculations, not a fixed set of immutable known calculations. We encourage users to develop their own procedures and interfaces to other quantum chemistry codes. We also encourage users to contribute these changes back to the QCArchive through GitHub Pull Requests to bring those into the code for everyone else to use.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class=footer-main>
+<div class=container>
+<div class=row>
+<div class="col-12 text-center">
+<div class=block>
+<ul class="list-inline mb-4">
+<li class="list-inline-item mx-3"><a class=text-white href=/examples>Examples</a></li>
+<li class="list-inline-item mx-3"><a class=text-white href=/get_started>Get Started</a></li>
+<li class="list-inline-item mx-3"><a class=text-white href=mailto:qcarchive@molssi.org>Contact Us</a></li>
+<li class="list-inline-item mx-3"><a class=text-white href=/privacy>License and Funding</a></li>
+</ul>
+<a href=https://qcarchive.molssi.org><img src=https://qcarchive.molssi.org/images/logo-alt.png alt=footer-logo></a>
+<p> Powered by
 <a href=https://docs.qcarchive.molssi.org/projects/qcfractal><i><b>QCFractal</i></b></a>,
 <a href=https://docs.qcarchive.molssi.org/projects/qcengine><i><b>QCEngine</i></b></a>, and
-<a href=https://docs.qcarchive.molssi.org/projects/qcelemental><i><b>QCElemental</i></b></a>.</p><ul class="social-icon list-inline"><li class=list-inline-item><a href="https://www.facebook.com/molssi/?fref=ts"><i class=tf-ion-social-facebook></i></a></li><li class=list-inline-item><a href=https://twitter.com/MolSSI_NSF><i class=tf-ion-social-twitter></i></a></li><li class=list-inline-item><a href=https://www.linkedin.com/groups/13503505/profile><i class=tf-ion-social-linkedin></i></a></li></ul></div></div></div></div></footer><script type=text/javascript>var css1=document.createElement('link');css1.rel='stylesheet';css1.href='https://qcarchive.molssi.org/plugins/bootstrap/bootstrap.min.css';css1.type='text/css';var fastCSS1=document.getElementsByTagName('link')[0];fastCSS1.parentNode.insertBefore(css1,fastCSS1);var css2=document.createElement('link');css2.rel='stylesheet';css2.href='https://qcarchive.molssi.org/plugins/themefisher-font/style.css';css2.type='text/css';var fastCSS2=document.getElementsByTagName('link')[0];fastCSS2.parentNode.insertBefore(css2,fastCSS2);var css3=document.createElement('link');css3.rel='stylesheet';css3.href='https://qcarchive.molssi.org/plugins/owl-carousel/assets/owl.carousel.min.css';css3.type='text/css';var fastCSS3=document.getElementsByTagName('link')[0];fastCSS3.parentNode.insertBefore(css3,fastCSS3);var css4=document.createElement('link');css4.rel='stylesheet';css4.href='https://qcarchive.molssi.org/plugins/owl-carousel/assets/owl.theme.green.min.css';css4.type='text/css';var fastCSS4=document.getElementsByTagName('link')[0];fastCSS4.parentNode.insertBefore(css4,fastCSS4);var css5=document.createElement('link');css5.rel='stylesheet';css5.href='https://qcarchive.molssi.org/plugins/fancybox/jquery.fancybox.min.css';css5.type='text/css';var fastCSS5=document.getElementsByTagName('link')[0];fastCSS5.parentNode.insertBefore(css5,fastCSS5);var css6=document.createElement('link');css6.rel='stylesheet';css6.href='https://qcarchive.molssi.org/plugins/aos/aos.css';css6.type='text/css';var fastCSS6=document.getElementsByTagName('link')[0];fastCSS6.parentNode.insertBefore(css6,fastCSS6);</script><script src=https://qcarchive.molssi.org></script><script src=https://qcarchive.molssi.org/plugins/jquery/jquery.js></script><script src=https://qcarchive.molssi.org/plugins/bootstrap/bootstrap.min.js></script><script src=https://qcarchive.molssi.org/plugins/owl-carousel/owl.carousel.min.js></script><script src=https://qcarchive.molssi.org/plugins/fancybox/jquery.fancybox.min.js></script><script src=https://qcarchive.molssi.org/plugins/syotimer/jquery.syotimer.min.js></script><script src=https://qcarchive.molssi.org/plugins/aos/aos.js></script><script src=https://qcarchive.molssi.org/plugins/particles/particles.min.js></script><script src=https://qcarchive.molssi.org/plugins/iframe/iframe.js></script><script src=https://qcarchive.molssi.org/js/script.min.js></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','','auto');ga('send','pageview');</script></body></html>
+<a href=https://docs.qcarchive.molssi.org/projects/qcelemental><i><b>QCElemental</i></b></a>.
+</p>
+<ul class="social-icon list-inline">
+<li class=list-inline-item>
+<a href="https://www.facebook.com/molssi/?fref=ts"><i class=tf-ion-social-facebook></i></a>
+</li>
+<li class=list-inline-item>
+<a href=https://twitter.com/MolSSI_NSF><i class=tf-ion-social-twitter></i></a>
+</li>
+<li class=list-inline-item>
+<a href=https://www.linkedin.com/groups/13503505/profile><i class=tf-ion-social-linkedin></i></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script type=text/javascript>var css1=document.createElement('link'),fastCSS1,css2,fastCSS2,css3,fastCSS3,css4,fastCSS4,css5,fastCSS5,css6,fastCSS6;css1.rel='stylesheet',css1.href='https://qcarchive.molssi.org/plugins/bootstrap/bootstrap.min.css',css1.type='text/css',fastCSS1=document.getElementsByTagName('link')[0],fastCSS1.parentNode.insertBefore(css1,fastCSS1),css2=document.createElement('link'),css2.rel='stylesheet',css2.href='https://qcarchive.molssi.org/plugins/themefisher-font/style.css',css2.type='text/css',fastCSS2=document.getElementsByTagName('link')[0],fastCSS2.parentNode.insertBefore(css2,fastCSS2),css3=document.createElement('link'),css3.rel='stylesheet',css3.href='https://qcarchive.molssi.org/plugins/owl-carousel/assets/owl.carousel.min.css',css3.type='text/css',fastCSS3=document.getElementsByTagName('link')[0],fastCSS3.parentNode.insertBefore(css3,fastCSS3),css4=document.createElement('link'),css4.rel='stylesheet',css4.href='https://qcarchive.molssi.org/plugins/owl-carousel/assets/owl.theme.green.min.css',css4.type='text/css',fastCSS4=document.getElementsByTagName('link')[0],fastCSS4.parentNode.insertBefore(css4,fastCSS4),css5=document.createElement('link'),css5.rel='stylesheet',css5.href='https://qcarchive.molssi.org/plugins/fancybox/jquery.fancybox.min.css',css5.type='text/css',fastCSS5=document.getElementsByTagName('link')[0],fastCSS5.parentNode.insertBefore(css5,fastCSS5),css6=document.createElement('link'),css6.rel='stylesheet',css6.href='https://qcarchive.molssi.org/plugins/aos/aos.css',css6.type='text/css',fastCSS6=document.getElementsByTagName('link')[0],fastCSS6.parentNode.insertBefore(css6,fastCSS6)</script>
+<script src=https://qcarchive.molssi.org></script>
+<script src=https://qcarchive.molssi.org/plugins/jquery/jquery.js></script>
+<script src=https://qcarchive.molssi.org/plugins/bootstrap/bootstrap.min.js></script>
+<script src=https://qcarchive.molssi.org/plugins/owl-carousel/owl.carousel.min.js></script>
+<script src=https://qcarchive.molssi.org/plugins/fancybox/jquery.fancybox.min.js></script>
+<script src=https://qcarchive.molssi.org/plugins/syotimer/jquery.syotimer.min.js></script>
+<script src=https://qcarchive.molssi.org/plugins/aos/aos.js></script>
+<script src=https://qcarchive.molssi.org/plugins/particles/particles.min.js></script>
+<script src=https://qcarchive.molssi.org/plugins/iframe/iframe.js></script>
+<script src=https://qcarchive.molssi.org/js/script.min.js></script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'),ga('create','','auto'),ga('send','pageview')</script>
+</body>
+</html>
