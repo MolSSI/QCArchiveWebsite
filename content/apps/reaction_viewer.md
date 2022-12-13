@@ -5,7 +5,6 @@ description: "Reaction Datasets Viewer"
 pageDescription : "Reaction Datasets Viewer"
 layout: "apps"
 
-app_url: "https://qcarchive-webapps.eastus.cloudapp.azure.com/reaction_viewer/"
-#app_url: "http://localhost:5000/reaction_viewer/"
+app_url: "https://qcawebapps.molssi.org/reaction_viewer/"
 
 ---
