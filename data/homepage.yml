@@ -62,12 +62,12 @@ service:
     - icon : "tf-ion-laptop"
       title : "QCPortal"
       content : "Client-side portal access to either MolSSI's permanent database (QCFractal), or a private one of your own."
-      URL: "http://docs.qcarchive.molssi.org/projects/qcportal/en/latest/"
+      URL: "https://molssi.github.io/QCFractal/user_guide/client_setup.html"
 
     - icon : "tf-ion-ios-cloud-outline"
       title : "QCFractal"
       content : "A distributed compute and database platform for quantum chemistry."
-      URL: "http://docs.qcarchive.molssi.org/projects/qcfractal/en/latest/"
+      URL: "https://molssi.github.io/QCFractal/"
 
     - icon : "tf-speedometer"
       title : "QCEngine"

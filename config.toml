@@ -118,7 +118,7 @@ pygmentsStyle = "solarized-dark"
 
   [[menu.main]]
   name = "Infrastructure"
-  URL = "https://docs.qcarchive.molssi.org"
+  URL = "https://molssi.github.io/QCFractal/index.html"
   weight = 10
   pre = "<u>"
   post = "</u>"
